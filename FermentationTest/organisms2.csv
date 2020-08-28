@@ -1,0 +1,26 @@
+id	organism	fmets	media	tax	genome
+GCF_000005845.2_ASM584v2	Escherichia coli str. K-12 substr. MG1655	acetic acid, formic acid, ethanol, succinic acid, H2, DL-lactic acid	FT	Bacteria	GCF_000005845.2_ASM584v2_genomic
+GCF_000008345.1_ASM834v1	Cutibacterium acnes KPA171202	propionic acid, acetic acid, DL-lactic acid	FT	Bacteria	GCF_000008345.1_ASM834v1_genomic
+GCF_000008545.1_ASM854v1	Thermotoga maritima MSB8	acetic acid, H2	FT	Bacteria	GCF_000008545.1_ASM854v1_genomic
+GCF_000008765.1_ASM876v1	Clostridium acetobutylicum ATCC 824	butyric acid, n-butanol,  ethanol, acetic acid, acetone, H2	FT	Bacteria	GCF_000008765.1_ASM876v1_genomic
+GCF_000011065.1_ASM1106v1	Bacteroides thetaiotaomicron VPI-5482	acetic acid, propionic acid, formic acid	FT	Bacteria	GCF_000011065.1_ASM1106v1_genomic
+GCF_000011985.1_ASM1198v1	Lactobacillus acidophilus NCFM	DL-lactic acid, acetic acid, succinic acid	FT	Bacteria	GCF_000011985.1_ASM1198v1_genomic
+GCF_000013285.1_ASM1328v1	Clostridium perfringens ATCC 13124	butyric acid, acetic acid, H2, ethanol, DL-lactic acid, propionic acid, formic acid	FT	Bacteria	GCF_000013285.1_ASM1328v1_genomic
+GCF_000016525.1_ASM1652v1	Methanobrevibacter smithii ATCC 35061	methane	MM_anaerobic_Acetate_H2	Archaea	GCF_000016525.1_ASM1652v1_genomic
+GCF_000020425.1_ASM2042v1	Bifidobacterium longum subsp. infantis ATCC 15697	acetic acid, DL-lactic acid	FT	Bacteria	GCF_000020425.1_ASM2042v1_genomic
+GCF_000020605.1_ASM2060v1	[Eubacterium] rectale ATCC 33656	butyric acid, H2, formic acid, DL-lactic acid	FT	Bacteria	GCF_000020605.1_ASM2060v1_genomic
+GCF_000022965.1_ASM2296v1	Bifidobacterium animalis subsp. lactis DSM 10140	acetic acid, DL-lactic acid	FT	Bacteria	GCF_000022965.1_ASM2296v1_genomic
+GCF_000025885.1_ASM2588v1	Aminobacterium colombiense DSM 12261	propionic acid, acetic acid, H2	FT	Bacteria	GCF_000025885.1_ASM2588v1_genomic
+GCF_000056065.1_ASM5606v1	Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842	DL-lactic acid, acetic acid, succinic acid	FT	Bacteria	GCF_000056065.1_ASM5606v1_genomic
+GCF_000143845.1_ASM14384v1	Olsenella uli DSM 7084	DL-lactic acid, acetic acid, formic acid	FT	Bacteria	GCF_000143845.1_ASM14384v1_genomic
+GCF_000144405.1_ASM14440v1	Prevotella melaninogenica ATCC 25845	acetic acid, succinic acid	FT	Bacteria	GCF_000144405.1_ASM14440v1_genomic
+GCF_000160535.1_ASM16053v1	Prevotella bergensis DSM 17361	acetic acid, succinic acid	FT	Bacteria	GCF_000160535.1_ASM16053v1_genomic
+GCF_000173975.1_ASM17397v1	Anaerobutyricum hallii DSM 3353	butyric acid, H2	FT	Bacteria	GCF_000173975.1_ASM17397v1_genomic
+GCF_000175255.2_ASM17525v2	Zymomonas mobilis subsp. mobilis ATCC 10988	ethanol	FT	Bacteria	GCF_000175255.2_ASM17525v2_genomic
+GCF_000195895.1_ASM19589v1	Methanosarcina barkeri str. Fusaro	methane	MM_anaerobic_CO2_H2	Archaea	GCF_000195895.1_ASM19589v1_genomic
+GCF_000389635.1_ASM38963v1	Clostridium pasteurianum BC1	acetic acid, butyric acid, H2	FT	Bacteria	GCF_000389635.1_ASM38963v1_genomic
+GCF_000392875.1_Ente_faec_ATCC_19433_V1	Enterococcus faecalis ATCC 19433	Acetic acid, formic acid	FT	Bacteria	GCF_000392875.1_Ente_faec_ATCC_19433_V1_genomic
+GCF_000469345.1_ASM46934v1	Eubacterium ramulus ATCC 29099	butyric acid, acetic acid	FT	Bacteria	GCF_000469345.1_ASM46934v1_genomic
+GCF_001456065.2_ASM145606v2	Clostridium butyricum KNU-L09	acetic acid, butyric acid, formic acid, H2	FT	Bacteria	GCF_001456065.2_ASM145606v2_genomic
+GCF_001561955.1_ASM156195v1	Anaerotignum propionicum DSM 1682	propionic acid, acetic acid	FT	Bacteria	GCF_001561955.1_ASM156195v1_genomic
+GCF_000162015.1_ASM16201v1	Faecalibacterium prausnitzii A2-165	butyric acid	FT	Bacteria	GCF_000162015.1_ASM16201v1_genomic
