@@ -10,6 +10,7 @@ growth    <- list()
 for(i in 1:nrow(ft.orgs)) {
   mod <- readSBMLmod(paste0("models/carveme/",ft.orgs[i,id],".xml"))
   mod <- constrain.mod(mod, mediadb = "media/media.tsv", media.id = "FT")
+  mod <- changeBounds(mod, react = "EX_fe3(e)", lb = -0.5)
   
   growth[[ft.orgs[i, id]]] <- optimizeProb(mod)@lp_obj
   

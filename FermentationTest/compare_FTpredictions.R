@@ -8,7 +8,9 @@ library(ggplot2)
 # (0) get table of test organisms
 ft.orgs <- fread("organisms2.csv")
 
-# (1) merge data.tables
+# (1) perform tests and merge data.tables
+source("getFermProd_gapseq.R")
+source("getFermProd_carveme.R")
 dt <- rbindlist(list(gs.fermprod, cm.fermprod))
 
 # (2) matching metabolite IDs
@@ -27,6 +29,7 @@ met.match <- data.table(matrix(c("acetic acid", "EX_ac(e)", "EX_cpd00029_e0",
                                  "succinic acid","EX_succ(e)","EX_cpd00036_e0",
                                  "acetone","EX_acetone(e)","EX_cpd00178_e0",
                                  "H+", "EX_h(e)", "EX_cpd00067_e0",
+                                 "methane", "EX_ch4(e)","EX_cpd01024_e0",
                                  "H2", "EX_h2(e)", "EX_cpd11640_e0"
 ), ncol = 3, byrow = T))
 colnames(met.match) <- c("metabolite","bigg","seed")

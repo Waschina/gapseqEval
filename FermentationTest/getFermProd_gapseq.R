@@ -10,6 +10,7 @@ growth    <- list()
 
 for(i in 1:nrow(ft.orgs)) {
   mod <- readRDS(paste0("models/gapseq/",ft.orgs[i,id],"_genomic.RDS"))
+  mod <- changeBounds(mod, react = "EX_cpd10516_e0", lb = -0.5)
   
   growth[[ft.orgs[i, id]]] <- optimizeProb(mod)@lp_obj
   
