@@ -1,5 +1,5 @@
 library(ggplot2)
-
+library(dplyr)
 
 #
 # Comparison
@@ -71,6 +71,11 @@ dt[mtf.flux <= 1e-5, mtf.flux := NA]
 
 dt[u / gr.rate < 0.25, mtf.flux := NA]
 dt[u / gr.rate < 0.25, u := NA]
+
+# some aesthetics 
+dt[, organism := gsub("\\[|\\]","",organism)]
+dt$organism <- factor(dt$organism,levels = sort(unique(dt$organism), decreasing = T))
+#levels(dt$organism) <- sort(unique(dt$organism), decreasing = T)
 
 p <- ggplot(dt, aes(metabolite, organism)) +
   geom_tile(aes(fill = exp.measured), color = "white", size = 1.25) +
