@@ -19,7 +19,7 @@ $gapseq find-transport -b 200 $model.fna.gz
 $gapseq draft -r $model-all-Reactions.tbl -t $model-Transporter.tbl -p $model-all-Pathways.tbl -u 200 -l 100 -c $model.fna.gz
 
 # Gapfilling using FT-medium
-media_path="/home/silvio/workspace/2018/gapseq/dat/media/FT.csv"
+media_path="FT.csv" # Path might need to be adjusted
 $gapseq fill -m $model-draft.RDS -n $media_path -c $model-rxnWeights.RDS -g $model-rxnXgenes.RDS -b 100 # for Archaea add: "-b archaea"
 mv $model.RDS ${model}_FT.RDS
 mv $model.xml ${model}_FT.xml

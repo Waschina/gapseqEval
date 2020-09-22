@@ -20,7 +20,7 @@ GCF_000175255.2_ASM17525v2	Zymomonas mobilis subsp. mobilis ATCC 10988	ethanol	F
 GCF_000195895.1_ASM19589v1	Methanosarcina barkeri str. Fusaro	methane	MM_anaerobic_CO2_H2	Archaea	GCF_000195895.1_ASM19589v1_genomic	
 GCF_000389635.1_ASM38963v1	Clostridium pasteurianum BC1	acetic acid, butyric acid, H2	FT	Bacteria	GCF_000389635.1_ASM38963v1_genomic	
 GCF_000392875.1_Ente_faec_ATCC_19433_V1	Enterococcus faecalis ATCC 19433	acetic acid, formic acid, DL-lactic acid, ethanol	FT	Bacteria	GCF_000392875.1_Ente_faec_ATCC_19433_V1_genomic	PMC3255604
-GCF_000469345.1_ASM46934v1	Eubacterium ramulus ATCC 29099	butyric acid, acetic acid	FT	Bacteria	GCF_000469345.1_ASM46934v1_genomic	
+GCF_000469345.1_ASM46934v1	Eubacterium ramulus ATCC 29099	butyric acid, acetic acid, H2, ethanol	FT	Bacteria	GCF_000469345.1_ASM46934v1_genomic	10.1024/0300-9831.73.2.79
 GCF_001456065.2_ASM145606v2	Clostridium butyricum KNU-L09	acetic acid, butyric acid, formic acid, H2	FT	Bacteria	GCF_001456065.2_ASM145606v2_genomic	
 GCF_001561955.1_ASM156195v1	Anaerotignum propionicum DSM 1682	propionic acid, acetic acid	FT	Bacteria	GCF_001561955.1_ASM156195v1_genomic	
 GCF_000162015.1_ASM16201v1	Faecalibacterium prausnitzii A2-165	butyric acid, DL-lactic acid, formic acid	FT	Bacteria	GCF_000162015.1_ASM16201v1_genomic	10.1099/00207713-52-6-2141

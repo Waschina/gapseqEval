@@ -1,5 +1,6 @@
 library(ggplot2)
 library(dplyr)
+library(data.table)
 
 #
 # Comparison
@@ -66,8 +67,9 @@ dt[mtf.flux <= 1e-5, mtf.flux := NA]
 #dt[mtf.flux/gr.rate > 600, mtf.flux := 0.042705]
 #dt[u/gr.rate > 500, u := 0.042705]
 
-#dt <- dt[organism != "Bifidobacterium animalis subsp. lactis DSM 10140"]
-#dt <- dt[organism != "Olsenella uli DSM 7084"]
+# Remove Archaea from analysis since this is still experimental, though, it looks good with gapseq.
+dt <- dt[organism != "Methanobrevibacter smithii ATCC 35061"]
+dt <- dt[organism != "Methanosarcina barkeri str. Fusaro"]
 
 dt[u / gr.rate < 0.25, mtf.flux := NA]
 dt[u / gr.rate < 0.25, u := NA]
@@ -89,4 +91,21 @@ p <- ggplot(dt, aes(metabolite, organism)) +
         axis.text.y=element_text(color = "black")) +
   facet_grid(.~recon.method)
 p  
+
+ggsave("plots/ferm.prod.comparison200922.eps", p, width = 14, height = 7)
+
+# Barplots for TP, FP, TN, FN
+table(dt$exp.measured, !is.na(dt$mtf.flux), dt$recon.method)
+dt.lt <- as.data.table(table(dt$exp.measured, !is.na(dt$mtf.flux), dt$recon.method))
+dt.lt[V1 == T & V2 == F, catg := "FN"]
+dt.lt[V1 == F & V2 == T, catg := "FP"]
+dt.lt[V1 == T & V2 == T, catg := "TP"]
+dt.lt[V1 == F & V2 == F, catg := "TN"]
+
+p <- ggplot(dt.lt, aes(fill=catg, y=N, x=V3)) + 
+  geom_bar(position="stack", stat="identity", col = "black") + 
+  coord_flip() + scale_fill_manual(values = c("#e34a33","#fdbb84","#2b8cbe","#a6bddb"))
+p
+
+ggsave("plots/ferm.prod.logicalTest200922.eps", p, width = 10, height = 2.5)
 
