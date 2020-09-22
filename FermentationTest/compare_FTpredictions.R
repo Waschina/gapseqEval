@@ -11,7 +11,8 @@ ft.orgs <- fread("organisms2.csv")
 # (1) perform tests and merge data.tables
 source("getFermProd_gapseq.R")
 source("getFermProd_carveme.R")
-dt <- rbindlist(list(gs.fermprod, cm.fermprod))
+source("getFermProd_modelseed.R")
+dt <- rbindlist(list(gs.fermprod, cm.fermprod, ms.fermprod))
 
 # (2) matching metabolite IDs
 met.match <- data.table(matrix(c("acetic acid", "EX_ac(e)", "EX_cpd00029_e0",

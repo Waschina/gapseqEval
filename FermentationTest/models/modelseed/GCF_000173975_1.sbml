@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1" xmlns:html="http://www.w3.org/1999/xhtml">
-<model id="GCF_000173975_1" name=""[Eubacterium]_hallii_DSM_3353"_SEED_model">
+<model id="GCF_000173975_1" name="Eubacterium_hallii_DSM_3353_SEED_model">
 <listOfUnitDefinitions>
 	<unitDefinition id="mmol_per_gDW_per_hr">
 		<listOfUnits>

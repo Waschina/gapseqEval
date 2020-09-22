@@ -39,4 +39,4 @@ See script `carveme_recon.sh` for pipeline.
 
 #### modelSEED
 
-TODO
+The script `extract_single_medium.R media/media.tsv [media_ID]` also exports a media file, that can directly be uploaded to the modelseed online platform. This media can than be used for model-seed's gapfilling.
