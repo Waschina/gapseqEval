@@ -173,7 +173,7 @@ FT	Fermentation test medium	cd2	Cd2+	cd2	cpd01012	100
 FT	Fermentation test medium	aso4	Arsenate	aso4	cpd01048	100
 FT	Fermentation test medium	cbl1	Vitamin B12	cbl1	cpd03424	0.1
 FT	Fermentation test medium	fe2	Fe2+	fe2	cpd10515	100
-FT	Fermentation test medium	fe3	fe3	fe3	cpd10516	100
+FT	Fermentation test medium	fe3	fe3	fe3	cpd10516	0.5
 FT	Fermentation test medium	cro4	chromate	cro4	cpd11595	100
 FT	Fermentation test medium	mobd	Molybdate	mobd	cpd11574	0.01
 FT	Fermentation test medium	sheme	Siroheme	sheme	cpd00557	0.01

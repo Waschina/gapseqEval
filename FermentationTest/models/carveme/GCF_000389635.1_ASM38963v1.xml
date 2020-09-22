@@ -65069,21 +65069,21 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_FRD2" name="Fumarate reductase" reversible="false" fast="false">
+      <reaction id="R_FRD7" name="Fumarate reductase" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>RHEA: 29215;29216;29217;29218</p>
-            <p>MetaNetX (MNX) Equation: MNXR26704</p>
-            <p>BiGG models: iEcolC_1368;iECP_1309;iPC815;iECED1_1282;iECIAI1_1343;iEcE24377_1341;iECO103_1326;iSF_1195;iUMNK88_1353;iHN637;iECUMN_1333;iECW_1372;iS_1188;ic_1306;iECIAI39_1322;iUTI89_1310;iWFL_1372;iECSF_1327;iBWG_1329;iSSON_1240;iECS88_1305;iEcDH1_1363;iEcHS_1320;iLF82_1304;iECs_1301;iEC55989_1330;iNJ661;iECBD_1354;iSbBS512_1146;iECH74115_1262;iNRG857_1313;iEKO11_1354;iAF1260b;iJR904;iE2348C_1286;iETEC_1333;iZ_1308;iUMN146_1321;iECNA114_1301;iECB_1328;iECO26_1355;iEcSMS35_1347;iECABU_c1320;iECSP_1301;iECD_1391;iSFV_1184;STM_v1_0;iECO111_1330;iECOK1_1307;iSDY_1059;iG2583_1286;iECDH10B_1368;iY75_1357;iJO1366;iAF1260;iAPECO1_1312;iSBO_1134;iECDH1ME8569_1439;iEC042_1314;iSFxv_1172;iB21_1397;iECSE_1348;iYL1228</p>
+            <p>RHEA: 29187;29188;29189;29190</p>
+            <p>MetaNetX (MNX) Equation: MNXR69008</p>
+            <p>BiGG models: e_coli_core</p>
             <p>GAP_FILL: FT</p>
           </html>
         </notes>
         <listOfReactants>
           <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_mql8_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_q8h2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_mqn8_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_q8_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>

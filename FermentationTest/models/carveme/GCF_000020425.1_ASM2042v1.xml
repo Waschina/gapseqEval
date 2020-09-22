@@ -57048,39 +57048,6 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_BCOALIG2" name="4-hydroxybenzoate--coenzyme A ligase" reversible="false" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>RHEA: 23116;23117;23118;23119</p>
-            <p>BioCyc: META:4-HYDROXYBENZOATE--COA-LIGASE-RXN</p>
-            <p>MetaNetX (MNX) Equation: MNXR8588</p>
-            <p>KEGG Reaction: R01300</p>
-            <p>EC Number: 6.2.1.27</p>
-            <p>BiGG models: iAF987</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_4hbz_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_coa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_amp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_4hbzcoa_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="0"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_Cuabc" name="Cuabc" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -57109,6 +57076,33 @@
           </math>
           <listOfLocalParameters>
             <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_SUCBZT2" name="Succinyl:4-hydroxybenzoate CoA transferase" reversible="true" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>MetaNetX (MNX) Equation: MNXR84237</p>
+            <p>BiGG models: iAF987</p>
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_4hbz_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_succoa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_4hbzcoa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000"/>
             <localParameter id="UPPER_BOUND" value="1000"/>
             <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
           </listOfLocalParameters>

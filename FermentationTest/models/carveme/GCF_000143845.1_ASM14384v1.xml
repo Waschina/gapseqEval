@@ -12198,6 +12198,26 @@
           </html>
         </notes>
       </species>
+      <species id="M_succ_e" name="Succinate" compartment="C_e" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>CHARGE: -2</p>
+            <p>FORMULA: C4H4O4</p>
+            <p>BioCyc: META:SUC</p>
+            <p>Human Metabolome Database: HMDB00254</p>
+            <p>SEED Compound: cpd00036</p>
+            <p>UniPathway Compound: UPC00042</p>
+            <p>CHEBI: CHEBI:15125;CHEBI:15741;CHEBI:22941;CHEBI:22943;CHEBI:26803;CHEBI:26807;CHEBI:30031;CHEBI:30779;CHEBI:45639;CHEBI:9304</p>
+            <p>UM-BBD: c0312</p>
+            <p>KEGG Compound: C00042</p>
+            <p>BioPath Molecule: Succinate</p>
+            <p>MetaNetX (MNX) Chemical: MNXM25</p>
+            <p>Reactome: 113536;159939;29434;389583;433123</p>
+            <p>LipidMaps: LMFA01170043</p>
+            <p>BiGG models: iJO1366;iAF1260;iMM904;iAPECO1_1312;iND750;iPC815;iSF_1195;iJN746;iIT341;iNJ661;iBWG_1329;iB21_1397;ic_1306;iE2348C_1286;iEC042_1314;iEC55989_1330;iECABU_c1320;iECB_1328;iECBD_1354;iECD_1391;iEcDH1_1363;iECDH1ME8569_1439;iECDH10B_1368;iEcE24377_1341;iECED1_1282;iECH74115_1262;iEcHS_1320;iECIAI1_1343;iECIAI39_1322;iECNA114_1301;iECO103_1326;iECO111_1330;iECO26_1355;iECOK1_1307;iEcolC_1368;iECP_1309;iECS88_1305;iECs_1301;iECSE_1348;iECSF_1327;iEcSMS35_1347;iECSP_1301;iECUMN_1333;iECW_1372;iEKO11_1354;iETEC_1333;iG2583_1286;iLF82_1304;iNRG857_1313;iS_1188;iSbBS512_1146;iSBO_1134;iSDY_1059;iSFV_1184;iSFxv_1172;iSSON_1240;iUMN146_1321;iUMNK88_1353;iUTI89_1310;iWFL_1372;iZ_1308;iJR904;e_coli_core;iYL1228;STM_v1_0;iJN678;iMM1415;iRC1080;iY75_1357;iYO844;RECON1;iAT_PLT_636;iAF1260b;iCHOv1</p>
+          </html>
+        </notes>
+      </species>
     </listOfSpecies>
     <listOfReactions>
       <reaction id="R_12DGR120tipp" name="1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C12:0)" reversible="false" fast="false">
@@ -48704,31 +48724,6 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_MMM" name="Methylmalonyl-CoA mutase" reversible="false" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>MetaNetX (MNX) Equation: MNXR83386</p>
-            <p>BiGG models: iECED1_1282;iECIAI1_1343;iSF_1195;iUMNK88_1353;iEcE24377_1341;iECO103_1326;iEcolC_1368;iECP_1309;iECW_1372;iS_1188;iECUMN_1333;iECSF_1327;ic_1306;iECIAI39_1322;iUTI89_1310;iWFL_1372;iECO111_1330;iEC042_1314;iEcHS_1320;iLF82_1304;iSFxv_1172;iEcDH1_1363;iECs_1301;iB21_1397;iECSE_1348;iJO1366;iAPECO1_1312;iSBO_1134;iECS88_1305;iBWG_1329;iECDH1ME8569_1439;iSSON_1240;iEKO11_1354;iECH74115_1262;iNRG857_1313;iEC55989_1330;iECBD_1354;iSbBS512_1146;iECB_1328;iECO26_1355;iEcSMS35_1347;iECNA114_1301;iECD_1391;iSFV_1184;iECABU_c1320;iECSP_1301;iE2348C_1286;iETEC_1333;iZ_1308;iUMN146_1321;iG2583_1286;iSDY_1059;iECDH10B_1368;iY75_1357;iECOK1_1307</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_succoa_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_mmcoa__S_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="0"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_PABB" name="PABB" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -48756,24 +48751,21 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_PLPS" name="Pyridoxal-5-phosphate synthase" reversible="false" fast="false">
+      <reaction id="R_PDX5PO2" name="Pyridoxine 5&apos;-phosphate oxidase (anaerboic" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>MetaNetX (MNX) Equation: MNXR83931</p>
-            <p>BiGG models: iHN637;iLJ478</p>
+            <p>MetaNetX (MNX) Equation: MNXR4139</p>
+            <p>BiGG models: iEC55989_1330;iECBD_1354;iSbBS512_1146;iEKO11_1354;iAF1260b;iECH74115_1262;iNRG857_1313;iE2348C_1286;iETEC_1333;iZ_1308;iAF987;iUMN146_1321;iECB_1328;iECO26_1355;iEcSMS35_1347;iECNA114_1301;iECD_1391;iSFV_1184;iECABU_c1320;iECSP_1301;STM_v1_0;iECOK1_1307;iECO111_1330;iG2583_1286;iSDY_1059;iECDH10B_1368;iY75_1357;iJO1366;iAF1260;iAPECO1_1312;iSBO_1134;iECDH1ME8569_1439;iEC042_1314;iSFxv_1172;iEcDH1_1363;iECs_1301;iB21_1397;iECSE_1348;iYL1228;iEcolC_1368;iECP_1309;iECED1_1282;iECIAI1_1343;iSF_1195;iUMNK88_1353;iHN637;iEcE24377_1341;iECO103_1326;iECUMN_1333;iECW_1372;iS_1188;ic_1306;iECIAI39_1322;iUTI89_1310;iWFL_1372;iECSF_1327;iECS88_1305;iBWG_1329;iSSON_1240;iEcHS_1320;iLF82_1304</p>
             <p>GAP_FILL: FT</p>
           </html>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_g3p_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_r5p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nad_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pdx5p_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu__L_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_h2o_c" stoichiometry="3" constant="true"/>
-          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pydx5p_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -48782,6 +48774,33 @@
           </math>
           <listOfLocalParameters>
             <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_SUCCt2r" name="Succinate transport via proton symport" reversible="true" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>MetaNetX (MNX) Equation: MNXR4949</p>
+            <p>BiGG models: iIT341;iNJ661;iND750;iYO844;iMM904</p>
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_succ_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000"/>
             <localParameter id="UPPER_BOUND" value="1000"/>
             <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
           </listOfLocalParameters>
@@ -48839,6 +48858,26 @@
           <speciesReference species="M_acald_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_succ_e" name="R_EX_succ_e" reversible="true" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_succ_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <cn type="integer"> 0 </cn>

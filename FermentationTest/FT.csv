@@ -1,4 +1,4 @@
-compunds,name,maxFlux
+compounds,name,maxFlux
 cpd00001,H2O,100
 cpd00009,Phosphate,100
 cpd00011,CO2,0.1
@@ -67,7 +67,7 @@ cpd01012,Cd2+,100
 cpd01048,Arsenate,100
 cpd03424,Vitamin B12,0.1
 cpd10515,Fe2+,100
-cpd10516,fe3,100
+cpd10516,fe3,0.5
 cpd11595,chromate,100
 cpd11574,Molybdate,0.01
 cpd00557,Siroheme,0.01

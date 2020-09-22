@@ -50789,37 +50789,6 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_ADCS" name="4-amino-4-deoxychorismate synthase" reversible="false" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>RHEA: 11672;11673;11674;11675</p>
-            <p>BioCyc: META:PABASYN-RXN</p>
-            <p>MetaNetX (MNX) Equation: MNXR30623</p>
-            <p>KEGG Reaction: R01716</p>
-            <p>EC Number: 2.6.1.85</p>
-            <p>BiGG models: iECDH1ME8569_1439;iAF1260;iAPECO1_1312;iSBO_1134;iEC042_1314;iECOK1_1307;iECO111_1330;STM_v1_0;iECDH10B_1368;iY75_1357;iG2583_1286;iSDY_1059;iAF987;iUMN146_1321;iE2348C_1286;iETEC_1333;iZ_1308;iECD_1391;iSFV_1184;iECABU_c1320;iECSP_1301;iECB_1328;iECO26_1355;iEcSMS35_1347;iECNA114_1301;iNJ661;iECBD_1354;iSbBS512_1146;iEC55989_1330;iJR904;iEKO11_1354;iAF1260b;iND750;iECH74115_1262;iNRG857_1313;iECS88_1305;iBWG_1329;iSSON_1240;iYO844;iECs_1301;iEcHS_1320;iLF82_1304;iEcDH1_1363;iUTI89_1310;iWFL_1372;iSB619;ic_1306;iECIAI39_1322;iJN678;iECSF_1327;iMM904;iECUMN_1333;iLJ478;iS_1188;iECW_1372;iRC1080;iPC815;iEcolC_1368;iECP_1309;iSF_1195;iUMNK88_1353;iHN637;iEcE24377_1341;iECO103_1326;iECED1_1282;iECIAI1_1343;iJO1366;iB21_1397;iECSE_1348;iYL1228;iSFxv_1172</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_chor_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln__L_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_4adcho_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu__L_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="0"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_ANPRT" name="Anthranilate phosphoribosyltransferase" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -51035,6 +51004,33 @@
           <speciesReference species="M_co2_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_nicrnt_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_PABB" name="PABB" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>MetaNetX (MNX) Equation: MNXR83543</p>
+            <p>BiGG models: iIT341;iJN746</p>
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_chor_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_nh4_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_4adcho_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">

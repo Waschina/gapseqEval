@@ -63265,25 +63265,23 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_ASPO5" name="L-aspartate oxidase" reversible="false" fast="false">
+      <reaction id="R_ASPO4" name="L-aspartate oxidase" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>RHEA: 30043;30044;30045;30046</p>
-            <p>MetaNetX (MNX) Equation: MNXR81766</p>
-            <p>EC Number: 1.5.99</p>
-            <p>BioCyc: META:RXN-9772</p>
-            <p>BiGG models: iECB_1328;iECO26_1355;iEcSMS35_1347;iECNA114_1301;iECD_1391;iECABU_c1320;iECSP_1301;iE2348C_1286;iETEC_1333;iZ_1308;iUMN146_1321;iEKO11_1354;iAF1260b;iECH74115_1262;iNRG857_1313;iEC55989_1330;iNJ661;iECBD_1354;iSbBS512_1146;iEC042_1314;iB21_1397;iECSE_1348;iYL1228;iJO1366;iAF1260;iAPECO1_1312;iECS88_1305;iBWG_1329;iECDH1ME8569_1439;iG2583_1286;iSDY_1059;iECDH10B_1368;iECSF_1327;iY75_1357;STM_v1_0;ic_1306;iECIAI39_1322;iECOK1_1307;iUTI89_1310;iWFL_1372;iECO111_1330;iECW_1372;iECED1_1282;iECIAI1_1343;iUMNK88_1353;iEcE24377_1341;iECO103_1326;iEcolC_1368;iECP_1309;iPC815;iEcHS_1320;iLF82_1304;iEcDH1_1363;iECs_1301</p>
+            <p>RHEA: 29191;29192;29193;29194</p>
+            <p>MetaNetX (MNX) Equation: MNXR81765</p>
+            <p>BiGG models: iECDH1ME8569_1439;iJO1366;iAF1260;iAPECO1_1312;iB21_1397;iECSE_1348;iYL1228;iEC042_1314;iECO111_1330;iECOK1_1307;STM_v1_0;iECDH10B_1368;iY75_1357;iSDY_1059;iG2583_1286;iUMN146_1321;iE2348C_1286;iETEC_1333;iZ_1308;iECABU_c1320;iECSP_1301;iECD_1391;iECNA114_1301;iECW_1372;iECB_1328;iECO26_1355;iEcSMS35_1347;iPC815;iECBD_1354;iSbBS512_1146;iEcolC_1368;iECP_1309;iEC55989_1330;iEcE24377_1341;iECO103_1326;iUMNK88_1353;iECED1_1282;iECH74115_1262;iECIAI1_1343;iNRG857_1313;iEKO11_1354;iAF1260b;iBWG_1329;iECS88_1305;iECs_1301;iEcDH1_1363;iEcHS_1320;iLF82_1304;iUTI89_1310;iWFL_1372;ic_1306;iECIAI39_1322;iECSF_1327</p>
             <p>GAP_FILL: FT</p>
           </html>
         </notes>
         <listOfReactants>
           <speciesReference species="M_asp__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mqn8_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_iasp_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mql8_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">

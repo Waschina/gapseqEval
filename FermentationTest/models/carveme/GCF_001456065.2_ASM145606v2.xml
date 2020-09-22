@@ -74748,6 +74748,34 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
+      <reaction id="R_AMMQT8_2" name="S-adenosylmethione:2-demethylmenaquinone methyltransferase" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>MetaNetX (MNX) Equation: MNXR68360</p>
+            <p>BiGG models: iECSF_1327;iWFL_1372;ic_1306;iECIAI39_1322;iECs_1301;iEcDH1_1363;iLF82_1304;iBWG_1329;iECS88_1305;iEcE24377_1341;iECO103_1326;iSF_1195;iUMNK88_1353;iJR904;iECED1_1282;iECH74115_1262;iNRG857_1313;iEKO11_1354;iNJ661;iECBD_1354;iSbBS512_1146;iEcolC_1368;iECP_1309;iEC55989_1330;iECABU_c1320;iECSP_1301;iS_1188;iSFV_1184;iECNA114_1301;iECW_1372;iECB_1328;iECO26_1355;iEcSMS35_1347;iUMN146_1321;iECUMN_1333;iE2348C_1286;iETEC_1333;iZ_1308;iECDH10B_1368;iY75_1357;iSDY_1059;iG2583_1286;iECO111_1330;iECOK1_1307;iECSE_1348;iEC042_1314;iSFxv_1172;iAPECO1_1312</p>
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_2dmmq8_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_mqn8_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
       <reaction id="R_SUCOAS" name="Succinyl-CoA synthetase (ADP-forming)" reversible="true" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">

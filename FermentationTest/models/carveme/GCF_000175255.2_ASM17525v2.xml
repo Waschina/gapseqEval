@@ -52894,34 +52894,6 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_FRD7" name="Fumarate reductase" reversible="false" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>RHEA: 29187;29188;29189;29190</p>
-            <p>MetaNetX (MNX) Equation: MNXR69008</p>
-            <p>BiGG models: e_coli_core</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_q8h2_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_q8_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="0"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_PDX5PO2" name="Pyridoxine 5&apos;-phosphate oxidase (anaerboic" reversible="false" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52950,6 +52922,36 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
+      <reaction id="R_PFK_ppi" name="Phosphofructokinase (ppi-dependent" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>MetaNetX (MNX) Equation: MNXR83628</p>
+            <p>KEGG Reaction: R00764</p>
+            <p>EC Number: 2.7.1.90</p>
+            <p>BiGG models: iLJ478</p>
+            <p>GAP_FILL: FT</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_f6p_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ppi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fdp_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0"/>
+            <localParameter id="UPPER_BOUND" value="1000"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
       <reaction id="R_PIt2r" name="Phosphate reversible transport via symport" reversible="true" fast="false">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52966,64 +52968,6 @@
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="-1000"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_PItex" name="Phosphate transport via diffusion (extracellular to periplasm)" reversible="true" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>MetaNetX (MNX) Equation: MNXR4294</p>
-            <p>BioCyc: META:TRANS-RXN0-470</p>
-            <p>BiGG models: iECO111_1330;iECOK1_1307;STM_v1_0;iECDH10B_1368;iY75_1357;iSDY_1059;iG2583_1286;iECDH1ME8569_1439;iJO1366;iAF1260;iAPECO1_1312;iSBO_1134;iB21_1397;iECSE_1348;iYL1228;iEC042_1314;iSFxv_1172;iECBD_1354;iSbBS512_1146;iEC55989_1330;iECH74115_1262;iNRG857_1313;iEKO11_1354;iAF1260b;iUMN146_1321;iAF987;iE2348C_1286;iETEC_1333;iZ_1308;iECABU_c1320;iECSP_1301;iECD_1391;iSFV_1184;iECNA114_1301;iECB_1328;iECO26_1355;iEcSMS35_1347;iUTI89_1310;iWFL_1372;ic_1306;iECIAI39_1322;iECSF_1327;iJN678;iBWG_1329;iSSON_1240;iECS88_1305;iECs_1301;iEcDH1_1363;iEcHS_1320;iLF82_1304;iPC815;iEcolC_1368;iECP_1309;iEcE24377_1341;iECO103_1326;iSF_1195;iUMNK88_1353;iECED1_1282;iECIAI1_1343;iECUMN_1333;iJN746;iS_1188;iECW_1372</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_pi_p" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <cn type="integer"> 0 </cn>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="LOWER_BOUND" value="-1000"/>
-            <localParameter id="UPPER_BOUND" value="1000"/>
-            <localParameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_SPTc" name="Serine-pyruvate aminotransferase" reversible="true" fast="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>EC Number: 2.6.1.51</p>
-            <p>BioCyc: META:SERINE--PYRUVATE-AMINOTRANSFERASE-RXN</p>
-            <p>MetaNetX (MNX) Equation: MNXR4896</p>
-            <p>KEGG Reaction: R00585</p>
-            <p>RHEA: 22852;22853;22854;22855</p>
-            <p>UniPathway Reaction: UCR00585;UER00915</p>
-            <p>BiGG models: iLJ478;iCHOv1;iRC1080</p>
-            <p>GAP_FILL: FT</p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_pyr_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser__L_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_ala__L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_hpyr_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
