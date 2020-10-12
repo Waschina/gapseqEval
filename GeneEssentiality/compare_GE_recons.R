@@ -60,7 +60,7 @@ ecol.ms <- constrain.mod(ecol.ms, "GS_MM_glc")
 paer.ms <- readSBMLmod("models/modelseed/paer.sbml")
 paer.ms <- constrain.mod(paer.ms, "GS_MM_succ")
 mgen.ms <- readSBMLmod("models/modelseed/mgen.sbml")
-#mgen.ms <- constrain.mod(mgen.ms, "Complete2") # modelseed failed to gapfill with gapseq's complete medium. Tus we use the modelseeds complete medium.
+#mgen.ms <- constrain.mod(mgen.ms, "Complete2") # modelseed failed to gapfill with gapseq's complete medium. Thus we use the modelseeds complete medium.
 sone.ms <- readSBMLmod("models/modelseed/sone.sbml")
 sone.ms <- constrain.mod(sone.ms, "LB_marinos")
 
@@ -162,7 +162,7 @@ ecol <- readSBMLmod("models/curated/iML1515.xml")
 bsub <- readSBMLmod("models/curated/iYO844.xml")
 paer <- readSBMLmod("models/curated/iMO1056.xml")
 sone <- readSBMLmod("models/curated/iSO783.xml")
-mgen <- readSBMLmod("models/curated/iPS189.xml")
+mgen <- readSBMLmod("models/curated/iPS189_v4.xml")
 
 
 dt.stat <- data.table(organism = rep(NA_character_, 60), recon.method = NA_character_, metric = NA_character_, nr = NA_integer_)
