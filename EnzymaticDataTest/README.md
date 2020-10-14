@@ -5,7 +5,7 @@
 
 
 ## genome download
-The refseq ids for BacDive reference strains, which were downloaded and used for metabolic model construction, are listed in ``EnzymaticDataTest/dat/bacdive_genomes.log``.
+The refseq ids for BacDive reference strains, which were downloaded and used for metabolic model construction, are listed in ``dat/bacdive_genomes.log``.
 
 
 ## gapseq
