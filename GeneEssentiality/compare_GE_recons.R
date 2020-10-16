@@ -183,7 +183,7 @@ dt.stat[11,`:=`(organism = "E. coli"      , recon.method = "gapseq", metric = "G
 dt.stat[12,`:=`(organism = "B. subtilis"  , recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(bsub.gs))]
 dt.stat[13,`:=`(organism = "P. aeruginosa", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(paer.gs))]
 dt.stat[14,`:=`(organism = "S. oneidensis", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(sone.gs))]
-dt.stat[15,`:=`(organism = "M. genitalium", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(mgen.gs))]
+  dt.stat[15,`:=`(organism = "M. genitalium", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(mgen.gs))]
 
 dt.stat[16,`:=`(organism = "E. coli"      , recon.method = "modelSEED", metric = "Genes", nr = length(ecol.ms@allGenes))]
 dt.stat[17,`:=`(organism = "B. subtilis"  , recon.method = "modelSEED", metric = "Genes", nr = length(bsub.ms@allGenes))]

@@ -3,7 +3,7 @@
 # protein complexes between E. coli's curated model   #
 # (iML1515) and gapseq's reconstruction.              #
 # ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
-
+source("prepare_MS_gene_table.R")
 library(sybilSBML)
 library(IRanges)
 library(data.table)

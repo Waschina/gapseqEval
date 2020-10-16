@@ -70,14 +70,23 @@ dt[mtf.flux <= 1e-5, mtf.flux := NA]
 # Remove Archaea from analysis since this is still experimental, though, it looks good with gapseq.
 dt <- dt[organism != "Methanobrevibacter smithii ATCC 35061"]
 dt <- dt[organism != "Methanosarcina barkeri str. Fusaro"]
+dt <- dt[metabolite != "methane"]
 
-dt[u / gr.rate < 0.25, mtf.flux := NA]
-dt[u / gr.rate < 0.25, u := NA]
+dt[mtf.flux / gr.rate < 0.25, mtf.flux := NA]
+dt[u / gr.rate < 0.25 | is.na(ex), u := NA]
 
 # some aesthetics 
 dt[, organism := gsub("\\[|\\]","",organism)]
 dt$organism <- factor(dt$organism,levels = sort(unique(dt$organism), decreasing = T))
 #levels(dt$organism) <- sort(unique(dt$organism), decreasing = T)
+
+dt[metabolite == "acetic acid", metabolite := "Acetate"]
+dt[metabolite == "butyric acid", metabolite := "Butyrate"]
+dt[metabolite == "DL-lactic acid", metabolite := "Lactate"]
+dt[metabolite == "ethanol", metabolite := "Ethanol"]
+dt[metabolite == "formic acid", metabolite := "Formate"]
+dt[metabolite == "propionic acid", metabolite := "Propionate"]
+dt[metabolite == "succinic acid", metabolite := "Succinate"]
 
 p <- ggplot(dt, aes(metabolite, organism)) +
   geom_tile(aes(fill = exp.measured), color = "white", size = 1.25) +
@@ -85,16 +94,17 @@ p <- ggplot(dt, aes(metabolite, organism)) +
   geom_point(aes(size = u / gr.rate), color = "darkgrey", alpha = 1, pch = 16) +
   geom_point(aes(size = mtf.flux / gr.rate), color = "black") +
   #geom_point(aes(size = l / gr.rate), col = "white", alpha = "0.8") +
-  scale_size(range = c(0, 10)) +
+  scale_size(range = c(0, 8.5)) +
   theme_bw() +
   theme(axis.text.x=element_text(angle=45, hjust=1, color = "black"),
         axis.text.y=element_text(color = "black")) +
   facet_grid(.~recon.method)
 p  
 
-ggsave("plots/ferm.prod.comparison200922.eps", p, width = 14, height = 7)
+ggsave("plots/ferm.prod.comparison201015.eps", p, width = 14, height = 8.5)
 
 # Barplots for TP, FP, TN, FN
+table(dt$exp.measured, !is.na(dt$u), dt$recon.method)
 table(dt$exp.measured, !is.na(dt$mtf.flux), dt$recon.method)
 dt.lt <- as.data.table(table(dt$exp.measured, !is.na(dt$mtf.flux), dt$recon.method))
 dt.lt[V1 == T & V2 == F, catg := "FN"]
@@ -107,5 +117,5 @@ p <- ggplot(dt.lt, aes(fill=catg, y=N, x=V3)) +
   coord_flip() + scale_fill_manual(values = c("#e34a33","#fdbb84","#2b8cbe","#a6bddb"))
 p
 
-ggsave("plots/ferm.prod.logicalTest200922.eps", p, width = 10, height = 2.5)
+ggsave("plots/ferm.prod.logicalTest201015.eps", p, width = 10, height = 2.5)
 
