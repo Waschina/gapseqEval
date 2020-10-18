@@ -31,15 +31,15 @@ mgen.gs <- constrain.mod(mgen.gs, mediadb = "media/media.tsv", media.id = "Compl
 # Carveme Models#
 #~~~~~~~~~~~~~~~#
 bsub.cm <- readSBMLmod("models/carveme/bsub_protein.xml")
-bsub.cm <- constrain.mod(bsub.cm, "LB_marinos")
+bsub.cm <- constrain.mod(bsub.cm, mediadb = "media/media.tsv", media.id = "LB_marinos")
 ecol.cm <- readSBMLmod("models/carveme/ecol_protein.xml")
-ecol.cm <- constrain.mod(ecol.cm, "GS_MM_glc")
+ecol.cm <- constrain.mod(ecol.cm, mediadb = "media/media.tsv", media.id = "GS_MM_glc")
 paer.cm <- readSBMLmod("models/carveme/paer_protein.xml")
-paer.cm <- constrain.mod(paer.cm, "GS_MM_succ")
+paer.cm <- constrain.mod(paer.cm, mediadb = "media/media.tsv", media.id = "GS_MM_succ")
 mgen.cm <- readSBMLmod("models/carveme/mgen_protein.xml")
-mgen.cm <- constrain.mod(mgen.cm, "Complete2")
+mgen.cm <- constrain.mod(mgen.cm, mediadb = "media/media.tsv", media.id = "Complete2")
 sone.cm <- readSBMLmod("models/carveme/sone_protein.xml")
-sone.cm <- constrain.mod(sone.cm, "LB_marinos")
+sone.cm <- constrain.mod(sone.cm, mediadb = "media/media.tsv", media.id = "LB_marinos")
 
 ## The following is a procedure to get the genomic position of the genes encoding the proteins that are the input for CarveMe Reconstruction.
 ## it needs to be performed only once and followed by the bash procedure saved in file "get_protein_gene_loci.sh"
@@ -54,15 +54,15 @@ sone.cm <- constrain.mod(sone.cm, "LB_marinos")
 # ModelSEED Models #
 #~~~~~~~~~~~~~~~~~~#
 bsub.ms <- readSBMLmod("models/modelseed/bsub.sbml")
-bsub.ms <- constrain.mod(bsub.ms, "LB_marinos")
+bsub.ms <- constrain.mod(bsub.ms, mediadb = "media/media.tsv", media.id = "LB_marinos")
 ecol.ms <- readSBMLmod("models/modelseed/ecol.sbml")
-ecol.ms <- constrain.mod(ecol.ms, "GS_MM_glc")
+ecol.ms <- constrain.mod(ecol.ms, mediadb = "media/media.tsv", media.id = "GS_MM_glc")
 paer.ms <- readSBMLmod("models/modelseed/paer.sbml")
-paer.ms <- constrain.mod(paer.ms, "GS_MM_succ")
+paer.ms <- constrain.mod(paer.ms, mediadb = "media/media.tsv", media.id = "GS_MM_succ")
 mgen.ms <- readSBMLmod("models/modelseed/mgen.sbml")
-#mgen.ms <- constrain.mod(mgen.ms, "Complete2") # modelseed failed to gapfill with gapseq's complete medium. Thus we use the modelseeds complete medium.
+#mgen.ms <- constrain.mod(mgen.ms, mediadb = "media/media.tsv", media.id = "Complete2") # modelseed failed to gapfill with gapseq's complete medium. Thus we use the modelseeds complete medium.
 sone.ms <- readSBMLmod("models/modelseed/sone.sbml")
-sone.ms <- constrain.mod(sone.ms, "LB_marinos")
+sone.ms <- constrain.mod(sone.ms, mediadb = "media/media.tsv", media.id = "LB_marinos")
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # Perform Gene essentiality analysis #
@@ -113,6 +113,8 @@ gess_spider_web <- function(ge.gs, ge.cm, ge.ms) {
   tmp.cm  <- table(tmp$ess.experimental, tmp$ess.carveme)
   tmp.ms  <- table(tmp$ess.experimental, tmp$ess.modelse)
   print(tmp.gs)
+  print(tmp.cm)
+  print(tmp.ms)
   
   eval.cur <- prediction.stats(tmp.cur)
   eval.gs  <- prediction.stats(tmp.gs)
@@ -141,7 +143,7 @@ gess_spider_web <- function(ge.gs, ge.cm, ge.ms) {
              title = paste("Nr. of common loci:", nrow(tmp)))
 }
 
-pdf("plots/gene.ess.spiderwebs.pdf", width = 5.25, height = 5.25)
+pdf("plots/gene.ess.spiderwebs_co0_01.pdf", width = 5.25, height = 5.25)
 # ecol
 gess_spider_web(getest.ecol.gs, getest.ecol.cm, getest.ecol.ms)
 # bsub
@@ -183,7 +185,7 @@ dt.stat[11,`:=`(organism = "E. coli"      , recon.method = "gapseq", metric = "G
 dt.stat[12,`:=`(organism = "B. subtilis"  , recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(bsub.gs))]
 dt.stat[13,`:=`(organism = "P. aeruginosa", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(paer.gs))]
 dt.stat[14,`:=`(organism = "S. oneidensis", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(sone.gs))]
-  dt.stat[15,`:=`(organism = "M. genitalium", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(mgen.gs))]
+dt.stat[15,`:=`(organism = "M. genitalium", recon.method = "gapseq", metric = "Genes", nr = gs_getGeneNr(mgen.gs))]
 
 dt.stat[16,`:=`(organism = "E. coli"      , recon.method = "modelSEED", metric = "Genes", nr = length(ecol.ms@allGenes))]
 dt.stat[17,`:=`(organism = "B. subtilis"  , recon.method = "modelSEED", metric = "Genes", nr = length(bsub.ms@allGenes))]

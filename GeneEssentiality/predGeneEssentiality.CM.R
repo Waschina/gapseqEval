@@ -38,6 +38,8 @@ predGeneEssentiality.CM <- function(mod, loci.file, gess.file, cm.loci.file) {
   
   cat("\n")
   loci[, ess.carveme := ifelse(cm.kogr < 0.01,"yes","no")]
+  #loci[, ess.carveme := ifelse(cm.kogr < 0.05,"yes","no")]
+  #loci[, ess.carveme := ifelse(cm.kogr < 0.001,"yes","no")]
   
   # merge with currected model prediction and experimentally-determined essentiality
   loci <- merge(loci, gess, by.x = "locus", by.y = "gene")
