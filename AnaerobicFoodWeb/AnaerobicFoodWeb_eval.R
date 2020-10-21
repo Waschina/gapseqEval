@@ -1,3 +1,8 @@
+library(data.table)
+library(Biostrings)
+library(stringr)
+library(ggplot2)
+
 seed <- fread("dat/seed_metabolites_edited.tsv")
 genome.desc <- fread("dat/genome_desc.csv")
 
@@ -51,6 +56,14 @@ sim.activity <- function(sim, namespace.seed, sub.ferm, agora=F){
   dat[,stat:=ifelse(mflux>0, "production", ifelse(mflux<0, "uptake", NA))]
   dat[spec=="barkeri_iAF692", spec.name:="Methanosarcina barkeri"]
 }
+
+# plot growth curve
+growth.dt <- data.table()
+growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.gapseq, use_biomass = F, ret_data = T))[, method:="gapseq"])
+growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.modelseed, use_biomass = F, ret_data = T))[, method:="modelseed"])
+growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.carveme, use_biomass = F, ret_data = T))[, method:="carveme"])
+ggplot(growth.dt, aes(x=time, y=value)) + stat_summary(fun.y = "sum", geom="line") + facet_wrap(~method) + ylab("Number of organisms")
+
 
 ex.gapseq    <- sim.activity(sim.gapseq, namespace.seed = T, sub.ferm=sub.ferm.seed)
 ex.modelseed <- sim.activity(sim.modelseed, namespace.seed = T, sub.ferm=sub.ferm.seed)
