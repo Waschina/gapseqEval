@@ -1,0 +1,26 @@
+file,full.name,name,id
+GCF_000005845.2.fna.gz,"NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome", Escherichia coli str. K-12 substr. MG1655,NC_000913.3
+GCF_000006945.2.fna.gz,"NC_003197.2 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, complete genome", Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,NC_003197.2
+GCF_000013285.1.fna.gz,"NC_008261.1 Clostridium perfringens ATCC 13124, complete genome", Clostridium perfringens ATCC 13124,NC_008261.1
+GCF_000013405.1_ASM1340v1_genomic.fna.gz,"NC_007759.1 Syntrophus aciditrophicus SB, complete sequence", Syntrophus aciditrophicus SB,NC_007759.1
+GCF_000014965.1_ASM1496v1_genomic.fna.gz,"NC_008554.1 Syntrophobacter fumaroxidans MPOB, complete genome", Syntrophobacter fumaroxidans MPOB,NC_008554.1
+GCF_000016525.1.fna.gz,"NC_009515.1 Methanobrevibacter smithii ATCC 35061, complete genome", Methanobrevibacter smithii ATCC 35061,NC_009515.1
+GCF_000020605.1.fna.gz,"NC_012781.1 [Eubacterium] rectale ATCC 33656, complete genome", [Eubacterium] rectale ATCC 33656,NC_012781.1
+GCF_000024905.1_ASM2490v1_genomic.fna.gz,"NC_013522.1 Thermanaerovibrio acidaminovorans DSM 6589 chromosome, complete genome", Thermanaerovibrio acidaminovorans DSM 6589 chromosome,NC_013522.1
+GCF_000025985.1.fna.gz,"NC_003228.3 Bacteroides fragilis NCTC 9343, complete genome", Bacteroides fragilis NCTC 9343,NC_003228.3
+GCF_000144405.1.fna.gz,"NC_014370.1 Prevotella melaninogenica ATCC 25845 chromosome I, complete sequence", Prevotella melaninogenica ATCC 25845 chromosome I,NC_014370.1
+GCF_000154425.1.fna.gz,"NZ_DS483542.1 Coprococcus eutactus ATCC 27759 Scfld_02_22, whole genome shotgun sequence", Coprococcus eutactus ATCC 27759 Scfld_02_22,NZ_DS483542.1
+GCF_000155875.1.fna.gz,"NZ_GG662017.1 Coprococcus comes ATCC 27758 Scfld12, whole genome shotgun sequence", Coprococcus comes ATCC 27758 Scfld12,NZ_GG662017.1
+GCF_000157975.1.fna.gz,"NZ_GG657710.1 Blautia hydrogenotrophica DSM 10507 Scfld93, whole genome shotgun sequence", Blautia hydrogenotrophica DSM 10507 Scfld93,NZ_GG657710.1
+GCF_000162015.1.fna.gz,"NZ_GG697168.2 Faecalibacterium prausnitzii A2-165 Scfld19, whole genome shotgun sequence", Faecalibacterium prausnitzii A2-165 Scfld19,NZ_GG697168.2
+GCF_000173975.1.fna.gz,"NZ_ACEP01000175.1 Anaerobutyricum hallii DSM 3353 E_hallii-1.0_Cont496.1, whole genome shotgun sequence", Anaerobutyricum hallii DSM 3353 E_hallii-1.0_Cont496.1,NZ_ACEP01000175.1 Anaerobutyricum hallii DSM 3353 E_hallii-1.0_Cont496.1
+GCF_000189295.2.fna.gz,"NC_016803.1 Desulfovibrio desulfuricans ND132, complete genome", Desulfovibrio desulfuricans ND132,NC_016803.1
+GCF_000195895.1_ASM19589v1_genomic.fna.gz,"NC_007355.1 Methanosarcina barkeri str. Fusaro, complete genome", Methanosarcina barkeri str. Fusaro,NC_007355.1
+GCF_000196555.1.fna.gz,"NC_015067.1 Bifidobacterium longum subsp. longum JCM 1217 DNA, complete genome", Bifidobacterium longum subsp. longum JCM 1217 DNA,NC_015067.1
+GCF_000391485.2.fna.gz,"NZ_CP041738.1 Enterococcus faecalis EnGen0107 strain B594 chromosome, complete genome", Enterococcus faecalis EnGen0107 strain B594 chromosome,NZ_CP041738.1
+GCF_001304715.1.fna.gz,"NZ_CP009240.1 Megasphaera elsdenii 14-14, complete genome", Megasphaera elsdenii 14-14,NZ_CP009240.1
+GCF_001314975.1.fna.gz,"NZ_CP012937.1 Bacteroides thetaiotaomicron strain 7330, complete genome", Bacteroides thetaiotaomicron strain 7330,NZ_CP012937.1
+GCF_003047065.1.fna.gz,"NZ_CP020620.1 Lactobacillus acidophilus strain DSM 20079 chromosome, complete genome", Lactobacillus acidophilus strain DSM 20079 chromosome,NZ_CP020620.1
+GCF_003434235.1.fna.gz,"NZ_QVFD01000001.1 Coprococcus catus strain AM28-39 AM28-39.Scaf1, whole genome shotgun sequence", Coprococcus catus strain AM28-39 AM28-39.Scaf1,NZ_QVFD01000001.1
+GCF_900101355.1.fna.gz,"NZ_FMUV01000081.1 Ruminococcus bromii strain YE282, whole genome shotgun sequence", Ruminococcus bromii strain YE282,NZ_FMUV01000081.1
+GCF_900637515.1.fna.gz,"NZ_LR134375.1 Veillonella dispar strain NCTC11831 genome assembly, chromosome: 1", Veillonella dispar strain NCTC11831 genome assembly,NZ_LR134375.1
