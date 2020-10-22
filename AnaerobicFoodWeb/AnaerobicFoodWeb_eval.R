@@ -106,7 +106,7 @@ extract_data <- function(t_gapseq, t_carveme, t_modelseed){
   }  
   return(dat.val)
 }
-dat.val <- extract_data(t_gapseq = 3, t_carveme = 3, t_modelseed = 5)
+dat.val <- extract_data(t_gapseq = 4, t_carveme = 4, t_modelseed = 6)
 
 dat.val.melt <- melt(dat.val, id.vars = c("org", "sub", "dir", "ref", "used"), variable.name = "method", value.name = "prediction")
 dat.val.melt[, val:=ifelse(used==T & prediction==T, "TP", ifelse(used==F & prediction==F, "TN", ifelse(used==T & prediction==F, "FN", "FP")))]
@@ -114,7 +114,7 @@ dat.val.melt <- dat.val.melt[!(ref=="[6]" & val=="FN")] # remove FN from potenti
 dat.val.melt <- unique(dat.val.melt) # remove duplicates (L/D lactate are considered as lactate)
 
 # validation
-table(dat.val.melt[method=="gapseq", val]); sum(table(dat.val.melt[method=="gapseq", val]))
-table(dat.val.melt[method=="modelseed", val]); sum(table(dat.val.melt[method=="modelseed", val]))
-table(dat.val.melt[method=="carveme", val]); sum(table(dat.val.melt[method=="carveme", val]))
+table(dat.val.melt[method=="gapseq", val])/dat.val.melt[method=="gapseq", .N]
+table(dat.val.melt[method=="modelseed", val])/dat.val.melt[method=="modelseed", .N]
+table(dat.val.melt[method=="carveme", val])/dat.val.melt[method=="carveme", .N]
 
