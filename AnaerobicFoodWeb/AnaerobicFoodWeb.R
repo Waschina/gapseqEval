@@ -43,8 +43,8 @@ models.gapseq    <- readRDS("models/anaerobic_foodweb-20201019.RDS")
 models.modelseed <- readRDS("models/anaerobic_foodweb-modelseed.RDS")
 models.carveme   <- readRDS("models/anaerobic_foodweb-carveme.RDS")
 
-medium <- fread("~/uni/gapseq/dat/media/FT3.csv")
-medium.carveme <- fread("~/uni/gapseq/dat/media/FT3_carveme.csv")
+medium <- fread("dat/FT3.csv")
+medium.carveme <- fread("dat/FT3_carveme.csv")
 
 get_sim <- function(models, namespace.seed, tsteps=7){
   # remove some species 

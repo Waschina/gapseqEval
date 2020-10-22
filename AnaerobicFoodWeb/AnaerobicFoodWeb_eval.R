@@ -69,7 +69,7 @@ ex.gapseq    <- sim.activity(sim.gapseq, namespace.seed = T, sub.ferm=sub.ferm.s
 ex.modelseed <- sim.activity(sim.modelseed, namespace.seed = T, sub.ferm=sub.ferm.seed)
 ex.carveme   <- sim.activity(sim.carveme, namespace.seed = F, sub.ferm=sub.ferm.bigg)
 
-dat.exp <- data.table(readODS::read_ods("~/uni/gapseq_doc/doc/dat/anaerobic_foodweb-reference.ods", na = c("NA", "<NA>"), range = "A1:U22", col_types = NA))
+dat.exp <- data.table(readODS::read_ods("dat/anaerobic_foodweb-reference.ods", na = c("NA", "<NA>"), range = "A1:U22", col_types = NA))
 org.dic <- data.table(name=dat.exp$Organism)
 org.dic[, name2:=sapply(name, function(org){ex.gapseq[spec.name %like% org, unique(spec.name)]})]
 sub.dic <- data.table(name=c("Acetate", "Butyrate", "Ethanol", "Formate", "H2", "H2S", "Lactate", "Lactate", "Methane", "Propionate", "Succinate"),
@@ -80,7 +80,6 @@ sub.dic <- data.table(name=c("Acetate", "Butyrate", "Ethanol", "Formate", "H2", 
 # get data from simulation files
 extract_data <- function(t_gapseq, t_carveme, t_modelseed){
   dat.val <- data.table()
-  t=3
   for(i in 1:nrow(org.dic)){
     name1 <- org.dic$name[i]
     name2 <- unlist(org.dic$name2[i])
@@ -103,18 +102,22 @@ extract_data <- function(t_gapseq, t_carveme, t_modelseed){
       carveme   <- ifelse( (dir=="prod" & flux.carveme>0) | (dir=="up" & flux.carveme<0), T, F)
       dat.val <- rbind(dat.val, data.table(org=name1, sub, dir, ref, used, gapseq, modelseed, carveme))
     }
-  }  
-  return(dat.val)
+  }
+  
+  #merge lactate_l and lactate_d
+  dat.val.lac <- dat.val[sub=="Lactate", list(gapseq=as.logical(max(gapseq)), modelseed=as.logical(max(modelseed)), carveme=as.logical(max(carveme))), by=.(org,sub,dir,ref, used)]
+  dat.val.unique <- rbind(dat.val[sub!="Lactate"], dat.val.lac)
+  
+  return(dat.val.unique)
 }
 dat.val <- extract_data(t_gapseq = 4, t_carveme = 4, t_modelseed = 6)
 
 dat.val.melt <- melt(dat.val, id.vars = c("org", "sub", "dir", "ref", "used"), variable.name = "method", value.name = "prediction")
 dat.val.melt[, val:=ifelse(used==T & prediction==T, "TP", ifelse(used==F & prediction==F, "TN", ifelse(used==T & prediction==F, "FN", "FP")))]
-dat.val.melt <- dat.val.melt[!(ref=="[6]" & val=="FN")] # remove FN from potential product list in Oliphant2019 (affect gapseq: 34, modelseed:50, carveme:51)
-dat.val.melt <- unique(dat.val.melt) # remove duplicates (L/D lactate are considered as lactate)
+#dat.val.melt <- dat.val.melt[!(ref=="[6]" & val=="FN")] # remove FN from potential product list in Oliphant2019 (affect gapseq: 34, modelseed:50, carveme:51)
 
 # validation
-table(dat.val.melt[method=="gapseq", val])/dat.val.melt[method=="gapseq", .N]
-table(dat.val.melt[method=="modelseed", val])/dat.val.melt[method=="modelseed", .N]
-table(dat.val.melt[method=="carveme", val])/dat.val.melt[method=="carveme", .N]
+table(dat.val.melt[method=="gapseq", val]); round(.Last.value/dat.val.melt[method=="gapseq", .N],2)
+table(dat.val.melt[method=="modelseed", val]); round(.Last.value/dat.val.melt[method=="modelseed", .N],2)
+table(dat.val.melt[method=="carveme", val]); round(.Last.value/dat.val.melt[method=="carveme", .N],2)
 
