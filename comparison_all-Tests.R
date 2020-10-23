@@ -57,7 +57,7 @@ ggplot(test.dt, aes(x=specificity, y=sensitivity, fill=Method)) +
   theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   scale_x_continuous(limits = c(0.55,1)) + scale_y_continuous(limits = c(0,1)) +
   facet_wrap("test")
-ggsave("~/Documents/comparison_all-Tests.pdf", width=5, height=3.8)
+ggsave("comparison_all-Tests.pdf", width=6.5, height=3.8)
 
 
 
