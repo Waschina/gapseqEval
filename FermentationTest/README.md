@@ -1,7 +1,5 @@
 # Fermentation tests
 
-All models can also be downloaded from ftp://ftp.rz.uni-kiel.de/pub/medsystbio/models/EnzymaticDataTestModels.zip
-
 #### gapseq
 
 Reconstructions with gapseq are calculated on the RZ-Cluster and CPLEX version 12.9.
