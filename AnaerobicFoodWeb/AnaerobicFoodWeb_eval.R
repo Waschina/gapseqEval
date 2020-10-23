@@ -2,13 +2,14 @@ library(data.table)
 library(Biostrings)
 library(stringr)
 library(ggplot2)
+library(BacArena)
 
 seed <- fread("dat/seed_metabolites_edited.tsv")
 genome.desc <- fread("dat/genome_desc.csv")
 
 sim.gapseq    <- readRDS("dat/anaerobic-foodweb_bacarena2.RDS")
-sim.modelseed <- readRDS("dat/anaerobic-foodweb-modelseed_bacarena.RDS")
-sim.carveme   <- readRDS("dat/anaerobic-foodweb-carveme_bacarena.RDS")
+sim.modelseed <- readRDS("dat/anaerobic-foodweb-modelseed_bacarena2.RDS")
+sim.carveme   <- readRDS("dat/anaerobic-foodweb-carveme_bacarena2.RDS")
 
 seedEX2bigg <- function(l){
   is.ex <- str_starts(l[[1]], "EX_")
@@ -62,12 +63,21 @@ growth.dt <- data.table()
 growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.gapseq, use_biomass = F, ret_data = T))[, method:="gapseq"])
 growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.modelseed, use_biomass = F, ret_data = T))[, method:="modelseed"])
 growth.dt <- rbind(growth.dt, data.table(BacArena::plotGrowthCurve(sim.carveme, use_biomass = F, ret_data = T))[, method:="carveme"])
-ggplot(growth.dt, aes(x=time, y=value)) + stat_summary(fun.y = "sum", geom="line") + facet_wrap(~method) + ylab("Number of organisms")
-
+p <- ggplot(growth.dt, aes(x=time, y=value)) + 
+  stat_summary(fun = "sum", geom="line") + 
+  facet_wrap(~method) + 
+  ylab("Total number of organisms") + theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+p
+ggsave(filename = "plots/comm_growth.pdf", plot = p, width = 7.5, height = 3)
 
 ex.gapseq    <- sim.activity(sim.gapseq, namespace.seed = T, sub.ferm=sub.ferm.seed)
 ex.modelseed <- sim.activity(sim.modelseed, namespace.seed = T, sub.ferm=sub.ferm.seed)
 ex.carveme   <- sim.activity(sim.carveme, namespace.seed = F, sub.ferm=sub.ferm.bigg)
+
+saveRDS(ex.gapseq, file = "dat/ex.gapseq.RDS")
+saveRDS(ex.modelseed, file = "dat/ex.modelseed.RDS")
+saveRDS(ex.carveme, file = "dat/ex.carveme.RDS")
 
 dat.exp <- data.table(readODS::read_ods("dat/anaerobic_foodweb-reference.ods", na = c("NA", "<NA>"), range = "A1:U22", col_types = NA))
 org.dic <- data.table(name=dat.exp$Organism)
@@ -110,11 +120,20 @@ extract_data <- function(t_gapseq, t_carveme, t_modelseed){
   
   return(dat.val.unique)
 }
-dat.val <- extract_data(t_gapseq = 4, t_carveme = 4, t_modelseed = 6)
+dat.val <- extract_data(t_gapseq = 3, t_carveme = 3, t_modelseed = 5)
 
 dat.val.melt <- melt(dat.val, id.vars = c("org", "sub", "dir", "ref", "used"), variable.name = "method", value.name = "prediction")
 dat.val.melt[, val:=ifelse(used==T & prediction==T, "TP", ifelse(used==F & prediction==F, "TN", ifelse(used==T & prediction==F, "FN", "FP")))]
 #dat.val.melt <- dat.val.melt[!(ref=="[6]" & val=="FN")] # remove FN from potential product list in Oliphant2019 (affect gapseq: 34, modelseed:50, carveme:51)
+
+# In some cases, the references state that a specific metabolite can be a product AND
+# substrate for an organisms in the food web. In this cases, if the method predicts
+# either production or consumption, the predicts counts as TP.
+dat.val.melt <- dat.val.melt[order(method, org, sub, val, decreasing = T)]
+dat.val.melt <- dat.val.melt[(used == T & !duplicated(paste(org, sub, method, used ,sep = "$"))) | used == F]
+
+#dat.val.melt[grepl("Blautia hyd", org) & sub == "Lactate"]
+#dat.val.melt[grepl("Blautia hyd", org) & sub == "Formate"]
 
 # validation
 table(dat.val.melt[method=="gapseq", val]); round(.Last.value/dat.val.melt[method=="gapseq", .N],2)
