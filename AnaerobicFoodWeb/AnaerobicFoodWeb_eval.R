@@ -30,7 +30,7 @@ sub.ferm.bigg <- seedEX2bigg(sub.ferm.seed)
 sim.activity <- function(sim, namespace.seed, sub.ferm, agora=F){
   if( namespace.seed ){
     dat.sub <- unique(c(setdiff(sub.ferm, "cpd00011"), "cpd00239"))
-    dat <- data.table(plotSpecActivity(sim, subs=paste0("EX_",dat.sub,"_e0"),useNames = T, rm_unused = T, ret_data = T))
+    dat <- data.table(BacArena::plotSpecActivity(sim, subs=paste0("EX_",dat.sub,"_e0"),useNames = T, rm_unused = T, ret_data = T))
     dat[,id:=seed$id[match(tolower(gsub("-e0$","",sub)), tolower(seed$name))]]
     dat[sub=="raffinose", id:="cpd00382"]
     dat[,spec.name:=trimws(genome.desc$name[match(gsub(".fna.sbml","", spec), gsub(".fna.gz","",genome.desc$file))])]
