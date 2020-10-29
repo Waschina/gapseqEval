@@ -52,7 +52,7 @@ get_sim <- function(models, namespace.seed, tsteps=7){
   models <- models[-grep(c("GCF_000024905.1|GCF_000014965.1|GCF_000013405.1"), sapply(models, mod_desc))] # syntrophic
   
   if( namespace.seed ){
-    dic <- fread("~/uni/gapseq/dat/SEED2VMH_translation_edited.csv")
+    dic <- fread("dat/SEED2VMH_translation_edited.csv")
     mb2 <- vmh2seed(upgradeModelorg(readRDS("dat/M.barkeri_iAF692.RDS")))
     models <- append(models, mb2)
   }else{
