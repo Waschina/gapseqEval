@@ -4,6 +4,6 @@ Skripts and data for gapseq evaluation tests:
 
 - Fermentation test
 - Gene essentiality
-- Anaerobic food web (**TODO**)
-- Carbon source test (Protraits) (**TODO**)
+- Anaerobic food web 
+- Carbon source test (Protraits)
 - Enzyme test (BacDive)
