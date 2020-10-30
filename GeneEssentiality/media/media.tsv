@@ -1,0 +1,210 @@
+medium	description	compound	name	vmh.id	modelseed	maxFlux
+LB_marinos	LB broth composition as modelled by G. Marinos	na1	Na+	na1	cpd00971	187
+LB_marinos	LB broth composition as modelled by G. Marinos	cl	Cl-	cl	cpd00099	172
+LB_marinos	LB broth composition as modelled by G. Marinos	ca2	Ca2+	ca2	cpd00063	0.0801
+LB_marinos	LB broth composition as modelled by G. Marinos	fe2	Fe2+	fe2	cpd10515	0.2
+LB_marinos	LB broth composition as modelled by G. Marinos	fe3	fe3	fe3	cpd10516	0.00453
+LB_marinos	LB broth composition as modelled by G. Marinos	so4	Sulfate	so4	cpd00048	0.39
+LB_marinos	LB broth composition as modelled by G. Marinos	pi	Phosphate	pi	cpd00009	10
+LB_marinos	LB broth composition as modelled by G. Marinos	mg2	Mg	mg2	cpd00254	0.235
+LB_marinos	LB broth composition as modelled by G. Marinos	k	K+	k	cpd00205	2.58
+LB_marinos	LB broth composition as modelled by G. Marinos	ala__L	L-Alanine	ala_L	cpd00035	6.73
+LB_marinos	LB broth composition as modelled by G. Marinos	asp__L	L-Aspartate	asp_L	cpd00041	5.9
+LB_marinos	LB broth composition as modelled by G. Marinos	asn__L	L-Asparagine	asn_L	cpd00132	0.833
+LB_marinos	LB broth composition as modelled by G. Marinos	glu__L	L-Glutamate	glu_L	cpd00023	13.5
+LB_marinos	LB broth composition as modelled by G. Marinos	gln__L	L-Glutamine	gln_L	cpd00053	0.137
+LB_marinos	LB broth composition as modelled by G. Marinos	gly	Glycine	gly	cpd00033	4.26
+LB_marinos	LB broth composition as modelled by G. Marinos	his__L	L-Histidine	his_L	cpd00119	1.64
+LB_marinos	LB broth composition as modelled by G. Marinos	ile__L	L-Isoleucine	ile_L	cpd00322	5.34
+LB_marinos	LB broth composition as modelled by G. Marinos	leu__L	L-Leucine	leu_L	cpd00107	7.28
+LB_marinos	LB broth composition as modelled by G. Marinos	lys__L	L-Lysine	lys_L	cpd00039	5.81
+LB_marinos	LB broth composition as modelled by G. Marinos	met__L	L-Methionine	met_L	cpd00060	1.68
+LB_marinos	LB broth composition as modelled by G. Marinos	phe__L	L-Phenylalanine	phe_L	cpd00066	3.93
+LB_marinos	LB broth composition as modelled by G. Marinos	pro__L	L-Proline	pro_L	cpd00129	6.6
+LB_marinos	LB broth composition as modelled by G. Marinos	ser__L	L-Serine	ser_L	cpd00054	2.85
+LB_marinos	LB broth composition as modelled by G. Marinos	thr__L	L-Threonine	thr_L	cpd00161	2.18
+LB_marinos	LB broth composition as modelled by G. Marinos	trp__L	L-Tryptophan	trp_L	cpd00065	0.514
+LB_marinos	LB broth composition as modelled by G. Marinos	tyr__L	L-Tyrosine	tyr_L	cpd00069	1.05
+LB_marinos	LB broth composition as modelled by G. Marinos	val__L	L-Valine	val_L	cpd00156	6.53
+LB_marinos	LB broth composition as modelled by G. Marinos	arg__L	L-Arginine	arg_L	cpd00051	3.62
+LB_marinos	LB broth composition as modelled by G. Marinos	nh4	NH3	nh4	cpd00013	2.38
+LB_marinos	LB broth composition as modelled by G. Marinos	pheme	Heme	pheme	cpd00028	0.0157
+LB_marinos	LB broth composition as modelled by G. Marinos	cys__L	L-Cysteine	cys_L	cpd00084	0.579
+LB_marinos	LB broth composition as modelled by G. Marinos	btn	Biotin	btn	cpd00104	0.00503
+LB_marinos	LB broth composition as modelled by G. Marinos	adocbl	Calomide	adocbl	cpd00166	7.38E-06
+LB_marinos	LB broth composition as modelled by G. Marinos	fol	Folate	fol	cpd00393	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	pydam	Pyridoxamine	pydam	cpd00419	0.000892
+LB_marinos	LB broth composition as modelled by G. Marinos	thm	Thiamine	thm	cpd00305	0.000188
+LB_marinos	LB broth composition as modelled by G. Marinos	ribflv	Riboflavin	ribflv	cpd00220	0.000133
+LB_marinos	LB broth composition as modelled by G. Marinos	glc__D	D-Glucose	glc_D	cpd00027	1.27
+LB_marinos	LB broth composition as modelled by G. Marinos	o2	O2	o2	cpd00007	20
+LB_marinos	LB broth composition as modelled by G. Marinos	co2	CO2	co2	cpd00011	0.622
+LB_marinos	LB broth composition as modelled by G. Marinos	h2o	H2O	h2o	cpd00001	1000
+LB_marinos	LB broth composition as modelled by G. Marinos	h	H+	h	cpd00067	6.31E-05
+LB_marinos	LB broth composition as modelled by G. Marinos	cro4	chromate	cro4	cpd11595	100
+LB_marinos	LB broth composition as modelled by G. Marinos	mn2	Mn2+	mn2	cpd00030	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	zn2	Zn2+	zn2	cpd00034	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	cu2	Cu2+	cu2	cpd00058	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	cobalt2	Co2+	cobalt2	cpd00149	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	hg2	Hg2+	hg2	cpd00531	100
+LB_marinos	LB broth composition as modelled by G. Marinos	cd2	Cd2+	cd2	cpd01012	6.67E-05
+LB_marinos	LB broth composition as modelled by G. Marinos	arab__L	L-arabinose	arab_L	cpd00224	0.763
+LB_marinos	LB broth composition as modelled by G. Marinos	man	D-mannose	man	cpd00138	1.27
+LB_marinos	LB broth composition as modelled by G. Marinos	cellb	CELB	cellb	cpd00158	0.707
+LB_marinos	LB broth composition as modelled by G. Marinos	ade	Adenine	ade	cpd00128	0.262
+LB_marinos	LB broth composition as modelled by G. Marinos	gua	Guanine	gua	cpd00207	0.206
+LB_marinos	LB broth composition as modelled by G. Marinos	csn	Cytosine	csn	cpd00307	0.155
+LB_marinos	LB broth composition as modelled by G. Marinos	ura	Uracil	ura	cpd00092	0.204
+LB_marinos	LB broth composition as modelled by G. Marinos	amp	AMP	amp	cpd00018	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	gmp	GMP	gmp	cpd00126	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	cmp	CMP	cmp	cpd00046	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	ump	UMP	ump	cpd00091	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	sheme	Siroheme	sheme	cpd00557	0.0157
+LB_marinos	LB broth composition as modelled by G. Marinos	pnto__R	Pantothenate	pnto_R	cpd00644	0.0029
+Complete2	complete2	acac	Acetoacetate	acac	cpd00142	1
+Complete2	complete2	acald	Acetaldehyde	acald	cpd00071	1
+Complete2	complete2	acgam	N-Acetyl-D-glucosamine	acgam	cpd00122	1
+Complete2	complete2	acmana	N-acetyl-D-mannosamine	acmana	cpd00492	1
+Complete2	complete2	actn__R	ACTN	actn_R	cpd00361	1
+Complete2	complete2	ala__D	D-Alanine	ala_D	cpd00117	1
+Complete2	complete2	ala__L	L-alanine	ala_L	cpd00035	1
+Complete2	complete2	alaala	Ala-Ala	alaala	cpd00731	1
+Complete2	complete2	amp	AMP	amp	cpd00018	1
+Complete2	complete2	arab__L	L-Arabinose	arab_L	cpd19109	1
+Complete2	complete2	arg__L	L-Arginine	arg_L	cpd00051	1
+Complete2	complete2	asn__L	L-asparagine	asn_L	cpd00132	1
+Complete2	complete2	asp__L	L-Aspartate	asp_L	cpd00041	1
+Complete2	complete2	but	Butyrate (n-C4:0)	but	cpd00211	1
+Complete2	complete2	bz	Benzoate	bz	cpd00153	1
+Complete2	complete2	ca2	Calcium	ca2	cpd00063	100
+Complete2	complete2	cellb	Cellobiose	cellb	cpd03845	1
+Complete2	complete2	cgly	Cys-Gly	cgly	cpd01017	1
+Complete2	complete2	cit	Citrate	cit	cpd00137	1
+Complete2	complete2	cl	Chloride	cl	cpd00099	100
+Complete2	complete2	cmp	CMP	cmp	cpd00046	1
+Complete2	complete2	co2	CO2	co2	cpd00011	1
+Complete2	complete2	coa	CoA	coa	cpd00010	1
+Complete2	complete2	cobalt2	Co2+	cobalt2	cpd00149	100
+Complete2	complete2	cu2	Cu2+	cu2	cpd00058	100
+Complete2	complete2	ddca	laurate	ddca	cpd01741	1
+Complete2	complete2	din	Deoxyinosine	din	cpd03279	1
+Complete2	complete2	drib	Deoxyribose	drib	cpd01242	1
+Complete2	complete2	etha	Aminoethanol	etha	cpd00162	1
+Complete2	complete2	fe2	fe2	fe2	cpd10515	100
+Complete2	complete2	fe3	Fe3+	fe3	cpd10516	100
+Complete2	complete2	fol	Folate	fol	cpd00393	1
+Complete2	complete2	fru	D-Fructose	fru	cpd00082	1
+Complete2	complete2	gal	D-Galactose	gal	cpd00108	1
+Complete2	complete2	galt	Galactitol	galt	cpd01171	1
+Complete2	complete2	gam	D-Glucosamine	gam	cpd00276	1
+Complete2	complete2	glc__D	D-Glucose	glc_D	cpd00027	1
+Complete2	complete2	gln__L	L-glutamine	gln_L	cpd00053	1
+Complete2	complete2	glu__L	L-Glutamate	glu_L	cpd00023	1
+Complete2	complete2	gly	Glycine	gly	cpd00033	1
+Complete2	complete2	glyald	D-Glyceraldehyde	glyald	cpd00448	1
+Complete2	complete2	glyc	Glycerol	glyc	cpd00100	1
+Complete2	complete2	glyc3p	glycerol-3-phosphate	glyc3p	cpd00080	1
+Complete2	complete2	gsn	Guanosine	gsn	cpd00311	1
+Complete2	complete2	gua	Guanine	gua	cpd00207	1
+Complete2	complete2	h	proton	h	cpd00067	100
+Complete2	complete2	h2o	H2O	h2o	cpd00001	1000
+Complete2	complete2	h2s	Hydrogen sulfide	h2s	cpd00239	1
+Complete2	complete2	his__L	L-histidine	his_L	cpd00119	1
+Complete2	complete2	hxan	Hypoxanthine	hxan	cpd00226	1
+Complete2	complete2	ile__L	L-Isoleucine	ile_L	cpd00322	1
+Complete2	complete2	inost	L-Inositol	inost	cpd00121	1
+Complete2	complete2	k	K+	k	cpd00205	100
+Complete2	complete2	LalaDgluMdapDala	L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine	LalaDgluMdapDala	cpd15387	0.1
+Complete2	complete2	leu__L	L-Leucine	leu_L	cpd00107	1
+Complete2	complete2	lys__L	L-Lysine	lys_L	cpd00039	1
+Complete2	complete2	mal__L	L-Malate	mal_L	cpd00130	1
+Complete2	complete2	malt	Maltose	malt	cpd00179	1
+Complete2	complete2	man	D-Mannose	man	cpd00138	1
+Complete2	complete2	met__L	L-Methionine	met_L	cpd00060	1
+Complete2	complete2	metox__R	L methionine R oxide	metox_R	cpd11576	1
+Complete2	complete2	mg2	Mg	mg2	cpd00254	100
+Complete2	complete2	mn2	Mn2+	mn2	cpd00030	100
+Complete2	complete2	mnl	D-Mannitol	mnl	cpd00314	1
+Complete2	complete2	nh4	NH3	nh4	cpd00013	100
+Complete2	complete2	nmn	NMN	nmn	cpd00355	1
+Complete2	complete2	o2	O2	o2	cpd00007	100
+Complete2	complete2	orn	Ornithine	orn	cpd00064	1
+Complete2	complete2	phe__L	L-phenylalanine	phe_L	cpd00066	1
+Complete2	complete2	pi	Phosphate	pi	cpd00009	100
+Complete2	complete2	pro__L	L-Proline	pro_L	cpd00129	1
+Complete2	complete2	progly	L-Prolinylglycine	progly	cpd15551	1
+Complete2	complete2	ptrc	1,4-butanediammonium	ptrc	cpd00118	1
+Complete2	complete2	rib__D	ribose	rib_D	cpd00105	1
+Complete2	complete2	ribflv	Riboflavin	ribflv	cpd00220	1
+Complete2	complete2	s	Sulfur	s	cpd00074	1
+Complete2	complete2	ser__L	L-serine	ser_L	cpd00054	1
+Complete2	complete2	skm	Shikimate	skm	cpd00383	1
+Complete2	complete2	so4	Sulfate	so4	cpd00048	100
+Complete2	complete2	spmd	spermidine(3+)	spmd	cpd00264	1
+Complete2	complete2	succ	Succinate	succ	cpd00036	1
+Complete2	complete2	sucr	Sucrose	sucr	cpd00076	1
+Complete2	complete2	tet	Tetrathionate	tet	cpd01414	1
+Complete2	complete2	thm	Thiamin	thm	cpd00305	1
+Complete2	complete2	thr__L	L-Threonine	thr_L	cpd00161	1
+Complete2	complete2	thymd	Thymidine	thymd	cpd00184	1
+Complete2	complete2	tre	Trehalose	tre	cpd00794	1
+Complete2	complete2	trp__L	L-Tryptophan	trp_L	cpd00065	1
+Complete2	complete2	tyr__L	L-Tyrosine	tyr_L	cpd00069	1
+Complete2	complete2	uaagmda	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala	uaagmda	cpd03495	0.1
+Complete2	complete2	udcpp	Undecaprenyl phosphate	udcpp	cpd00286	1
+Complete2	complete2	urea	Urea	urea	cpd00073	1
+Complete2	complete2	val__L	L-Valine	val_L	cpd00156	1
+Complete2	complete2	zn2	Zn2+	zn2	cpd00034	100
+Complete2	complete2	mobd	Molybdate	mobd	cpd11574	1
+Complete2	complete2	hg2	Hg2+	hg2	cpd00531	100
+Complete2	complete2	na1	Na+	na1	cpd00971	100
+Complete2	complete2	aso4	Arsenate	aso4	cpd01048	100
+Complete2	complete2	cro4	chromate	cro4	cpd11595	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	h2o	H2O	h2o	cpd00001	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	o2	O2	o2	cpd00007	10
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	pi	Phosphate	pi	cpd00009	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	glc__D	D-Glucose	glc_D	cpd00027	5
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mn2	Mn2+	mn2	cpd00030	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	zn2	Zn2+	zn2	cpd00034	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	so4	Sulfate	so4	cpd00048	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cu2	Cu2+	cu2	cpd00058	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	ca2	Ca2+	ca2	cpd00063	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	h	H+	h	cpd00067	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cl	Cl-	cl	cpd00099	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	k	K+	k	cpd00205	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mg2	Mg	mg2	cpd00254	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	hg2	Hg2+	hg2	cpd00531	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	na1	Na+	na1	cpd00971	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cd2	Cd2+	cd2	cpd01012	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	aso4	Arsenate	aso4	cpd01048	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	fe2	Fe2+	fe2	cpd10515	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	fe3	fe3	fe3	cpd10516	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cro4	chromate	cro4	cpd11595	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	nh4	NH3	nh4	cpd00013	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	co2	CO2	co2	cpd00011	10
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mobd	Molybdate	mobd	cpd11574	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	h2o	H2O	h2o	cpd00001	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	o2	O2	o2	cpd00007	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	pi	Phosphate	pi	cpd00009	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	succ	Succinate	succ	cpd00036	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mn2	Mn2+	mn2	cpd00030	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	zn2	Zn2+	zn2	cpd00034	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	so4	Sulfate	so4	cpd00048	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cu2	Cu2+	cu2	cpd00058	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	ca2	Ca2+	ca2	cpd00063	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	h	H+	h	cpd00067	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cl	Cl-	cl	cpd00099	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	k	K+	k	cpd00205	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mg2	Mg	mg2	cpd00254	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	hg2	Hg2+	hg2	cpd00531	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	na1	Na+	na1	cpd00971	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cd2	Cd2+	cd2	cpd01012	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	aso4	Arsenate	aso4	cpd01048	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	fe2	Fe2+	fe2	cpd10515	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	fe3	fe3	fe3	cpd10516	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cro4	chromate	cro4	cpd11595	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	nh4	NH3	nh4	cpd00013	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	co2	CO2	co2	cpd00011	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mobd	Molybdate	mobd	cpd11574	100

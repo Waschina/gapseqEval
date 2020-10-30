@@ -1,0 +1,314 @@
+biggID,seedID,gpr_iML1515,gpr_carveme,test.cm,gpr_modelseed,test.ms,gpr_gapseq,test.gs
+GLYCTO2,rxn08655,(b2979 and b4468 and b4467),(b2979 or (b2979 and b4468) or (b2979 and b4467 and b4468)),FALSE,(b4468 and b2979 and b4467),TRUE,(b2979 and b4468 and b4467),TRUE
+IPPMIb,rxn02789,(b0071 and b0072),(b0072 or (b0071 and b0072)),FALSE,(b0071 or b0072 or (b0071 and b0072)),FALSE,(b0072 and b0071),TRUE
+TRPS2,rxn00474,(b1260 and b1261),(b1261 or (b1260 and b1261)),FALSE,((b1260 and b1261) or b0369),FALSE,(b1260 and b1261),TRUE
+G3PD5,rxn08556,((b2243 and b2242 and b2241) or b3426),(b3426 or (b2241 and b2242 and b2243)),TRUE,(b3426 or (b2242 and b2241)),FALSE,(b2242 and (b2241 or b3426)),FALSE
+PFL,rxn00157,((b0902 and b0903) or (b0902 and b3114) or (b3951 and b3952) or ((b0902 and b0903) and b2579)),(b0824 or b0902 or b4379 or b3114 or (b0823 and b0824) or (b0902 and b0903) or (b0902 and b2579) or (b0902 and b3114) or (b3951 and b3952) or (b0902 and b0903 and b2579) or (b0902 and b2579 and b3114)),FALSE,((b0903 or b3951 or b0823 or b3114) or (b0824 or b0902 or b3952)),FALSE,b0823 or b3951 or b3114 or b0903,FALSE
+ANS,rxn00727,(b1263 and b1264),(b0800 or b1263 or (b1263 and b1264)),FALSE,((b1264 and b1263) or b0331),FALSE,((b1264 or b1812) and (b1263 or b3360)),FALSE
+FRD2,rxn08527,(b4152 and b4151 and b4153 and b4154),((b4151 and b4152 and b4153) or (b4151 and b4152 and b4154) or (b4151 and b4153 and b4154) or (b4151 and b4152 and b4153 and b4154)),FALSE,(b0723 or (b0721 and b0722 and b4154 and Unknown and b4152 and b4151) or (b0724 and b0723)),FALSE,((b4154 or b0723 or b2574) and b4153 and b4152),FALSE
+FRD3,rxn08528,(b4152 and b4151 and b4153 and b4154),((b4151 and b4152 and b4153) or (b4151 and b4152 and b4154) or (b4151 and b4153 and b4154) or (b4151 and b4152 and b4153 and b4154)),FALSE,(b0723 or (b0721 and b0722 and b4151 and Unknown and b4154 and b4152) or (b0723 and b0724)),FALSE,((b4154 or b0723 or b2574) and b4153 and b4152),FALSE
+RNDR1,rxn05231,((b2582 and (b2234 and b2235)) or (b3781 and (b2234 and b2235))),(b0492 or b2674 or (b2234 and b2235) or (b0492 and b2234 and b2235) or (b2234 and b2235 and b2582) or (b2234 and b2235 and b3781)),FALSE,(b2235 or (b2675 and b2676 and b2674) or b2234),FALSE,((b2675 or b2234) and (b2235 or b2676)),FALSE
+RNDR3,rxn06076,((b3781 and (b2234 and b2235)) or (b2582 and (b2234 and b2235))),(b0492 or b2674 or (b2234 and b2235) or (b2675 and b2676) or (b0492 and b2234 and b2235) or (b2234 and b2235 and b2582) or (b2234 and b2235 and b3781)),FALSE,(b2235 or (b2675 and b2676 and b2674) or b2234),FALSE,((b2675 or b2234) and (b2235 or b2676)),FALSE
+RNDR4,rxn06075,((b3781 and (b2234 and b2235)) or ((b2234 and b2235) and b2582)),(b0492 or b2674 or (b2234 and b2235) or (b0492 and b2234 and b2235) or (b2234 and b2235 and b2582) or (b2234 and b2235 and b3781)),FALSE,(b2235 or (b2675 and b2676 and b2674) or b2234),FALSE,((b2675 or b2234) and (b2235 or b2676)),FALSE
+IPPMIa,rxn02811,(b0071 and b0072),(b0072 or (b0071 and b0072)),FALSE,(b0071 or b0072 or (b0071 and b0072)),FALSE,(b0072 and b0071),TRUE
+G3PD7,rxn08558,(b2243 and b2242 and b2241),(b2241 and b2242 and b2243),TRUE,(b3426 or (b2242 and b2241)),FALSE,(b2242 and (b2241 or b3426)),FALSE
+ADCS,rxn01257,(b1812 and b3360),(b3360 or (b1812 and b3360)),FALSE,(b3360 or b1263 or b1812),FALSE,((b1812 or b3360 or b1264) and b1263 and (b1828 or b1805 or b1661)),FALSE
+DHAPT,rxn00745,(b1200 and b1198 and b2416 and b2415 and b1199),((b2415 and b2416 and b3206) or (b1198 and b1199 and b1200 and b2415 and b2416)),FALSE,(b1198 or b1198 or b1198 or b1199 or b1198 or b1200),FALSE,(b1200 and b1199 and b1198),FALSE
+TRPS3,rxn01682,(b1260 and b1261),(b1261 or (b1260 and b1261)),FALSE,((b1260 and b1261) or b0369),FALSE,(b1260 and b1261),TRUE
+ASPCT,rxn01018,((b4244 and b4245) or b4245),(b4245 or (b4244 and b4245)),TRUE,(b4245 or b4244),FALSE,b4245,TRUE
+MCOATA,rxn05465,(b1094 and b1092),(b1092 or (b1092 and b1094)),FALSE,(b1092 or b1028),FALSE,((b2323 or b1805 or b1092 or b1093 or b3455 or b2342 or b3003 or b1701 or b1385 or b2661 or b0037 or b1095 or b2371)),FALSE
+TRDR,rxn05289,((b0888 and b3781) or (b2582 and b0888)),(b0492 or b0606 or b0888 or (b0888 and b2582) or (b0888 and b3781)),FALSE,b0888,FALSE,b0888,FALSE
+AKGDH,rxn08094,(b0727 and b0116 and b0726),(b0116 or b0304 or (b0116 and b0726 and b0727)),FALSE,(b0726 or b0727 or b0871),FALSE,b0726 or b0116 or b0727 or b3962 or b0304,FALSE
+UAGAAT,rxn06729,(b1094 and b0181),(b0181 or (b0181 and b1094)),FALSE,b0181,FALSE,b0181,FALSE
+PAPSR,rxn05239,((b2582 and b2762) or (b3781 and b2762)),(b0492 or b2762 or (b0492 and b2762) or (b2582 and b2762) or (b2762 and b3781)),FALSE,(Unknown and b2762),FALSE,b2762,FALSE
+TRPS1,rxn01964,(b1260 and b1261),(b1261 or (b1260 and b1261)),FALSE,((b1260 and b1261) or b0369),FALSE,(b1260 and b1261),TRUE
+SULR,rxn00623,(b2764 and b2763),(b3742 or (b2763 and b2764)),FALSE,(b2763 and b2764),TRUE,(b2764 and b2763),TRUE
+ETHAAL,rxn00539,(b2441 and b2440),(b2441 or b2453 or (b2440 and b2441)),FALSE,(b2441 or b2440 or b1131),FALSE,((b2441 or b2440)),FALSE
+CBPS,rxn00414,(b0032 and b0033),(b0032 or b0033 or (b0032 and b0033)),FALSE,(b0033 and b0032),TRUE,(b0033 and b0032),TRUE
+ACOATA,rxn05349,(b1094 and b1091),(b1091 or (b1091 and b1094)),FALSE,(b1095 and b1091),FALSE,(b0586 and (b2323 or b1805 or b1092 or b1093 or b3455 or b2342 or b3003 or b1701 or b1385 or b2661 or b0037 or b1095 or b2371)) or b1091,FALSE
+SUCptspp,rxn05655,(b2417 and b2415 and b2416 and b2429),((b2415 and b2416 and b2417) or (b2415 and b2416 and b2417 and b2429)),FALSE,(Unknown and Unknown and Unknown and (b2416 or b2383 or b3947)),FALSE,b4240,FALSE
+SULabcpp,rxn05153,((b2423 and b2424 and b2422 and b2425) or (b0764 and b0765 and b0763) or (b2422 and b2423 and b2424 and b3917)),(b0262 or b0764 or (b0763 and b0764 and b0765) or (b2422 and b2424 and b2425) or (b2422 and b2424 and b3917) or (b2422 and b2424 and b2423) or (b2422 and b2424 and b2425 and b2423) or (b2422 and b2424 and b3917 and b2423)),FALSE,(b2413 or (b2422 and b2424 and b2423 and b2425)),FALSE,b2422 or b3917 or b0365 or b2423 or b2424 or b1756,FALSE
+TSULabcpp,rxn05176,((b2423 and b2422 and b2424 and b3917) or (b2422 and b2425 and b2424 and b2423)),(b0262 or (b2422 and b2424 and b2425) or (b2422 and b2424 and b3917) or (b2422 and b2424 and b2423) or (b2422 and b2424 and b2425 and b2423) or (b2422 and b2424 and b3917 and b2423)),FALSE,(b2425 or b2422),FALSE,b2425 or b1756,FALSE
+THMabcpp,rxn05177,(b0066 and b0068 and b0067),(b1756 or (b0066 and b0067 and b0068)),FALSE,(b0068 and b0067 and b0066),TRUE,b0067 or b0068 or b0066,FALSE
+TREptspp,rxn02005,(b2417 and b4240 and b2416 and b2415),(b3683 or (b2415 and b2417) or (b2415 and b2416 and b2417) or (b2415 and b2416 and b2417 and b4240)),FALSE,(b4240 and Unknown and (b2416 or b2383 or b3947) and b4240),FALSE,b4240,FALSE
+ACGAptspp,rxn05485,((b2416 and b2417 and b2415 and b1101) or (b2415 and b2416 and b0679)),(b2415 or (b0679 and b2415 and b2416) or (b1101 and b2415 and b2417) or (b1101 and b2415 and b2416 and b2417)),FALSE,(Unknown and (b3947 or b2383 or b2416) and b0679 and b0679),FALSE,b0679 or b1022 or b3947,FALSE
+ARGabcpp,rxn05154,((b2308 and b2306 and b2310 and b2307) or (b0864 and b0860 and b0863 and b0862 and b0861)),(b4096 or (b2306 and b2307) or (b2306 and b2307 and b2308) or (b2306 and b2307 and b2310) or (b3270 and b3271 and b3269) or (b0860 and b0861 and b0862 and b0864) or (b0861 and b0862 and b0863 and b0864) or (b2306 and b2307 and b2308 and b2310) or (b0860 and b0861 and b0862 and b0863 and b0864)),FALSE,(b0862 or b0864 or b0861),FALSE,b0863 or b0864 or b0860 or b0862 or b0861 or b2306 or b2310,FALSE
+ASPabcpp,rxn05152,(b0654 and b0652 and b0655 and b0653),((b0653 and b0654 and b0655) or (b3270 and b3271 and b3269) or (b0652 and b0653 and b0654 and b0655)),FALSE,(Unknown and Unknown and Unknown and b3268),FALSE,b0654 or b0652 or b0653 or b3271 or b3268 or b3269 or b3270,FALSE
+FRUptspp,rxn05560,(b2415 and b2167 and b2169 and b2416),((b2415 and b2416) or (b2415 and b3899) or (b2167 and b2415 and b2416) or (b2167 and b2169 and b2415 and b2416)),FALSE,((b2416 or b2383 or b3947) and (b2167 or b3899) and Unknown and (b2169 or b3900) and (b2167 or b3899)),FALSE,b3899 or b2386 or b3949 or b3900 or b0731 or b1819 or b3953 or b2167,FALSE
+ZNabcpp,rxn05150,(b1859 and b1858 and b1857),(b0820 or b3352 or b4391 or (b1858 and b1859) or (b1857 and b1858 and b1859)),FALSE,(b1858 and Unknown and Unknown),FALSE,b3469,FALSE
+MALTabcpp,rxn05170,(b4033 and b4035 and b4032 and b4034),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,(b4036 or b4035),FALSE,((b3450 or b0262 or b1318 or b4035 or b0855 or b1126 or b1441) and (b4391 or b1756 or b0949 or b2129 or b2422 or b0820)) or b4033 or b4034 or b4032 or b0829,FALSE
+MALTTRabcpp,rxn05608,(b4034 and b4035 and b4033 and b4032),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,(b4036 or (Unknown and Unknown and Unknown and b4035)),FALSE,((b3450 or b0262 or b1318 or b4035 or b0855 or b1126 or b1441) and (b4391 or b1756 or b0949 or b2129 or b2422 or b0820)),FALSE
+METabcpp,rxn05219,(b0198 and b0197 and b0199),((b0198 and b3463) or (b0197 and b0198 and b0199) or (b3270 and b3271 and b3269)),FALSE,(b0197 and b0198 and Unknown),FALSE,b0199,FALSE
+MNLptspp,rxn05617,((b2415 and b3599 and b2416) or (b2415 and b2934 and b2933 and b2416) or (b2415 and b2704 and b2702 and b2703 and b2416)),((b2415 and b2933) or (b2415 and b2416 and b3599)),FALSE,((b2933 or b3599) and b3599 and (b2383 or b2416 or b3947) and (b3599 or b2933) and Unknown),FALSE,b2933 or b2934,FALSE
+PTRCabcpp,rxn05163,((b0854 and b0855 and b0857 and b0856) or (b1440 and b1442 and b1441 and b1443) or (b1125 and b1126 and b1124 and b1123)),(b0262 or b0490 or b1756 or b3486 or (b1440 and b1441) or (b1440 and b1441 and b1443) or (b1440 and b1442 and b1443) or (b0854 and b0855 and b0856 and b0857) or (b1123 and b1124 and b1125 and b1126) or (b1440 and b1441 and b1442 and b1443)),FALSE,(Unknown and b0855 and b0857 and b0856 and Unknown and Unknown and Unknown),FALSE,b0855 or b0854 or b1126 or b1123 or b0856 or b1125 or b1124 or b0857 or b1441,FALSE
+GLNabcpp,rxn05155,(b0811 and b0809 and b0810),(b4106 or (b0809 and b0810 and b0811)),FALSE,b0809,FALSE,b0809 or b3271 or b0810 or b3268 or b3269 or b3270,FALSE
+GLUabcpp,rxn05146,(b0653 and b0655 and b0654 and b0652),((b0653 and b0654 and b0655) or (b3270 and b3271 and b3269) or (b0652 and b0653 and b0654 and b0655)),FALSE,(Unknown and b3268 and Unknown and Unknown),FALSE,b0654 or b0652 or b0653 or b3268 or b3271 or b3269 or b3270,FALSE
+HISabcpp,rxn05164,(b2307 and b2306 and b2308 and b2309),((b2306 and b2307 and b2309) or (b3270 and b3271 and b3269) or (b2306 and b2307 and b2308 and b2309)),FALSE,(b2308 or b2306 or b2307),FALSE,b2309 or b2306 or b2307 or b2308,FALSE
+GLUDy,rxn00184,(b1761 or (b3213 and b3212)),b1761,FALSE,b1761,FALSE,b1761,FALSE
+GLCptspp,rxn05226,((b1621 and b2415 and b2417 and b2416) or (b1101 and b2416 and b2415 and b2417) or (b1819 and b2415 and b1818 and b1817 and b2416)),(b2415 or (b2415 and b2417) or (b1101 and b2415 and b2417) or (b2415 and b2416 and b2417) or (b1101 and b2415 and b2416 and b2417) or (b1621 and b2415 and b2416 and b2417) or (b1818 and b1819 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)),FALSE,((b2417 and b1101 and b1101) or ((b2383 or b2416 or b3947) and Unknown and b1101 and b1101 and b2417) or ((b3682 or b1621 or b3683) and (b3683 or b1621 or b3682))),FALSE,b1621 or b1101 or b0679 or b2417,FALSE
+GLYC3Pabcpp,rxn05158,(b3452 and b3451 and b3453 and b3450),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,(b3450 or b3451 or b3452),FALSE,b3453 or b3450 or b3452 or b3451 or b1318,FALSE
+SPMDabcpp,rxn05175,((b1123 and b1125 and b1124 and b1126) or (b1443 and b1442 and b1441 and b1440)),(b0490 or b1756 or (b1440 and b1441) or (b1440 and b1441 and b1443) or (b1440 and b1442 and b1443) or (b1123 and b1124 and b1125 and b1126) or (b1440 and b1441 and b1442 and b1443)),FALSE,(Unknown and Unknown and b0856 and Unknown and b0855 and Unknown and b0857),FALSE,b1126 or b1123 or b1125 or b1124 or b0855 or b1441,FALSE
+RNDR2,rxn05233,((b3781 and (b2234 and b2235)) or (b2582 and (b2234 and b2235))),(b0492 or b2674 or (b2234 and b2235) or (b0492 and b2234 and b2235) or (b2234 and b2235 and b2582) or (b2234 and b2235 and b3781)),FALSE,(b2235 or (b2675 and b2674 and b2676) or b2234),FALSE,((b2675 or b2234) and (b2235 or b2676)),FALSE
+XAND,rxn01522,(b2866 and b2867 and b2868),(b2875 or b2880 or (b0285 and b0286) or (b2866 and b2867 and b2868)),FALSE,(b0285 or (b2867 and b2866 and b2868)),FALSE,((b2866 or b2867 or b2881 or b0284)),FALSE
+GLUSy,rxn00085,(b3213 and b3212),(b2468 or b2878 or b3213 or (b3212 and b3213)),FALSE,(b3213 and b3212),TRUE,(b3212 and (b3213 or b2468 or b2887)),FALSE
+IG3PS,rxn03135,(b2023 and b2025),(b2025 or (b2023 and b2025)),FALSE,(b2025 and Unknown),FALSE,(b2025 and b2023),TRUE
+MANptspp,rxn05610,(b1819 and b1818 and b1817 and b2416 and b2415),(b2415 or (b1818 and b1819 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)),FALSE,(b1819 or (b1817 and b1818 and (b2416 or b2383 or b3947) and b1817 and Unknown)),FALSE,b1819,FALSE
+MALTptspp,rxn05607,(b1621 and b2417 and b2415 and b2416),((b2415 and b2417) or (b2415 and b2416 and b2417) or (b1621 and b2415 and b2416 and b2417)),FALSE,(b4036 or ((b1621 or b3682 or b3683) and Unknown and (b2383 or b2416 or b3947) and (b3682 or b1621 or b3683))),FALSE,b1621,FALSE
+HXAND,rxn01297,(b2866 and b2867 and b2868),(b2875 or b2880 or (b0285 and b0286) or (b2866 and b2867 and b2868)),FALSE,(b0285 or b2866 or b2867 or b2868),FALSE,((b2866 or b2867 or b2881 or b0284)),FALSE
+SUCOAS,rxn00285,(b0729 and b0728),(b0320 or (b0728 and b0729)),FALSE,(b0729 and b0728),TRUE,(b0729 and b0728),TRUE
+SUCDi,rxn09272,(b0721 and b0722 and b0723 and b0724),((b0723 and b0724) or (b0722 and b0723 and b0724) or (b0721 and b0722 and b0723 and b0724)),FALSE,(b0723 or (b0722 and b0721 and b4154 and Unknown and b4152 and b4151) or (b0724 and b0723)),FALSE,((b0723 or b4154) and (b4153 or b0724 or b2574)),FALSE
+OBTFL,rxn04794,(((b0902 and b0903) and b2579) or (b0902 and b0903) or (b0902 and b3114)),(b0824 or b0902 or b4379 or b3114 or (b0823 and b0824) or (b0902 and b0903) or (b0902 and b2579) or (b0902 and b3114) or (b0902 and b0903 and b2579) or (b0902 and b2579 and b3114)),FALSE,((b0903 or b3951 or b0823 or b3114) or b3114),FALSE,b0823 or b3951 or b3114 or b0903,FALSE
+GLYCTO3,rxn08656,(b2979 and b4468 and b4467),(b1687 or b2979 or (b2979 and b4468) or (b2979 and b4467 and b4468)),FALSE,(b2979 and b4467 and b4468),TRUE,,
+GLYCTO4,rxn08657,(b2979 and b4468 and b4467),(b2979 or (b2979 and b4468) or (b2979 and b4467 and b4468)),FALSE,(b4468 and b2979 and b4467),TRUE,,
+ACCOAC,rxn00533,(b2316 and b3255 and b3256 and b0185),((b0185 and b3256) or (b0185 and b2316 and b3256) or (b0185 and b2316 and b3255 and b3256)),FALSE,,,(b3256),FALSE
+TARTD,rxn00245,(b3062 and b3061),(b3061 or b3062 or (b3061 and b3062)),FALSE,(b3062 or b3061),FALSE,,
+CINNDO,rxn04598,(b2542 and b2538 and b2540 and b2539),,,(b2538 or b2539),FALSE,(b2538 and b2539),FALSE
+CITL,rxn00265,(b0614 and (b0617 and b0616 and b0615)),((b0614 and b0615 and b0616) or (b0615 and b0616 and b0617) or (b0614 and b0615 and b0616 and b0617)),FALSE,(b0616 or b0615 or b0617),FALSE,,
+SADT2,rxn09240,(b2752 and b2751),(b3339 or (b2751 and b2752) or (b2752 and b4375)),FALSE,(b2751 and b2752),TRUE,,
+ACACCT,rxn00990,((b2222 and b2221) or b1694),(b2221 or b2222 or (b2221 and b2222)),FALSE,,,((b2221 or b1694) and b2222 and b2920),FALSE
+TGBPA,rxn00787,((b3132 and b3137) or (b2095 and b2096)),(b2096 or (b2095 and b2096) or (b3132 and b3137)),FALSE,,,((b2096 or b3137) and (b2095 or b3132)),FALSE
+G3PD6,rxn08557,(b2243 and b2242 and b2241),(b2241 and b2242 and b2243),TRUE,(b3426 or (b2242 and b2241)),FALSE,,
+FMNRx2,rxn03975,(b3844 or b0937 or (b2764 and b2763)),(b0937 or b2764 or b3713 or b3844 or (b2763 and b2764)),FALSE,,,b0937 or b0851,FALSE
+NTRIR2x,rxn00568,(b3366 and b3365),(b3365 or b3366 or (b3365 and b3366)),FALSE,(b3365 and b3366 and Unknown),FALSE,,
+TAURabcpp,rxn05172,(b0365 and b0367 and b0366),(b0367 or (b0366 and b0367) or (b0365 and b0366 and b0367)),FALSE,,,b0366 or b0365 or b0367,FALSE
+Kt2pp,rxn05595,((b3849 and b1291 and b3290) or b1250 or (b1291 and b1363 and b3290) or b3747),(b1250 or b3747 or b3849 or (b1291 and b1363) or (b1291 and b3290) or (b1291 and b3849) or (b1291 and b1363 and b3290) or (b1291 and b3290 and b3849)),FALSE,,,b3350 or b3290 or b3849 or b1363 or b3351 or b0046 or b3747,FALSE
+THRabcpp,rxn05169,(b3456 and b3455 and b3460 and b3457 and b3454),(b4058 or (b3454 and b3455 and b3456 and b3460) or (b3454 and b3455 and b3456 and b3457 and b3460)),FALSE,,,b3458 or b3454 or b3455,FALSE
+THD2pp,rxn09295,(b1602 and b1603),(b1602 and b1603),TRUE,,,(b1603 and b1602) or b3962 or b0116,FALSE
+VALabcpp,rxn05168,(b3457 and b3456 and b3460 and b3455 and b3454),(b4058 or (b3270 and b3271 and b3269) or (b3454 and b3455 and b3456 and b3460) or (b3454 and b3455 and b3456 and b3457 and b3460)),FALSE,,,b3458 or b3454 or b3455,FALSE
+XYLabcpp,rxn05167,(b3568 and b3566 and b3567),(b0760 or (b3566 and b3568) or (b3567 and b3568) or (b3566 and b3567 and b3568)),FALSE,,,b3568 or b3567 or b3566,FALSE
+FECRMabcpp,rxn05188,(b0153 and b0152 and b0151),,,(b0152 and b0151 and Unknown and b0153),FALSE,b0153 or b0152 or b0151 or b0588,FALSE
+ATPS4rpp,rxn08173,((b3739 and (b3731 and b3733 and b3735 and b3734 and b3732) and (b3738 and b3736 and b3737)) or ((b3731 and b3733 and b3735 and b3734 and b3732) and (b3738 and b3736 and b3737))),((b3732 and b3733 and b3734 and b3736 and b3737) or (b3731 and b3732 and b3733 and b3734 and b3735 and b3737 and b3738) or (b3731 and b3732 and b3733 and b3734 and b3735 and b3736 and b3737 and b3738) or (b3731 and b3732 and b3733 and b3734 and b3735 and b3736 and b3737 and b3738 and b3739)),FALSE,,,((b3734 or b2491 or b4004 or b2731 or b3868 or b3738) and b3732 and b3733 and b3735 and b3731 and (b0584 or b1336 or b1941 or b2844 or b2224 or b1662 or b3124 or b0514 or b0284 or b2149 or b3849 or b1397 or b0820 or b3749 or b4485 or b4087 or b2330 or b2547 or b2980 or b2026 or b2155 or b1513 or b3352 or b1900 or b3567 or b3845 or b3736 or b1363)),FALSE
+ALAabcpp,rxn08097,(b3454 and b3456 and b3455 and b3460 and b3457),((b3454 and b3455 and b3456 and b3460) or (b3454 and b3455 and b3456 and b3457 and b3460)),FALSE,,,b3458,FALSE
+ASCBptspp,rxn08158,(b4195 and b4193 and b2415 and b2416 and b4194),((b2415 and b2416 and b4193 and b4194) or (b2415 and b2416 and b4193 and b4195) or (b2415 and b2416 and b4194 and b4195) or (b2415 and b2416 and b2934 and b4193 and b4194) or (b2415 and b2416 and b4193 and b4194 and b4195)),FALSE,,,b4193 or b4194,FALSE
+CHLabcpp,rxn05159,(b2129 and b2128 and b2131 and b2130),(b0794 or (b2128 and b2129 and b2130) or (b2128 and b2130 and b2131) or (b2128 and b2129 and b2130 and b2131)),FALSE,,,b2129,FALSE
+CYSabcpp,rxn05237,(b1918 and b1920 and b1917),(b1917 and b1918 and b1920),TRUE,,,b1917,FALSE
+SBTptspp,rxn09242,(b2416 and b2704 and b2703 and b2702 and b2415),((b2415 and b2416 and b2704) or (b2415 and b2416 and b2702) or (b2415 and b2416 and b2704 and b2702 and b2703)),FALSE,,,b2703 or b2704,FALSE
+CYTBDpp,rxn08288,((b0978 and b0979) or (b0734 and b0733 and b4515)),(b0734 or b0979 or (b0733 and b0734) or (b0978 and b0979)),FALSE,,,((b0733 or b0978) and (b0979 or b0734)),FALSE
+CYTBD2pp,rxn08287,(b0978 and b0979),(b0979 or (b0978 and b0979)),FALSE,,,(b0431 and b0430),FALSE
+CYSabc2pp,rxn08280,(b0887 and b0886),(b0886 and b0887),TRUE,,,b1917,FALSE
+L_LACD3,rxn08793,((b0306 and b0308 and b0307) or b3605),(b3605 or (b0306 and b0307 and b0308)),TRUE,b3605,FALSE,,
+L_LACD2,rxn08792,((b0308 and b0306 and b0307) or b3605),(b3605 or (b0306 and b0307 and b0308)),TRUE,b3605,FALSE,,
+PAPSR2,rxn09069,((b3610 and b2762) or (b0849 and b2762) or (b1064 and b2762) or (b1654 and b2762)),(b2762 or (b0849 and b2762) or (b1064 and b2762) or (b1654 and b2762) or (b2762 and b3610)),FALSE,,,b2762,FALSE
+Kabcpp,rxn08762,((b0698 and b0697 and b0696) or (b0698 and b0696 and b0697 and b4513)),(b0697 or b4513 or (b0697 and b0698) or (b0696 and b0697 and b0698) or (b0696 and b0697 and b0698 and b4513)),FALSE,,,b0697 or b0698 or b0696 or b4242,FALSE
+LEUabcpp,rxn05161,((b3455 and b3460 and b3457 and b3454 and b3456) or (b3458 and b3456 and b3455 and b3457 and b3454)),(b4058 or (b3270 and b3271 and b3269) or (b3454 and b3455 and b3456 and b3458) or (b3454 and b3455 and b3456 and b3460) or (b3454 and b3455 and b3456 and b3457 and b3458) or (b3454 and b3455 and b3456 and b3457 and b3460)),FALSE,,,b3458 or b3454 or b3455,FALSE
+ORNabcpp,rxn05156,(b2307 and b2308 and b2306 and b2310),((b2306 and b2307) or (b2306 and b2307 and b2308) or (b2306 and b2307 and b2310) or (b2306 and b2307 and b2308 and b2310)),FALSE,,,b2306 or b2310,FALSE
+PIuabcpp,rxn05145,(b3725 and b3727 and b3728 and b3726),(b3725 or (b3725 and b3727 and b3728) or (b3725 and b3726 and b3727 and b3728)),FALSE,,,((b0829 or b3456 or b4391 or b0127 or b2180 or b4097 or b3201 or b0652 or b1247 or b3540 or b3725 or b0914 or b3454 or b1246 or b3271 or b3195 or b4106 or b3541 or b0588 or b0448 or b1496 or b0809 or b1682 or b3455 or b1917 or b1484 or b0949 or b0490 or b1483 or b2306 or b2149 or b1126 or b4485 or b2547 or b4087 or b0887 or b4287 or b3749 or b3567 or b0262 or b1441 or b0879 or b0855 or b0864 or b1291 or b3352 or b2422 or b2129 or b0886 or b0449 or b1117 or b1290)) or b1779,FALSE
+METDabcpp,rxn05183,(b0198 and b0199 and b0197),,,(b0197 and b0198 and Unknown),FALSE,b0199 or b0197 or b0198,FALSE
+ILEabcpp,rxn05179,(b3456 and b3455 and b3460 and b3457 and b3454),(b4058 or (b3270 and b3271 and b3269) or (b3454 and b3455 and b3456 and b3460) or (b3454 and b3455 and b3456 and b3457 and b3460)),FALSE,,,b3458 or b3454 or b3455,FALSE
+PROabcpp,rxn05165,(b2677 and b2678 and b2679),(b0794 or b2677 or b3195 or (b2678 and b2679) or (b2677 and b2678 and b2679) or (b3270 and b3271 and b3269)),FALSE,,,b2678 or b2677 or b2129,FALSE
+MOBDabcpp,rxn05619,((b0764 and b0765 and b0763) or (b2422 and b2423 and b2424 and b3917) or (b2425 and b2422 and b2423 and b2424)),(b0262 or b0764 or (b0763 and b0764 and b0765) or (b2422 and b2424 and b2425) or (b2422 and b2424 and b3917) or (b2422 and b2424 and b2423) or (b2422 and b2424 and b2425 and b2423) or (b2422 and b2424 and b3917 and b2423)),FALSE,,,b0763,FALSE
+CRNabcpp,rxn05180,(b2679 and b2677 and b2678),(b0794 or b2677 or b3195 or (b2678 and b2679) or (b2677 and b2678 and b2679)),FALSE,,,b2129,FALSE
+RIBabcpp,rxn05160,((b4230 and b4227 and b4485 and b4231) or (b3750 and b3751 and b3749 and b3748) or (b4088 and b4086 and b4087)),(b1513 or (b0760 and b3075) or (b3748 and b3749) or (b4086 and b4088) or (b4087 and b4088) or (b4227 and b4485) or (b4230 and b4485) or (b4231 and b4485) or (b3748 and b3749 and b3751) or (b3749 and b3750 and b3751) or (b4086 and b4087 and b4088) or (b4227 and b4230 and b4231) or (b4227 and b4230 and b4485) or (b4227 and b4231 and b4485) or (b4230 and b4231 and b4485) or (b3748 and b3749 and b3750 and b3751) or (b4227 and b4230 and b4231 and b4485)),FALSE,,,b3751 or b3750 or b3749,FALSE
+GLYBabcpp,rxn05181,((b2131 and b2129 and b2130 and b2128) or (b2677 and b2679 and b2678)),(b0794 or (b2128 and b2129 and b2130) or (b2128 and b2130 and b2131) or (b2128 and b2129 and b2130 and b2131)),FALSE,,,b2679 or b2677 or b2129,FALSE
+LYSabcpp,rxn05151,(b2308 and b2306 and b2310 and b2307),(b4106 or (b2306 and b2307) or (b2306 and b2307 and b2308) or (b2306 and b2307 and b2310) or (b2306 and b2307 and b2308 and b2310)),FALSE,,,b2310,FALSE
+GALTptspp,rxn05567,(b2092 and b2415 and b2094 and b2093 and b2416),((b2093 and b2094 and b2415 and b2416) or (b2094 and b2415 and b2416 and b4304) or (b2415 and b2416 and b4304 and b4565) or (b2093 and b2094 and b2415 and b2416 and b4304)),FALSE,(b2093 and (b2092 or b2092) and (b3947 or b2416 or b2383) and b2094 and Unknown),FALSE,,
+GALabcpp,rxn05162,((b2148 and b2149 and b2150) or (b4227 and b4230 and b4485 and b4231)),((b2148 and b2149) or (b2148 and b2150) or (b4227 and b4485) or (b4230 and b4485) or (b2148 and b2149 and b2150) or (b4227 and b4230 and b4231) or (b4227 and b4230 and b4485) or (b4227 and b4231 and b4485) or (b4230 and b4231 and b4485) or (b4227 and b4230 and b4231 and b4485)),FALSE,,,b2149 or b2150 or b3749,FALSE
+PDH,rxn00154,(b0115 and b0116 and b0114),(b0304 or (b0114 and b0116) or (b0114 and b0115 and b0116)),FALSE,,,((b0871 or b0115 or b0114 or b0113 or b0116 or b0077 or b0727)) or b3962 or b0304,FALSE
+GLCabcpp,rxn05147,(b2149 and b2148 and b2150),((b2148 and b2149) or (b2148 and b2150) or (b2148 and b2149 and b2150)),FALSE,,,b3450,FALSE
+GAMptspp,rxn05569,(b2415 and b2416 and b1819 and b1817 and b1818),(b2415 or (b1818 and b1819 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)),FALSE,((b2416 or b2383 or b3947) and Unknown),FALSE,,
+THIORDXi,rxn09296,((b3781 and b2480) or b1710 or (b2582 and b2480)),(b0492 or b0605 or b1710 or (b0492 and b2480) or (b2480 and b2582) or (b2480 and b3781)),FALSE,b3781,FALSE,,
+NADH16pp,rxn08972,(b2279 and b2277 and b2284 and b2282 and b2278 and b2288 and b2276 and b2287 and b2283 and b2281 and b2286 and b2280 and b2285),((b2281 and b2282 and b2284 and b2286 and b2287) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287) or (b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288)),FALSE,,,((b2283 or b2278 or b2284 or b2286 or b2276 or b2482 or b2277 or b2276 or b2287 or b2280 or b2282 or b2285 or b2721 or b2487 or b2723 or b2288 or b2286 or b2281 or b1627) and (b0972 or b2997) and b2484 and b1632 and b2486 and (b2719 or b2489) and (b3650 or b0869 or b4079 or b2844 or b2224 or b2784 or b1397 or b2304 or b1587 or b0894 or b3845 or b1588 or b2206 or b1109)),FALSE
+NADH18pp,rxn08974,(b2279 and b2277 and b2284 and b2282 and b2278 and b2288 and b2276 and b2287 and b2283 and b2281 and b2286 and b2280 and b2285),((b2281 and b2282 and b2284 and b2286 and b2287) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287) or (b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288)),FALSE,,,((b2283 or b2278 or b2284 or b2286 or b2276 or b2482 or b2277 or b2276 or b2287 or b2280 or b2282 or b2285 or b2721 or b2487 or b2723 or b2288 or b2286 or b2281 or b1627) and (b0972 or b2997) and b2484 and b1632 and b2486 and (b2719 or b2489) and (b3650 or b0869 or b4079 or b2844 or b2224 or b2784 or b1397 or b2304 or b1587 or b0894 or b3845 or b1588 or b2206 or b1109)),FALSE
+NADH17pp,rxn08973,(b2279 and b2277 and b2284 and b2282 and b2278 and b2288 and b2276 and b2287 and b2283 and b2281 and b2286 and b2280 and b2285),((b2281 and b2282 and b2284 and b2286 and b2287) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287) or (b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288) or (b2276 and b2277 and b2278 and b2279 and b2280 and b2281 and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288)),FALSE,,,((b2283 or b2278 or b2284 or b2286 or b2276 or b2482 or b2277 or b2276 or b2287 or b2280 or b2282 or b2285 or b2721 or b2487 or b2723 or b2288 or b2286 or b2281 or b1627) and (b0972 or b2997) and b2484 and b1632 and b2486 and (b2719 or b2489) and (b3650 or b0869 or b4079 or b2844 or b2224 or b2784 or b1397 or b2304 or b1587 or b0894 or b3845 or b1588 or b2206 or b1109)),FALSE
+ARBTptspp,rxn05501,((b3722 and b2416 and b2415) or (b2715 and b2416 and b2415)),((b2415 and b2416) or (b2415 and b2416 and b2716) or (b2415 and b2416 and b3722) or (b2415 and b2416 and b2715)),FALSE,(b3722 and Unknown and (b3947 or b2416 or b2383) and b3722 and b3722),FALSE,,
+SPMDt3pp,rxn05652,(b1600 and b1599),(b1599 and b1600),TRUE,,,b1600,FALSE
+ACHBS,,((b3670 and b3671) or (b0077 and b0078)),(b3671 or b3769 or (b0078 and b0077) or (b3670 and b3671)),FALSE,,,,
+ACLS,,((b0077 and b0078) or (b3670 and b3671)),(b3671 or b3769 or (b0078 and b0077) or (b3670 and b3671)),FALSE,,,,
+GLYCL,,(b2904 and b2903 and b0116 and b2905),(b0116 or b0304 or (b0116 and b2903) or (b0116 and b2903 and b2904) or (b0116 and b2903 and b2904 and b2905)),FALSE,,,,
+AACPS1,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+BUTCT,,(b2222 and b2221),(b2221 or b2222 or (b2221 and b2222)),FALSE,,,,
+AACPS2,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+AACPS3,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+AACPS4,,(b2836 and b1094),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+PDX5PS,rxn09072,(b2564 and b0052),(b2564 or (b0052 and b2564)),FALSE,,,,
+PPPNDO,,(b2542 and b2538 and b2540 and b2539),((b2538 and b2540 and b2542) or (b2539 and b2540 and b2542) or (b2538 and b2539 and b2540 and b2542)),FALSE,,,,
+NO3R1bpp,rxn09000,(b2205 and b2202 and b2204 and (b2206 and b2203)),(b2202 and b2203 and b2204 and b2205 and b2206),TRUE,,,,
+NO3R2pp,rxn09003,((b1467 and b1468 and b1466 and b1465) or (b1224 and b1227 and b1226 and b1225)),(b1467 or (b1224 and b1225 and b1227) or (b1224 and b1225 and b1466) or (b1225 and b1226 and b1227) or (b1466 and b1467 and b1468) or (b1224 and b1225 and b1226 and b1227) or (b1224 and b1225 and b1465 and b1466) or (b1465 and b1466 and b1467 and b1468)),FALSE,,,,
+NO3R2bpp,rxn09002,((b2206 and b2203) and b2202),(b2202 and b2203 and b2206),TRUE,,,,
+TMAOR1pp,rxn09314,((b0997 and b0996) or (b1872 and b1873)),(b1872 or b1873 or (b0996 and b0997) or (b1872 and b1873)),FALSE,,,,
+TMAOR2pp,rxn09316,((b0997 and b0996) or (b1872 and b1873)),(b1872 or b1873 or (b0996 and b0997) or (b1872 and b1873)),FALSE,,,,
+XYLUt2pp,rxn09386,(b3577 and b3578 and b3579),(b3579 or (b3579 and b3578) or (b3577 and b3579 and b3578)),FALSE,,,,
+FEOXAMabcpp,rxn05558,(b0152 and b0153 and b0151),(b0151 or (b0151 and b0152 and b0153)),FALSE,,,,
+ACMANAptspp,rxn08046,(b2415 and b1818 and b2416 and b1817 and b1819),(b2415 or (b1818 and b1819 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)),FALSE,,,,
+FEENTERabcpp,,(b0589 and b0592 and b0590 and b0588),(b0588 or (b0588 and b0589 and b0590 and b0592)),FALSE,,,,
+DMSOR1pp,rxn08355,(b1872 and b1873),(b1872 or b1873 or (b1872 and b1873)),FALSE,,,,
+ALLabcpp,rxn05185,(b4087 and b4088 and b4086),((b4086 and b4088) or (b4087 and b4088) or (b4086 and b4087 and b4088)),FALSE,,,,
+ARBabcpp,,(b4460 and b1901 and b1900),((b1900 and b1901) or (b1901 and b4460) or (b1900 and b1901 and b4460)),FALSE,,,,
+HYD2pp,rxn08735,((b0973 and b0974 and b0972) or (b2994 and b2997 and b2996 and b2995)),((b0972 and b0974) or (b2994 and b2997) or (b0972 and b0973 and b0974) or (b2994 and b2995 and b2996 and b2997)),FALSE,,,,
+FE3DCITabcpp,rxn08478,(b4287 and b4288 and b4289 and b4290),((b4288 and b4289 and b4290) or (b4287 and b4288 and b4289 and b4290)),FALSE,,,,
+FE3DCITtonex,rxn08479,((b1252 and b3005 and b3006) and b4291),((b0737 and b0738) or (b1252 and b3005 and b3006 and b4291)),FALSE,,,,
+FEENTERtonex,,(b0584 and (b1252 and b3005 and b3006)),((b0737 and b0738) or (b0584 and b1252 and b3005 and b3006)),FALSE,,,,
+BUTSO3abcpp,rxn05512,((b0934 and b0933 and b0936) or (b0366 and b0365 and b0367)),(b0367 or b0934 or b0936 or (b0366 and b0367) or (b0933 and b0934) or (b0933 and b0936) or (b0934 and b0936) or (b0365 and b0366 and b0367) or (b0933 and b0934 and b0936)),FALSE,,,,
+ETHSO3abcpp,rxn05552,(b0934 and b0933 and b0936),(b0934 or b0936 or (b0933 and b0934) or (b0933 and b0936) or (b0934 and b0936) or (b0933 and b0934 and b0936)),FALSE,,,,
+O16AP2pp,,(b2027 and b2035),(b2027 and b2035),TRUE,,,,
+O16AP3pp,,(b2027 and b2035),(b2027 and b2035),TRUE,,,,
+SULFACabcpp,rxn05656,(b0934 and b0933 and b0936),(b0934 or b0936 or (b0933 and b0934) or (b0933 and b0936) or (b0934 and b0936) or (b0933 and b0934 and b0936)),FALSE,,,,
+PHEMEabcpp,,(b2198 and b2199 and b2197 and b2200 and b2201),((b0406 and b0407 and b0408) or (b2199 and b2200 and b2201) or (b2197 and b2198 and b2200 and b2201) or (b2197 and b2199 and b2200 and b2201) or (b2197 and b2198 and b2199 and b2200 and b2201)),FALSE,,,,
+ECAP1pp,,(b3785 and b3793),(b3785 and b3793),TRUE,,,,
+ECAP2pp,,(b3785 and b3793),(b3785 and b3793),TRUE,,,,
+NHFRBO,,(b2711 and b2710),(b2710 or b2711 or (b2710 and b2711)),FALSE,,,,
+RNDR3b,rxn09233,((b0849 and (b2675 and b2676)) or ((b2675 and b2676) and b3610) or ((b2675 and b2676) and b1064) or ((b2675 and b2676) and b1654)),(b1654 or (b0849 and b2676) or (b1064 and b2676) or (b1654 and b2676) or (b2676 and b3610) or (b0849 and b2675 and b2676) or (b1064 and b2675 and b2676) or (b1654 and b2675 and b2676) or (b2675 and b2676 and b3610)),FALSE,,,,
+RNDR4b,rxn09234,((b0849 and (b2675 and b2676)) or ((b2675 and b2676) and b3610) or ((b2675 and b2676) and b1654) or ((b2675 and b2676) and b1064)),(b1654 or (b0849 and b2676) or (b1064 and b2676) or (b1654 and b2676) or (b2676 and b3610) or (b0849 and b2675 and b2676) or (b1064 and b2675 and b2676) or (b1654 and b2675 and b2676) or (b2675 and b2676 and b3610)),FALSE,,,,
+ISETACabcpp,rxn05594,((b0365 and b0366 and b0367) or (b0933 and b0934 and b0936)),(b0367 or b0934 or b0936 or (b0366 and b0367) or (b0933 and b0934) or (b0933 and b0936) or (b0934 and b0936) or (b0365 and b0366 and b0367) or (b0933 and b0934 and b0936)),FALSE,,,,
+NTRIR4pp,rxn09019,(b4070 and b4071 and b4072 and b4073),((b4070 and b4072 and b4073) or (b4070 and b4071 and b4072 and b4073)),FALSE,,,,
+NTRIR3pp,rxn09018,(b4070 and b4071 and b4072 and b4073),((b4070 and b4072 and b4073) or (b4070 and b4071 and b4072 and b4073)),FALSE,,,,
+MSO3abcpp,rxn05621,(b0933 and b0936 and b0934),(b0934 or b0936 or (b0933 and b0934) or (b0933 and b0936) or (b0934 and b0936) or (b0933 and b0934 and b0936)),FALSE,,,,
+3PEPTabcpp,rxn08003,((b1245 and b1247 and b1244 and b1329 and b1246) or (b2177 and b2180 and b2178 and b2179) or (b1245 and b1247 and b1246 and b1244 and b1243)),((b1244 and b1245 and b1247 and b1246) or (b1244 and b1245 and b1247 and b1329 and b1246)),FALSE,,,,
+4PEPTabcpp,rxn08008,((b1243 and b1247 and b1244 and b1245 and b1246) or (b2177 and b2180 and b2178 and b2179)),((b1244 and b1245 and b1247 and b1246) or (b1243 and b1244 and b1245 and b1247 and b1246) or (b1244 and b1245 and b1247 and b3020 and b1246)),FALSE,,,,
+METSOXR1,rxn06077,((b2582 and b4219) or (b3781 and b4219) or (b3551 and b2582) or (b3551 and b3781)),(b0492 or b3781 or (b2582 and b3551) or (b2582 and b4219) or (b3551 and b3781) or (b3781 and b4219)),FALSE,,,,
+METSOXR2,rxn07439,((b2582 and b1778) or (b3781 and b1778) or (b1832 and b3781) or (b1832 and b2582)),(b0492 or b2582 or b3781 or (b1778 and b2582) or (b1778 and b3781)),FALSE,,,,
+FLVR,rxn03976,(b3844 or (b2764 and b2763)),(b2764 or b3844 or (b2763 and b2764)),FALSE,,,,
+RNDR1b,rxn09231,(((b2675 and b2676) and b1064) or ((b2675 and b2676) and b3610) or (b0849 and (b2675 and b2676)) or ((b2675 and b2676) and b1654)),(b1654 or (b0849 and b2676) or (b1064 and b2676) or (b1654 and b2676) or (b2676 and b3610) or (b0849 and b2675 and b2676) or (b1064 and b2675 and b2676) or (b1654 and b2675 and b2676) or (b2675 and b2676 and b3610)),FALSE,,,,
+RNDR2b,rxn09232,((b0849 and (b2675 and b2676)) or ((b2675 and b2676) and b1064) or ((b2675 and b2676) and b1654) or ((b2675 and b2676) and b3610)),(b1654 or (b0849 and b2676) or (b1064 and b2676) or (b1654 and b2676) or (b2676 and b3610) or (b0849 and b2675 and b2676) or (b1064 and b2675 and b2676) or (b1654 and b2675 and b2676) or (b2675 and b2676 and b3610)),FALSE,,,,
+MALTHXabcpp,rxn08869,(b4034 and b4032 and b4033 and b4035),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,,,,
+MALTPTabcpp,rxn08871,(b4035 and b4032 and b4033 and b4034),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,,,,
+MALTTTRabcpp,rxn08877,(b4033 and b4032 and b4034 and b4035),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,,,,
+MANGLYCptspp,rxn08882,(b2415 and b0731 and b2416),((b2415 and b2416) or (b0731 and b2415 and b2416)),FALSE,,,,
+INDOLEt2pp,rxn08750,((b3266 and b3265) and b3035),(b0463 or b3513 or (b2076 and b3513) or (b3035 and b3265) or (b3265 and b3266) or (b3035 and b3265 and b3266) or (b3035 and b3265 and b3514)),FALSE,,,,
+NI2uabcpp,,((b3480 and b3476 and b3479 and b3477 and b3478) or b4242),(b2177 or b4242 or (b3476 and b3477 and b3478 and b3479 and b3480)),FALSE,,,,
+CRNDabcpp,rxn08259,(b2679 and b2677 and b2678),(b2677 or b3195 or (b2678 and b2679) or (b2677 and b2678 and b2679)),FALSE,,,,
+CTBTabcpp,,(b2678 and b2677 and b2679),(b2677 or b3195 or (b2678 and b2679) or (b2677 and b2678 and b2679)),FALSE,,,,
+ASR,rxn08171,(b1064 and b3503),(b2495 or (b1064 and b3503)),FALSE,,,,
+O16AP1pp,,(b2027 and b2035),(b2027 and b2035),TRUE,,,,
+14GLUCANabcpp,,(b4032 and b4034 and b4035 and b4033),((b1756 and b4032) or (b4034 and b4035) or (b4032 and b4033 and b4034 and b4035)),FALSE,,,,
+ACMUMptspp,rxn08048,(b2417 and b2416 and b2415 and b2429),((b2415 and b2416 and b2417) or (b2415 and b2416 and b2417 and b2429)),FALSE,,,,
+DMSOR2pp,rxn08357,(b1872 and b1873),(b1872 or b1873 or (b1872 and b1873)),FALSE,,,,
+HYD3pp,rxn08736,((b0973 and b0974 and b0972) or (b2994 and b2997 and b2996 and b2995)),((b0972 and b0974) or (b2994 and b2997) or (b0972 and b0973 and b0974) or (b2994 and b2995 and b2996 and b2997)),FALSE,,,,
+NO3R1pp,rxn09001,((b1467 and b1468 and b1466 and b1465) or (b1224 and b1227 and b1226 and b1225)),(b1467 or (b1224 and b1225 and b1227) or (b1224 and b1225 and b1466) or (b1225 and b1226 and b1227) or (b1466 and b1467 and b1468) or (b1224 and b1225 and b1226 and b1227) or (b1224 and b1225 and b1465 and b1466) or (b1465 and b1466 and b1467 and b1468)),FALSE,,,,
+CELBpts,,((b2715 and b2416 and b2415) or (b2416 and (b1738 and b1737 and b1736) and b2415)),(b3206 and b3947),FALSE,,,,
+AACPS5,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+ULA4Ntppi,rxn09357,(b2258 and b4544),(b2258 or (b2258 and b4544)),FALSE,,,,
+AACPS8,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+AACPS9,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+HXCT,,(b2222 and b2221),(b2221 or b2222 or (b2221 and b2222)),FALSE,,,,
+AACPS6,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+AACPS7,,(b1094 and b2836),(b1094 or b2836 or (b1094 and b2836)),FALSE,,,,
+G3PGabcpp,rxn08561,(b3450 and b3451 and b3453 and b3452),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+G3PIabcpp,rxn08563,(b3450 and b3451 and b3453 and b3452),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+DURADx,rxn00719,(b2147 and b2146),(b2146 or b2147 or (b2146 and b2147)),FALSE,,,,
+G3PSabcpp,rxn08565,(b3450 and b3451 and b3453 and b3452),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+ALAALAabcpp,rxn08098,((b3544 and b3542 and b3543 and b3540 and b3541) or (b1487 and b1486 and b1483 and b1485 and b1484)),((b1290 and b1294 and b4097) or (b1483 and b1484 and b1485 and b1486) or (b1483 and b1484 and b1485 and b1487) or (b1484 and b1485 and b1486 and b1487) or (b3540 and b3541 and b3543 and b3544) or (b1483 and b1484 and b1485 and b1486 and b1487) or (b3540 and b3541 and b3542 and b3543 and b3544)),FALSE,,,,
+G3PEabcpp,rxn08559,(b3450 and b3451 and b3453 and b3452),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+G3PCabcpp,rxn08553,(b3450 and b3451 and b3453 and b3452),(b1311 or (b0262 and b3452 and b3453) or (b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+PROGLYabcpp,rxn09189,(b3544 and b3542 and b3540 and b3541 and b3543),((b1290 and b1294 and b4097) or (b3540 and b3541 and b3543 and b3544) or (b3540 and b3541 and b3542 and b3543 and b3544)),FALSE,,,,
+GTHRDabcpp,rxn08676,(b0831 and b0830 and b0829 and b0832),((b0831 and b2180) or (b0829 and b0830 and b0831) or (b0829 and b0831 and b0832) or (b0829 and b0830 and b0831 and b0832)),FALSE,,,,
+FRUpts2pp,,(b1818 and b1817 and b2416 and b1819 and b2415),(b2415 or (b1818 and b1819 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416)),FALSE,,,,
+HYD1pp,rxn08734,((b0973 and b0974 and b0972) or (b2994 and b2997 and b2996 and b2995) or (b2722 and b2723 and b2724 and b2720 and b2721 and b2719)),((b0972 and b0974) or (b2994 and b2997) or (b0972 and b0973 and b0974) or (b2719 and b2720 and b2721 and b2722) or (b2994 and b2995 and b2996 and b2997) or (b2719 and b2720 and b2721 and b2722 and b2724) or (b2487 and b2719 and b2720 and b2722 and b2723 and b2724) or (b2719 and b2720 and b2721 and b2722 and b2723 and b2724)),FALSE,,,,
+FE3DHBZStonex,rxn08482,(((b1252 and b3005 and b3006) and b0805) or ((b1252 and b3005 and b3006) and b2155)),((b0737 and b0738) or (b1252 and b3005 and b3006) or (b0805 and b1252 and b3005 and b3006) or (b1252 and b2155 and b3005 and b3006)),FALSE,,,,
+ECAP3pp,,(b3785 and b3793),(b3785 and b3793),TRUE,,,,
+FEOXAMtonex,rxn08514,(b0150 and (b1252 and b3005 and b3006)),((b0737 and b0738) or (b1252 and b3005 and b3006) or (b0150 and b1252 and b3005 and b3006) or (b1252 and b1451 and b3005 and b3006)),FALSE,,,,
+CYTBO3_4pp,,(b0432 and b0431 and b0429 and b0430),(b0429 or (b0430 and b0431) or (b0429 and b0431 and b0432) or (b0430 and b0431 and b0432) or (b0429 and b0430 and b0431 and b0432)),FALSE,,,,
+G3PAT141,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+G3PAT181,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+MPTG,,((b1069 and b0089 and b3208) or (b3396 and b1069 and b0089) or (b2519 and b1069 and b0089) or (b0149 and b1069 and b0089)),(b0149 or b1069 or b2519 or b3208 or b3396 or (b0149 and b1069) or (b1069 and b2519) or (b1069 and b3396)),FALSE,,,,
+MPTG2,,((b0149 and b1069 and b0089) or (b1069 and b0089 and b3208) or (b3396 and b1069 and b0089) or (b2519 and b1069 and b0089)),(b0149 or b1069 or b2519 or b3208 or b3396 or (b0149 and b1069) or (b1069 and b2519) or (b1069 and b3396)),FALSE,,,,
+MCTP1App,rxn08887,((b0635 and b0084 and b3396) or (b0635 and b0084 and b0149)),(b0084 or b0149 or b0635 or b3396),FALSE,,,,
+MCTP2App,rxn08889,((b0635 and b0084 and b3396) or (b0635 and b0084 and b0149)),(b0084 or b0149 or b0635 or b3396),FALSE,,,,
+FADRx2,rxn08459,(b2764 and b2763),(b2764 or (b2763 and b2764)),FALSE,,,,
+G3PAT140,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+G3PAT160,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+G3PAT161,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+G3PAT180,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+CGLYabcpp,rxn05539,(b3544 and b3542 and b3543 and b3540 and b3541),((b1290 and b1294 and b4097) or (b3540 and b3541 and b3543 and b3544) or (b3540 and b3541 and b3542 and b3543 and b3544)),FALSE,,,,
+G3PAT120,,(b1094 and b4041),(b1094 or b4041 or (b1094 and b4041)),FALSE,,,,
+GTHRDabc2pp,rxn08675,(b0886 and b0887),(b0449 or (b0886 and b0887)),FALSE,,,,
+POR5,,((b1378 and b0684) or (b1378 and b2895)),((b0684 and b1378) or (b1378 and b2895)),TRUE,,,,
+LIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),(b4391 or (b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+S2FE2SR,,(b1680 and b1679 and b1682 and b1681 and b1683),((b1679 and b1681 and b1682) or (b1679 and b1680 and b1681 and b1682) or (b1679 and b1681 and b1682 and b1683) or (b1679 and b1680 and b1681 and b1682 and b1683)),FALSE,,,,
+CLIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+K2L4Aabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),(b4391 or (b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+FDH4pp,,((b3893 and b3894 and b3892) or (b1474 and b1476 and b1475)),(b1474 or (b1474 and b3892) or (b1475 and b1476) or (b3892 and b3893) or (b1474 and b1475 and b1476) or (b1474 and b3892 and b3893) or (b3892 and b3893 and b3894)),FALSE,,,,
+FDH5pp,,((b1474 and b1476 and b1475) or (b3893 and b3894 and b3892)),(b1474 or (b1475 and b1476) or (b3892 and b3893) or (b1474 and b1475 and b1476) or (b1474 and b3892 and b3893) or (b3892 and b3893 and b3894)),FALSE,,,,
+ACPPAT140,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+MOADSUx,,(b0784 and b2530),(b0784 and b2530),TRUE,,,,
+CMtpp,,((b0463 and b3035 and b2470) or (b0463 and b3035 and b0462)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+FUSAtpp,,((b0463 and b3035 and b0462) or (b0463 and b3035 and b2470)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+MINCYCtpp,,((b0463 and b3035 and b2470) or (b0463 and b3035 and b0462)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+SCYSDS,,(b1680 and b1679),(b1679 or (b1679 and b1680)),FALSE,,,,
+DOXRBCNtpp,,((b0463 and b3035 and b0462) or (b0463 and b3035 and b2470)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+S4FE4SR,,(b1682 and b1681 and b1683),((b1681 and b1682) or (b1681 and b1682 and b1683)),FALSE,,,,
+ACPPAT141,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+ACPPAT161,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+ACPPAT180,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+MECDPDH5,,((b2515 and b2895) or (b2515 and b0684)),((b0684 and b2515) or (b2515 and b2895)),TRUE,,,,
+RNTR1c2,,((b3924 and b0684 and b4238 and b4237) or (b3924 and b2895 and b4238 and b4237) or (b0684 and b4238) or (b2895 and b4238)),((b0684 and b4238) or (b2895 and b4238) or (b0684 and b3924 and b4237 and b4238) or (b2895 and b3924 and b4237 and b4238)),TRUE,,,,
+RNTR2c2,,((b3924 and b2895 and b4238 and b4237) or (b2895 and b4238) or (b3924 and b0684 and b4238 and b4237) or (b0684 and b4238)),((b0684 and b4238) or (b2895 and b4238) or (b0684 and b3924 and b4237 and b4238) or (b2895 and b3924 and b4237 and b4238)),TRUE,,,,
+S2FE2ST,,(b1682 and b1681 and b1684 and b1683),(b1681 and b1682 and b1683 and b1684),TRUE,,,,
+RNTR3c2,,((b3924 and b0684 and b4238 and b4237) or (b3924 and b2895 and b4238 and b4237) or (b2895 and b4238) or (b0684 and b4238)),((b0684 and b4238) or (b2895 and b4238) or (b0684 and b3924 and b4237 and b4238) or (b2895 and b3924 and b4237 and b4238)),TRUE,,,,
+RNTR4c2,,((b3924 and b0684 and b4238 and b4237) or (b3924 and b2895 and b4238 and b4237) or (b0684 and b4238) or (b2895 and b4238)),((b0684 and b4238) or (b2895 and b4238) or (b0684 and b3924 and b4237 and b4238) or (b2895 and b3924 and b4237 and b4238)),TRUE,,,,
+FLDR2,,((b3924 and b2895) or (b3924 and b0684)),((b0684 and b3924) or (b2895 and b3924)),TRUE,,,,
+NOVBCNtpp,,((b0463 and b3035 and b2470) or (b0463 and b3035 and b0462)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+TTRCYCtpp,,((b0463 and b3035 and b2470) or (b0463 and b3035 and b0462)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+I2FE2ST,,(b2529 and b2528),(b2528 and b2529),TRUE,,,,
+I2FE2SS2,,(b2530 and b2529),(b2529 and b3807 and b2530),FALSE,,,,
+I4FE4ST,,(b2529 and b2528),(b2528 and b2529),TRUE,,,,
+S4FE4ST,,(b1682 and b1681 and b1684 and b1683),(b1681 and b1682 and b1683 and b1684),TRUE,,,,
+S2FE2SS2,,(b1680 and b1683 and b1681 and b1682 and b1679),((b1679 and b1681 and b1682 and b3807) or (b1679 and b1680 and b1681 and b1682 and b3807) or (b1679 and b1681 and b1682 and b1683 and b3807) or (b1679 and b1680 and b1681 and b1682 and b1683 and b3807)),FALSE,,,,
+ACPPAT120,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+CPMPS,,(b0783 and b0781),(b0781 and b0783),TRUE,,,,
+RFAMPtpp,,((b0463 and b3035 and b0462) or (b0463 and b3035 and b2470)),((b0463 and b2470) or (b0463 and b3035) or (b2470 and b3035) or (b0462 and b0463 and b3035) or (b0463 and b2470 and b3035) or (b0463 and b3035 and b3514)),FALSE,,,,
+ACOLIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+ECA4COLIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+COLIPAPabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+ACPPAT160,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+CHTBSptspp,,((b1738 and b1737 and b1736) and b2415 and b2416),b2416,FALSE,,,,
+ACPPAT181,,(b1094 and b1090),(b1090 or (b1090 and b1094)),FALSE,,,,
+GLYC2Pabcpp,,(b3450 and b3453 and b3451 and b3452),((b3451 and b3452 and b3453) or (b3450 and b3451 and b3452 and b3453)),FALSE,,,,
+I2FE2SR,,(b2529 and b2530),(b2529 and b2530),TRUE,,,,
+THZPSN3,,(b0423 and b3990 and b2530 and b3992 and b4407),((b0423 and b3990 and b2530) or (b3990 and b3992 and b2530) or (b0423 and b3990 and b3992 and b2530) or (b3990 and b3992 and b2530 and b4407) or (b0423 and b3990 and b3992 and b2530 and b4407)),FALSE,,,,
+PACCOAE,,(b1391 and b1388 and b1392 and b1389 and b1390),((b1389 and b1390 and b1391 and b1392) or (b1388 and b1389 and b1390 and b1391 and b1392)),FALSE,,,,
+OXDHCOAT,,(b1397 and b1394),(b1394 and b1397),TRUE,,,,
+O16A4COLIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+COLIPAabctex,,(b0641 and b3200 and b4262 and b3201 and b3199 and b0054 and b4261),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+ENLIPAabctex,,(b4262 and b4261 and b3199 and b3201 and b3200 and b0054 and b0641),((b3199 and b3200 and b3201 and b4262) or (b3199 and b3200 and b3201 and b4261 and b4262)),FALSE,,,,
+PYROX,,(b1007 and b1012),(b1007 or (b1007 and b1012)),FALSE,,,,
+BMOGDS1,,(b3857 or (b3857 and b3856)),(b3857 or (b3856 and b3857)),TRUE,,,,
+MPTS,,(b0785 and b0784),(b0784 and b0785),TRUE,,,,
+BMOGDS2,,((b3857 and b3856) or b3857),(b3857 or (b3856 and b3857)),TRUE,,,,
+DMSOR1,rxn08354,((b1589 and b1590 and b1588 and b1587) or (b0895 and b0896 and b0894)),,,,,,
+TMAOR1,rxn09313,((b0895 and b0896 and b0894) or (b1589 and b1590 and b1588 and b1587)),,,,,,
+TMAOR2,rxn09315,(b0895 and b0896 and b0894),,,,,,
+DMSOR2,rxn08356,(b0895 and b0896 and b0894),,,,,,
+CBL1abcpp,,(b1709 and b0158 and b1711),,,,,,
+CPGNtonex,rxn08250,(b1102 and (b1252 and b3005 and b3006)),,,,,,
+AGt3,rxn08091,(b0572 and b0574 and b0573 and b0575),,,,,,
+CPGNabcpp,rxn08245,(b0151 and b0153 and b0152),,,,,,
+CBIuabcpp,,(b1711 and b0158 and b1709),,,,,,
+TUNGSabcpp,rxn09333,(b0764 and b0765 and b0763),,,,,,
+FECRMtonex,rxn08498,((b1252 and b3005 and b3006) and b0150),,,,,,
+ADOCBLabcpp,rxn08070,(b1709 and b0158 and b1711),,,,,,
+FE3HOXtonex,rxn08488,((b1252 and b3005 and b3006) and b0150),,,,,,
+FHL,rxn08518,((b4079 and (b2489 and b2487 and b2485 and b2482 and b2483 and b2486 and b2490 and b2488 and b2484 and b2481)) or (b4079 and (b2722 and b2723 and b2724 and b2720 and b2721 and b2719))),,,,,,
+ARBTNabcpp,rxn08143,(b0151 and b0153 and b0152),,,,,,
+CUt3,,(b0572 and b0574 and b0573 and b0575),,,,,,
+ALPATE160pp,rxn08119,(b1677 and b0657),,,,,,
+ALPATG160pp,,(b1677 and b0657),,,,,,
+FE3HOXabcpp,rxn08483,(b0151 and b0152 and b0153),,,,,,
+DSBAO1,rxn08366,(b1185 and b3860),,,,,,
+DSBAO2,rxn08367,(b1185 and b3860),,,,,,
+DSBDR,rxn08369,((b2582 and b4136) or (b3781 and b4136)),,,,,,
+TDSR1,rxn09292,(b2893 and b4136),,,,,,
+TDSR2,rxn09293,(b0604 and b4136),,,,,,
+NADHPO,rxn00066,(b0606 and b0605),,,,,,
+S2FE2SS,,(b1680 and b1683 and b1681 and b1682 and b1679),,,,,,
+SELR,,(b1589 and b1590 and b1588 and b1587),,,,,,
+BWCOGDS1,,((b3857 and b3856) or b3857),,,,,,
+BWCOGDS2,,((b3857 and b3856) or b3857),,,,,,
+I2FE2SS,,(b2530 and b2529),,,,,,
+MOGDS,,((b3857 and b3856) or b3857),,,,,,
+DHBSZ3FEabcpp,,(b0588 and b0589 and b0590 and b0592),,,,,,
+2DGLCptspp,,(b2415 and b1817 and b1819 and b2416 and b1818),,,,,,
+23DOGULNt4pp,,(b3577 and b3579 and b3578),,,,,,
+4ABZGLUH,,(b1337 and b1338),,,,,,
+SELabcpp,,((b2423 and b2422 and b2425 and b2424) or (b2423 and b2422 and b3917 and b2424)),,,,,,
+PUACGAMtr,,(b1021 and b1022),,,,,,
+AI2abcpp,,(b1516 and b1513 and b1515 and b1514),,,,,,
+4HBZt3pp,,(b3240 and b3241),,,,,,
+PUACGAMS,,(b1021 and b1022),,,,,,
+CBL1tonex,,((b1252 and b3005 and b3006) and b3966),,,,,,
+CBItonex,,((b1252 and b3005 and b3006) and b3966),,,,,,
+ADOCBLtonex,rxn08071,((b1252 and b3005 and b3006) and b3966),,,,,,
+ARMEPNS,,(b4096 and b4100 and b4099 and b4101),,,,,,
+MEPNabcpp,,(b4104 and b4105 and b4106),,,,,,
+SLNTabcpp,,((b2423 and b2422 and b2425 and b2424) or (b2423 and b2422 and b3917 and b2424)),,,,,,
+VALt3pp,,((b2683 and b2682) or b4141),,,,,,

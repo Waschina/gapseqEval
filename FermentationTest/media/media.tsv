@@ -1,0 +1,1406 @@
+medium	description	compound	name	vmh.id	modelseed	maxFlux
+TSB	Tryptic soy broth	h2o	H2O	h2o	cpd00001	100
+TSB	Tryptic soy broth	o2	O2	o2	cpd00007	100
+TSB	Tryptic soy broth	co2	CO2	co2	cpd00011	100
+TSB	Tryptic soy broth	glc__D	D-Glucose	glc_D	cpd00027	13.88
+TSB	Tryptic soy broth	sucr	Sucrose	sucr	cpd00076	0.4382120947
+TSB	Tryptic soy broth	stys	Stachyose	stys	cpd01133	0.1800239432
+TSB	Tryptic soy broth	raffin	Melitose	raffin	cpd00382	0.0594721254
+TSB	Tryptic soy broth	starch	Starch	starch	cpd11657	0.1850246021
+TSB	Tryptic soy broth	mannan	mannan	mannan	cpd11746	1.4801968168
+TSB	Tryptic soy broth	pectin	Pectin	pectin	cpd11601	3.3996260411
+TSB	Tryptic soy broth	ala__L	L-Alanine	ala_L	cpd00035	5.9870931538
+TSB	Tryptic soy broth	arg__L	L-Arginine	arg_L	cpd00051	3.861021814
+TSB	Tryptic soy broth	asp__L	L-Aspartate	asp_L	cpd00041	9.1987978963
+TSB	Tryptic soy broth	cys__L	L-Cysteine	cys_L	cpd00084	0.5829207921
+TSB	Tryptic soy broth	glu__L	L-Glutamate	glu_L	cpd00023	25.2972127804
+TSB	Tryptic soy broth	gly	Glycine	gly	cpd00033	4.3728362184
+TSB	Tryptic soy broth	his__L	L-Histidine	his_L	cpd00119	3.0599871134
+TSB	Tryptic soy broth	ile__L	L-Isoleucine	ile_L	cpd00322	7.1884908537
+TSB	Tryptic soy broth	leu__L	L-Leucine	leu_L	cpd00107	11.3816310976
+TSB	Tryptic soy broth	lys__L	L-Lysine	lys_L	cpd00039	8.9273597811
+TSB	Tryptic soy broth	met__L	L-Methionine	met_L	cpd00060	2.8445710456
+TSB	Tryptic soy broth	phe__L	L-Phenylalanine	phe_L	cpd00066	5.0161016949
+TSB	Tryptic soy broth	pro__L	L-Proline	pro_L	cpd00129	14.6513466551
+TSB	Tryptic soy broth	ser__L	L-Serine	ser_L	cpd00054	8.7603235014
+TSB	Tryptic soy broth	thr__L	L-Threonine	thr_L	cpd00161	6.0115869018
+TSB	Tryptic soy broth	trp__L	L-Tryptophan	trp_L	cpd00065	1.0025954946
+TSB	Tryptic soy broth	tyr__L	L-Tyrosine	tyr_L	cpd00069	4.6642935982
+TSB	Tryptic soy broth	val__L	L-Valine	val_L	cpd00156	9.2303159693
+TSB	Tryptic soy broth	ca2	Ca2+	ca2	cpd00063	0.2921802485
+TSB	Tryptic soy broth	pi	Phosphate	pi	cpd00009	1.6543927961
+TSB	Tryptic soy broth	na1	Na+	na1	cpd00971	0.76558354
+TSB	Tryptic soy broth	k	K+	k	cpd00205	1.4223233925
+TSB	Tryptic soy broth	mg2	Mg	mg2	cpd00254	0.3457624769
+TSB	Tryptic soy broth	fe2	Fe2+	fe2	cpd10515	0.844607808
+TSB	Tryptic soy broth	fe3	fe3	fe3	cpd10516	0.844607808
+TSB	Tryptic soy broth	cu2	Cu2+	cu2	cpd00058	0.7872879489
+TSB	Tryptic soy broth	zn2	Zn2+	zn2	cpd00034	0.232987152
+TSB	Tryptic soy broth	mn2	Mn2+	mn2	cpd00030	0.13753868
+TSB	Tryptic soy broth	fol	Folate	fol	cpd00393	0.2564114182
+TSB	Tryptic soy broth	thm	Thiamine	thm	cpd00305	0.9881288864
+TSB	Tryptic soy broth	ribflv	Riboflavin	ribflv	cpd00220	0.6934665356
+TSB	Tryptic soy broth	nac	Niacin	nac	cpd00218	0.3955018869
+TSB	Tryptic soy broth	pant__R	PAN	pant_R	cpd00644	0.1085112206
+TSB	Tryptic soy broth	pydx	Pyridoxal	pydx	cpd00215	0.457631645
+TSB	Tryptic soy broth	chol	Choline	chol	cpd00098	0.3337787557
+TSB	Tryptic soy broth	ascb__L	L-Ascorbate	ascb_L	cpd00059	0.1022030434
+TSB	Tryptic soy broth	gtocophe	Gamma-Tocopherol	gtocophe	cpd01631	0.6119804166
+TSB	Tryptic soy broth	phllqne	Vitamin K1	phllqne	cpd01401	0.3128466829
+TSB	Tryptic soy broth	cl	Cl-	cl	cpd00099	100
+TSB	Tryptic soy broth	h	H+	h	cpd00067	100
+TSB	Tryptic soy broth	cobalt2	Co2+	cobalt2	cpd00149	100
+TSB	Tryptic soy broth	pheme	Heme	pheme	cpd00028	0.1
+TSB	Tryptic soy broth	so4	Sulfate	so4	cpd00048	100
+TSB[-O2]	Tryptic soy broth anaerobic	h2o	H2O	h2o	cpd00001	100
+TSB[-O2]	Tryptic soy broth anaerobic	o2	O2	o2	cpd00007	100
+TSB[-O2]	Tryptic soy broth anaerobic	co2	CO2	co2	cpd00011	100
+TSB[-O2]	Tryptic soy broth anaerobic	glc__D	D-Glucose	glc_D	cpd00027	13.88
+TSB[-O2]	Tryptic soy broth anaerobic	sucr	Sucrose	sucr	cpd00076	0.4382120947
+TSB[-O2]	Tryptic soy broth anaerobic	stys	Stachyose	stys	cpd01133	0.1800239432
+TSB[-O2]	Tryptic soy broth anaerobic	raffin	Melitose	raffin	cpd00382	0.0594721254
+TSB[-O2]	Tryptic soy broth anaerobic	starch	Starch	starch	cpd11657	0.1850246021
+TSB[-O2]	Tryptic soy broth anaerobic	mannan	mannan	mannan	cpd11746	1.4801968168
+TSB[-O2]	Tryptic soy broth anaerobic	pectin	Pectin	pectin	cpd11601	3.3996260411
+TSB[-O2]	Tryptic soy broth anaerobic	ala__L	L-Alanine	ala_L	cpd00035	5.9870931538
+TSB[-O2]	Tryptic soy broth anaerobic	arg__L	L-Arginine	arg_L	cpd00051	3.861021814
+TSB[-O2]	Tryptic soy broth anaerobic	asp__L	L-Aspartate	asp_L	cpd00041	9.1987978963
+TSB[-O2]	Tryptic soy broth anaerobic	cys__L	L-Cysteine	cys_L	cpd00084	0.5829207921
+TSB[-O2]	Tryptic soy broth anaerobic	glu__L	L-Glutamate	glu_L	cpd00023	25.2972127804
+TSB[-O2]	Tryptic soy broth anaerobic	gly	Glycine	gly	cpd00033	4.3728362184
+TSB[-O2]	Tryptic soy broth anaerobic	his__L	L-Histidine	his_L	cpd00119	3.0599871134
+TSB[-O2]	Tryptic soy broth anaerobic	ile__L	L-Isoleucine	ile_L	cpd00322	7.1884908537
+TSB[-O2]	Tryptic soy broth anaerobic	leu__L	L-Leucine	leu_L	cpd00107	11.3816310976
+TSB[-O2]	Tryptic soy broth anaerobic	lys__L	L-Lysine	lys_L	cpd00039	8.9273597811
+TSB[-O2]	Tryptic soy broth anaerobic	met__L	L-Methionine	met_L	cpd00060	2.8445710456
+TSB[-O2]	Tryptic soy broth anaerobic	phe__L	L-Phenylalanine	phe_L	cpd00066	5.0161016949
+TSB[-O2]	Tryptic soy broth anaerobic	pro__L	L-Proline	pro_L	cpd00129	14.6513466551
+TSB[-O2]	Tryptic soy broth anaerobic	ser__L	L-Serine	ser_L	cpd00054	8.7603235014
+TSB[-O2]	Tryptic soy broth anaerobic	thr__L	L-Threonine	thr_L	cpd00161	6.0115869018
+TSB[-O2]	Tryptic soy broth anaerobic	trp__L	L-Tryptophan	trp_L	cpd00065	1.0025954946
+TSB[-O2]	Tryptic soy broth anaerobic	tyr__L	L-Tyrosine	tyr_L	cpd00069	4.6642935982
+TSB[-O2]	Tryptic soy broth anaerobic	val__L	L-Valine	val_L	cpd00156	9.2303159693
+TSB[-O2]	Tryptic soy broth anaerobic	ca2	Ca2+	ca2	cpd00063	0.2921802485
+TSB[-O2]	Tryptic soy broth anaerobic	pi	Phosphate	pi	cpd00009	1.6543927961
+TSB[-O2]	Tryptic soy broth anaerobic	na1	Na+	na1	cpd00971	0.76558354
+TSB[-O2]	Tryptic soy broth anaerobic	k	K+	k	cpd00205	1.4223233925
+TSB[-O2]	Tryptic soy broth anaerobic	mg2	Mg	mg2	cpd00254	0.3457624769
+TSB[-O2]	Tryptic soy broth anaerobic	fe2	Fe2+	fe2	cpd10515	0.844607808
+TSB[-O2]	Tryptic soy broth anaerobic	fe3	fe3	fe3	cpd10516	0.844607808
+TSB[-O2]	Tryptic soy broth anaerobic	cu2	Cu2+	cu2	cpd00058	0.7872879489
+TSB[-O2]	Tryptic soy broth anaerobic	zn2	Zn2+	zn2	cpd00034	0.232987152
+TSB[-O2]	Tryptic soy broth anaerobic	mn2	Mn2+	mn2	cpd00030	0.13753868
+TSB[-O2]	Tryptic soy broth anaerobic	fol	Folate	fol	cpd00393	0.2564114182
+TSB[-O2]	Tryptic soy broth anaerobic	thm	Thiamine	thm	cpd00305	0.9881288864
+TSB[-O2]	Tryptic soy broth anaerobic	ribflv	Riboflavin	ribflv	cpd00220	0.6934665356
+TSB[-O2]	Tryptic soy broth anaerobic	nac	Niacin	nac	cpd00218	0.3955018869
+TSB[-O2]	Tryptic soy broth anaerobic	pant__R	PAN	pant_R	cpd00644	0.1085112206
+TSB[-O2]	Tryptic soy broth anaerobic	pydx	Pyridoxal	pydx	cpd00215	0.457631645
+TSB[-O2]	Tryptic soy broth anaerobic	chol	Choline	chol	cpd00098	0.3337787557
+TSB[-O2]	Tryptic soy broth anaerobic	ascb__L	L-Ascorbate	ascb_L	cpd00059	0.1022030434
+TSB[-O2]	Tryptic soy broth anaerobic	gtocophe	Gamma-Tocopherol	gtocophe	cpd01631	0.6119804166
+TSB[-O2]	Tryptic soy broth anaerobic	phllqne	Vitamin K1	phllqne	cpd01401	0.3128466829
+TSB[-O2]	Tryptic soy broth anaerobic	cl	Cl-	cl	cpd00099	100
+TSB[-O2]	Tryptic soy broth anaerobic	h	H+	h	cpd00067	100
+TSB[-O2]	Tryptic soy broth anaerobic	cobalt2	Co2+	cobalt2	cpd00149	100
+TSB[-O2]	Tryptic soy broth anaerobic	pheme	Heme	pheme	cpd00028	0.1
+TSB[-O2]	Tryptic soy broth anaerobic	so4	Sulfate	so4	cpd00048	100
+FT	Fermentation test medium	h2o	H2O	h2o	cpd00001	100
+FT	Fermentation test medium	pi	Phosphate	pi	cpd00009	100
+FT	Fermentation test medium	co2	CO2	co2	cpd00011	0.1
+FT	Fermentation test medium	nh4	NH3	nh4	cpd00013	100
+FT	Fermentation test medium	amp	AMP	amp	cpd00018	0.1
+FT	Fermentation test medium	glu__L	L-Glutamate	glu_L	cpd00023	0.1
+FT	Fermentation test medium	glc__D	D-Glucose	glc_D	cpd00027	3
+FT	Fermentation test medium	pheme	Heme	pheme	cpd00028	0.1
+FT	Fermentation test medium	ac	acetate	ac	cpd00029	3
+FT	Fermentation test medium	mn2	Mn2+	mn2	cpd00030	100
+FT	Fermentation test medium	gly	Glycine	gly	cpd00033	0.1
+FT	Fermentation test medium	zn2	Zn2+	zn2	cpd00034	100
+FT	Fermentation test medium	ala__L	L-Alanine	ala_L	cpd00035	0.5
+FT	Fermentation test medium	lys__L	L-Lysine	lys_L	cpd00039	0.1
+FT	Fermentation test medium	asp__L	L-Aspartate	asp_L	cpd00041	0.1
+FT	Fermentation test medium	cmp	CMP	cmp	cpd00046	0.1
+FT	Fermentation test medium	so4	Sulfate	so4	cpd00048	1
+FT	Fermentation test medium	arg__L	L-Arginine	arg_L	cpd00051	0.1
+FT	Fermentation test medium	ser__L	L-Serine	ser_L	cpd00054	0.1
+FT	Fermentation test medium	cu2	Cu2+	cu2	cpd00058	100
+FT	Fermentation test medium	met__L	L-Methionine	met_L	cpd00060	0.1
+FT	Fermentation test medium	ca2	Ca2+	ca2	cpd00063	100
+FT	Fermentation test medium	trp__L	L-Tryptophan	trp_L	cpd00065	0.1
+FT	Fermentation test medium	phe__L	L-Phenylalanine	phe_L	cpd00066	0.1
+FT	Fermentation test medium	h	H+	h	cpd00067	0.1
+FT	Fermentation test medium	tyr__L	L-Tyrosine	tyr_L	cpd00069	0.1
+FT	Fermentation test medium	cys__L	L-Cysteine	cys_L	cpd00084	0.1
+FT	Fermentation test medium	ump	UMP	ump	cpd00091	0.1
+FT	Fermentation test medium	ura	Uracil	ura	cpd00092	0.1
+FT	Fermentation test medium	cl	Cl-	cl	cpd00099	100
+FT	Fermentation test medium	leu__L	L-Leucine	leu_L	cpd00107	0.1
+FT	Fermentation test medium	his__L	L-Histidine	his_L	cpd00119	0.1
+FT	Fermentation test medium	gmp	GMP	gmp	cpd00126	0.1
+FT	Fermentation test medium	pro__L	L-Proline	pro_L	cpd00129	0.1
+FT	Fermentation test medium	ppa	propionate	ppa	cpd00141	0.1
+FT	Fermentation test medium	cobalt2	Co2+	cobalt2	cpd00149	100
+FT	Fermentation test medium	val__L	L-Valine	val_L	cpd00156	0.1
+FT	Fermentation test medium	lac__L	L-lactate	lac_L	cpd00159	1.5
+FT	Fermentation test medium	thr__L	L-Threonine	thr_L	cpd00161	0.1
+FT	Fermentation test medium	adn	Adenosine	adn	cpd00182	0.1
+FT	Fermentation test medium	thymd	Thymidine	thymd	cpd00184	0.1
+FT	Fermentation test medium	k	K+	k	cpd00205	100
+FT	Fermentation test medium	lcts	LACT	lcts	cpd00208	1.5
+FT	Fermentation test medium	but	butyrate	but	cpd00211	0.1
+FT	Fermentation test medium	pydx	Pyridoxal	pydx	cpd00215	0.1
+FT	Fermentation test medium	nac	Niacin	nac	cpd00218	0.1
+FT	Fermentation test medium	ribflv	Riboflavin	ribflv	cpd00220	0.1
+FT	Fermentation test medium	lac__D	D-lactate	lac_D	cpd00221	1.5
+FT	Fermentation test medium	hxan	HYXN	hxan	cpd00226	0.1
+FT	Fermentation test medium	h2s	H2S	h2s	cpd00239	0.1
+FT	Fermentation test medium	ins	Inosine	ins	cpd00246	0.1
+FT	Fermentation test medium	uri	Uridine	uri	cpd00249	0.1
+FT	Fermentation test medium	mg2	Mg	mg2	cpd00254	100
+FT	Fermentation test medium	thm	Thiamine	thm	cpd00305	0.1
+FT	Fermentation test medium	gsn	Guanosine	gsn	cpd00311	0.1
+FT	Fermentation test medium	ile__L	L-Isoleucine	ile_L	cpd00322	0.1
+FT	Fermentation test medium	etoh	ethanol	etoh	cpd00363	0.1
+FT	Fermentation test medium	fol	Folate	fol	cpd00393	0.1
+FT	Fermentation test medium	dad_2	Deoxyadenosine	dad_2	cpd00438	0.1
+FT	Fermentation test medium	hg2	Hg2+	hg2	cpd00531	100
+FT	Fermentation test medium	lipoate	Lipoate	lipoate	cpd00541	0.1
+FT	Fermentation test medium	pant__R	PAN	pant_R	cpd00644	0.1
+FT	Fermentation test medium	dcyt	Deoxycytidine	dcyt	cpd00654	0.1
+FT	Fermentation test medium	na1	Na+	na1	cpd00971	100
+FT	Fermentation test medium	cd2	Cd2+	cd2	cpd01012	100
+FT	Fermentation test medium	aso4	Arsenate	aso4	cpd01048	100
+FT	Fermentation test medium	cbl1	Vitamin B12	cbl1	cpd03424	0.1
+FT	Fermentation test medium	fe2	Fe2+	fe2	cpd10515	100
+FT	Fermentation test medium	fe3	fe3	fe3	cpd10516	0.5
+FT	Fermentation test medium	cro4	chromate	cro4	cpd11595	100
+FT	Fermentation test medium	mobd	Molybdate	mobd	cpd11574	0.01
+FT	Fermentation test medium	sheme	Siroheme	sheme	cpd00557	0.01
+AGORA_WD	Standard constraints for western diet in AGORA	12dgr180	1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)	12dgr180	cpd15311	1
+AGORA_WD	Standard constraints for western diet in AGORA	26dap__M	meso-2,6-Diaminoheptanedioate	26dap_M	cpd00516	1
+AGORA_WD	Standard constraints for western diet in AGORA	2dmmq8	2-Demethylmenaquinone 8	2dmmq8	cpd15352	1
+AGORA_WD	Standard constraints for western diet in AGORA	2obut	2-Oxobutanoate	2obut	cpd00094	1
+AGORA_WD	Standard constraints for western diet in AGORA	3mop	3-methyl-2-oxopentanoate	3mop	cpd00508	1
+AGORA_WD	Standard constraints for western diet in AGORA	4abz	4 Aminobenzoate	4abz	cpd00443	1
+AGORA_WD	Standard constraints for western diet in AGORA	4hbz	4-Hydroxybenzoate	4hbz	cpd00136	1
+AGORA_WD	Standard constraints for western diet in AGORA	ac	acetate	ac	cpd00029	1
+AGORA_WD	Standard constraints for western diet in AGORA	acgam	N-Acetyl-D-glucosamine	acgam	cpd00122	1
+AGORA_WD	Standard constraints for western diet in AGORA	acmana	N-acetyl-D-mannosamine	acmana	cpd00492	1
+AGORA_WD	Standard constraints for western diet in AGORA	acnam	N-Acetylneuraminate	acnam	cpd00232	1
+AGORA_WD	Standard constraints for western diet in AGORA	ade	Adenine	ade	cpd00128	1
+AGORA_WD	Standard constraints for western diet in AGORA	adn	Adenosine	adn	cpd00182	1
+AGORA_WD	Standard constraints for western diet in AGORA	adocbl	Adenosylcobalamin	adpcbl	cpd00166	1
+AGORA_WD	Standard constraints for western diet in AGORA	ala__D	D-Alanine	ala_D	cpd00117	1
+AGORA_WD	Standard constraints for western diet in AGORA	ala__L	L-Alanine	ala_L	cpd00035	1
+AGORA_WD	Standard constraints for western diet in AGORA	amet	S-Adenosyl-L-methionine	amet	cpd00017	1
+AGORA_WD	Standard constraints for western diet in AGORA	amp	AMP	amp	cpd00018	1
+AGORA_WD	Standard constraints for western diet in AGORA		Amylopectin (900 glucose units)	amylopect900	cpd00265	1.56731E-05
+AGORA_WD	Standard constraints for western diet in AGORA	amylose300	Amylose	amylose300	cpd11735	4.70194E-05
+AGORA_WD	Standard constraints for western diet in AGORA	arab__D	D-Arabinose	arab_D	cpd00185	1
+AGORA_WD	Standard constraints for western diet in AGORA	arab__L	L-Arabinose	arab_L	cpd19109	0.178783
+AGORA_WD	Standard constraints for western diet in AGORA	arabinan	Arabinan	arabinan101	cpd15928	0.000166277
+AGORA_WD	Standard constraints for western diet in AGORA		Larch arabinogalactan	arabinogal	cpd11699	2.19148E-05
+AGORA_WD	Standard constraints for western diet in AGORA		Arabinoxylan	arabinoxyl	cpd22387	0.0003066486
+AGORA_WD	Standard constraints for western diet in AGORA	arg__L	L-Arginine	arg_L	cpd00051	0.15
+AGORA_WD	Standard constraints for western diet in AGORA	asn__L	L-asparagine	asn_L	cpd00132	0.225
+AGORA_WD	Standard constraints for western diet in AGORA	asp__L	L-Aspartate	asp_L	cpd00041	0.225
+AGORA_WD	Standard constraints for western diet in AGORA	bglc	beta glucans	bglc	cpd22448	7.05E-08
+AGORA_WD	Standard constraints for western diet in AGORA	btn	Biotin	btn	cpd00104	1
+AGORA_WD	Standard constraints for western diet in AGORA	ca2	Calcium	ca2	cpd00063	1
+AGORA_WD	Standard constraints for western diet in AGORA	cbl1	Cob(I)alamin	cbl1	cpd00635	1
+AGORA_WD	Standard constraints for western diet in AGORA	cellb	Cellobiose	cellb	cpd03845	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	cell500	Cellulose	cellul		2.82117E-05
+AGORA_WD	Standard constraints for western diet in AGORA	cgly	Cys-Gly	cgly	cpd01017	1
+AGORA_WD	Standard constraints for western diet in AGORA	chol	Choline	chol	cpd00098	1
+AGORA_WD	Standard constraints for western diet in AGORA	chor	Chorismate	chor	cpd00216	1
+AGORA_WD	Standard constraints for western diet in AGORA	chsterol	cholesterol	chsterol	cpd00160	0.004958
+AGORA_WD	Standard constraints for western diet in AGORA	cit	Citrate	cit	cpd00137	1
+AGORA_WD	Standard constraints for western diet in AGORA	cl	Chloride	cl	cpd00099	1
+AGORA_WD	Standard constraints for western diet in AGORA	cobalt2	Co2+	cobalt2	cpd00149	1
+AGORA_WD	Standard constraints for western diet in AGORA	csn	Cytosine	csn	cpd00307	1
+AGORA_WD	Standard constraints for western diet in AGORA	cu2	Cu2+	cu2	cpd00058	1
+AGORA_WD	Standard constraints for western diet in AGORA	cys__L	L-cysteine	cys_L	cpd00084	1
+AGORA_WD	Standard constraints for western diet in AGORA	cytd	Cytidine	cytd	cpd00367	1
+AGORA_WD	Standard constraints for western diet in AGORA	dad_2	2-deoxyadenosine	dad_2	cpd00438	1
+AGORA_WD	Standard constraints for western diet in AGORA	dcyt	Deoxycytidine	dcyt	cpd00654	1
+AGORA_WD	Standard constraints for western diet in AGORA	ddca	laurate	ddca	cpd01741	1
+AGORA_WD	Standard constraints for western diet in AGORA		Dextran 40, (1,6-alpha-D-Glucan)	dextran40	cpd11658	0.0001763229
+AGORA_WD	Standard constraints for western diet in AGORA	dgsn	Deoxyguanosine	dgsn	cpd00277	1
+AGORA_WD	Standard constraints for western diet in AGORA	drib	Deoxyribose	drib	cpd01242	0.178783
+AGORA_WD	Standard constraints for western diet in AGORA	fald	formaldehyde	fald	cpd00055	1
+AGORA_WD	Standard constraints for western diet in AGORA	fe2	Fe2+	fe2	cpd10515	1
+AGORA_WD	Standard constraints for western diet in AGORA	fe3	Fe3+	fe3	cpd10516	1
+AGORA_WD	Standard constraints for western diet in AGORA	fol	Folate	fol	cpd00393	1
+AGORA_WD	Standard constraints for western diet in AGORA	for	Formate	for	cpd00047	1
+AGORA_WD	Standard constraints for western diet in AGORA	fru	D-Fructose	fru	cpd00082	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	fuc__L	L-Fucose	fuc_L	cpd00751	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	fum	fumarate	fum	cpd00106	1
+AGORA_WD	Standard constraints for western diet in AGORA	gal	D-Galactose	gal	cpd00108	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA		Galactomannan	galmannan	cpd00656	1.41058E-05
+AGORA_WD	Standard constraints for western diet in AGORA	gam	D-Glucosamine	gam	cpd00276	1
+AGORA_WD	Standard constraints for western diet in AGORA	glc__D	D-Glucose	glc_D	cpd00027	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA		Glucomannan	glcmannan	cpd11955	3.28807E-05
+AGORA_WD	Standard constraints for western diet in AGORA	glcn	D-Gluconate	glcn	cpd00222	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	gln__L	L-glutamine	gln_L	cpd00053	0.18
+AGORA_WD	Standard constraints for western diet in AGORA	glu__L	L-Glutamate	glu_L	cpd00023	0.18
+AGORA_WD	Standard constraints for western diet in AGORA	gly	Glycine	gly	cpd00033	0.45
+AGORA_WD	Standard constraints for western diet in AGORA	glyc	Glycerol	glyc	cpd00100	1.799655
+AGORA_WD	Standard constraints for western diet in AGORA	glyc3p	Ex glyc3p[e]	glyc3p	cpd00080	1
+AGORA_WD	Standard constraints for western diet in AGORA	gsn	Guanosine	gsn	cpd00311	1
+AGORA_WD	Standard constraints for western diet in AGORA	gthox	Oxidized glutathione	gthox	cpd00111	1
+AGORA_WD	Standard constraints for western diet in AGORA	gthrd	Reduced glutathione	gthrd	cpd00042	1
+AGORA_WD	Standard constraints for western diet in AGORA	gua	Guanine	gua	cpd00207	1
+AGORA_WD	Standard constraints for western diet in AGORA	h	proton	h	cpd00067	1
+AGORA_WD	Standard constraints for western diet in AGORA	h2	H2	h2	cpd11640	1
+AGORA_WD	Standard constraints for western diet in AGORA	h2o	H2O	h2o	cpd00001	10
+AGORA_WD	Standard constraints for western diet in AGORA	h2s	Hydrogen sulfide	h2s	cpd00239	1
+AGORA_WD	Standard constraints for western diet in AGORA	hdca	Hexadecanoate (n-C16:0)	hdca	cpd00214	0.396371
+AGORA_WD	Standard constraints for western diet in AGORA	his__L	L-histidine	his_L	cpd00119	0.15
+AGORA_WD	Standard constraints for western diet in AGORA		Homogalacturonan	homogal		0.0001282349
+AGORA_WD	Standard constraints for western diet in AGORA	hxan	Hypoxanthine	hxan	cpd00226	1
+AGORA_WD	Standard constraints for western diet in AGORA	ile__L	L-Isoleucine	ile_L	cpd00322	0.15
+AGORA_WD	Standard constraints for western diet in AGORA	indole	Indole	indole	cpd00359	1
+AGORA_WD	Standard constraints for western diet in AGORA		Inulin	inulin	cpd11602	0.0004701945
+AGORA_WD	Standard constraints for western diet in AGORA	k	K+	k	cpd00205	1
+AGORA_WD	Standard constraints for western diet in AGORA		Kestopentaose	kestopt		0.0028211667
+AGORA_WD	Standard constraints for western diet in AGORA	lanost	Lanosterol	lanost	cpd01188	1
+AGORA_WD	Standard constraints for western diet in AGORA	lcts	Lactose	lcts	cpd00208	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	leu__L	L-Leucine	leu_L	cpd00107	0.15
+AGORA_WD	Standard constraints for western diet in AGORA		Levan	levan1000	cpd27401	1.41058E-05
+AGORA_WD	Standard constraints for western diet in AGORA		Lichenin	lichn	cpd27402	8.29755E-05
+AGORA_WD	Standard constraints for western diet in AGORA	lmn30	Laminarin	lmn30	cpd11748	0.0004701945
+AGORA_WD	Standard constraints for western diet in AGORA	lys__L	L-Lysine	lys_L	cpd00039	0.15
+AGORA_WD	Standard constraints for western diet in AGORA	malt	Maltose	malt	cpd00179	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	man	D-Mannose	man	cpd00138	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	melib	Melibiose	melib	cpd03198	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	meoh	methanol	meoh	cpd00116	10
+AGORA_WD	Standard constraints for western diet in AGORA	met__L	L-Methionine	met_L	cpd00060	0.18
+AGORA_WD	Standard constraints for western diet in AGORA	metsox_S__L	L-Methionine S-oxide	metsox_S_L	cpd01914	1
+AGORA_WD	Standard constraints for western diet in AGORA	mg2	Mg	mg2	cpd00254	1
+AGORA_WD	Standard constraints for western diet in AGORA	mn2	Mn2+	mn2	cpd00030	1
+AGORA_WD	Standard constraints for western diet in AGORA	mnl	D-Mannitol	mnl	cpd00314	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	mobd	Molybdate	mobd	cpd11574	1
+AGORA_WD	Standard constraints for western diet in AGORA	mqn7	Menaquinone 7	mqn7	cpd11606	1
+AGORA_WD	Standard constraints for western diet in AGORA	mqn8	Menaquinone 8	mqn8	cpd15500	1
+AGORA_WD	Standard constraints for western diet in AGORA	na1	Sodium	na1	cpd00971	1
+AGORA_WD	Standard constraints for western diet in AGORA	nac	Nicotinate	nac	cpd00218	1
+AGORA_WD	Standard constraints for western diet in AGORA	ncam	Nicotinamide	ncam	cpd00133	1
+AGORA_WD	Standard constraints for western diet in AGORA	nmn	NMN	nmn	cpd00355	1
+AGORA_WD	Standard constraints for western diet in AGORA	no2	Nitrite	no2	cpd00075	1
+AGORA_WD	Standard constraints for western diet in AGORA	ocdca	echange reaction for octadecanoate (n-C18:0)	ocdca	cpd01080	0.169283
+AGORA_WD	Standard constraints for western diet in AGORA	ocdcea	octadecenoate (n-C18:1)	ocdcea	cpd00536	0.681445
+AGORA_WD	Standard constraints for western diet in AGORA	orn	Ornithine	orn	cpd00064	1
+AGORA_WD	Standard constraints for western diet in AGORA	oxa	Oxalate	oxa	cpd00180	0.446957
+AGORA_WD	Standard constraints for western diet in AGORA	pect	pectins	pect	cpd11601	3.33866E-05
+AGORA_WD	Standard constraints for western diet in AGORA	phe__L	L-phenylalanine	phe_L	cpd00066	1
+AGORA_WD	Standard constraints for western diet in AGORA	pheme	heme	pheme	cpd00028	1
+AGORA_WD	Standard constraints for western diet in AGORA	pi	Phosphate	pi	cpd00009	1
+AGORA_WD	Standard constraints for western diet in AGORA	pime	Pimelate	pime	cpd01727	1
+AGORA_WD	Standard constraints for western diet in AGORA	pnto__R	(R)-Pantothenate	pnto_R	cpd00644	1
+AGORA_WD	Standard constraints for western diet in AGORA	pro__L	L-Proline	pro_L	cpd00129	0.18
+AGORA_WD	Standard constraints for western diet in AGORA	ptrc	1,4-butanediammonium	ptrc	cpd00118	1
+AGORA_WD	Standard constraints for western diet in AGORA	pullulan1200	Pullulan	pullulan1200	cpd27994	1.17549E-05
+AGORA_WD	Standard constraints for western diet in AGORA	pydam	Pyridoxamine	pydam	cpd00419	1
+AGORA_WD	Standard constraints for western diet in AGORA	pydx	Pyridoxal	pydx	cpd00215	1
+AGORA_WD	Standard constraints for western diet in AGORA	pydxn	Pyridoxine	pydxn	cpd00263	1
+AGORA_WD	Standard constraints for western diet in AGORA	q8	Ubiquinone-8	q8	cpd15560	1
+AGORA_WD	Standard constraints for western diet in AGORA	raffin	Raffinose	raffin	cpd00382	0.0047019445
+AGORA_WD	Standard constraints for western diet in AGORA		Rhamnogalacturonan I	rhamnogalurI		1.44923E-05
+AGORA_WD	Standard constraints for western diet in AGORA		Rhamnogalacturonan II	rhamnogalurII		0.0002669874
+AGORA_WD	Standard constraints for western diet in AGORA	rib__D	ribose	rib_D	cpd00105	0.178783
+AGORA_WD	Standard constraints for western diet in AGORA	ribflv	Riboflavin	ribflv	cpd00220	1
+AGORA_WD	Standard constraints for western diet in AGORA	rmn	L-Rhamnose	rmn	cpd00396	0.148986
+AGORA_WD	Standard constraints for western diet in AGORA	sel	Selenate	sel	cpd03396	1
+AGORA_WD	Standard constraints for western diet in AGORA	ser__L	L-serine	ser_L	cpd00054	1
+AGORA_WD	Standard constraints for western diet in AGORA	sheme	Siroheme	sheme	cpd00557	1
+AGORA_WD	Standard constraints for western diet in AGORA	so4	Sulfate	so4	cpd00048	1
+AGORA_WD	Standard constraints for western diet in AGORA	spmd	spermidine(3+)	spmd	cpd00264	1
+AGORA_WD	Standard constraints for western diet in AGORA	starch1200	Starch	starch1200	cpd28193	1.17549E-05
+AGORA_WD	Standard constraints for western diet in AGORA	strch1	starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})	strch1	cpd11657	0.257339
+AGORA_WD	Standard constraints for western diet in AGORA	sucr	Sucrose	sucr	cpd00076	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	thm	Thiamin	thm	cpd00305	1
+AGORA_WD	Standard constraints for western diet in AGORA	thr__L	L-Threonine	thr_L	cpd00161	0.225
+AGORA_WD	Standard constraints for western diet in AGORA	thymd	Thymidine	thymd	cpd00184	1
+AGORA_WD	Standard constraints for western diet in AGORA	tre	Trehalose	tre	cpd00794	0.074493
+AGORA_WD	Standard constraints for western diet in AGORA	trp__L	L-Tryptophan	trp_L	cpd00065	0.08182
+AGORA_WD	Standard constraints for western diet in AGORA	ttdca	tetradecanoate (n-C14:0)	ttdca	cpd03847	0.068676
+AGORA_WD	Standard constraints for western diet in AGORA	tyr__L	L-Tyrosine	tyr_L	cpd00069	1
+AGORA_WD	Standard constraints for western diet in AGORA	ura	Uracil	ura	cpd00092	1
+AGORA_WD	Standard constraints for western diet in AGORA	uri	Uridine	uri	cpd00249	1
+AGORA_WD	Standard constraints for western diet in AGORA	val__L	L-Valine	val_L	cpd00156	0.18
+AGORA_WD	Standard constraints for western diet in AGORA	xan	Ex xan[e]	xan	cpd00309	1
+AGORA_WD	Standard constraints for western diet in AGORA	xyl__D	D-Xylose	xyl_D	cpd00154	0.178783
+AGORA_WD	Standard constraints for western diet in AGORA	xylan12	Xylan	xylan	cpd11732	3.20587E-05
+AGORA_WD	Standard constraints for western diet in AGORA	cpd11752	Xyluglucan	xyluglc	cpd11752	1.31462E-05
+AGORA_WD	Standard constraints for western diet in AGORA	zn2	Zinc	zn2	cpd00034	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	12dgr180	1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)	12dgr180	cpd15311	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	15dap	1,5-Diaminopentane	15dap	cpd01155	0.0002099522
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	26dap__M	meso-2,6-Diaminoheptanedioate	26dap_M	cpd00516	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	2dmmq8	2-Demethylmenaquinone 8	2dmmq8	cpd15352	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	2obut	2-Oxobutanoate	2obut	cpd00094	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	3mop	3-methyl-2-oxopentanoate	3mop	cpd00508	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	4abz	4 Aminobenzoate	4abz	cpd00443	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	4hbz	4-Hydroxybenzoate	4hbz	cpd00136	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ac	Acetate	ac	cpd00029	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	acgam	N-Acetyl-D-glucosamine	acgam	cpd00122	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	acmana	N-acetyl-D-mannosamine	acmana	cpd00492	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	acnam	N-Acetylneuraminate	acnam	cpd00232	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ade	Adenine	ade	cpd00128	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	adn	Adenosine	adn	cpd00182	0.01180031
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	adpcbl	Adenosylcobalamin	adpcbl	cpd00166	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ala__D	D-Alanine	ala_D	cpd00117	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ala__L	L-alanine	ala_L	cpd00035	0.2209276809
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	amet	S-Adenosyl-L-methionine	amet	cpd00017	0.0001
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	amp	AMP	amp	cpd00018	0.0001
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	amylopect900	Amylopectin (900 glucose units)	amylopect900	cpd00265	1.56731E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	amylose300	Amylose	amylose300	cpd11735	4.70194E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arab__D	D-Arabinose	arab_D	cpd00185	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arab__L	L-Arabinose	arab_L	cpd19109	0.00178783
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arabinan101	Arabinan	arabinan101	cpd15928	0.00201556
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arabinogal	Larch arabinogalactan	arabinogal	cpd11699	2.19148E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arabinoxyl	Arabinoxylan	arabinoxyl	cpd22387	3.066486E-06
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	arg__L	L-Arginine	arg_L	cpd00051	0.123033714
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	asn__L	L-asparagine	asn_L	cpd00132	0.1365041903
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	asp__L	L-Aspartate	asp_L	cpd00041	0.1365041903
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	bglc	beta glucans	bglc	cpd22448	7.05E-10
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	btn	Biotin	btn	cpd00104	0.0100009605
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	but	Butyrate (n-C4:0)	but	cpd00211	0.070965801
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ca2	Calcium	ca2	cpd00063	0.1206519693
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cbl1	Cob(I)alamin	cbl1	cpd00635	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cbl2	Cob(II)alamin	cbl2	cpd00423	2.30943762966508E-08
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cellb	Cellobiose	cellb	cpd03845	0.00074493
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cellul	Cellulose	cellul	cpd00158	0.0003057055
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cgly	Cys-Gly	cgly	cpd01017	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	chol	Choline	chol	cpd00098	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	chor	Chorismate	chor	cpd00216	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	chsterol	cholesterol	chsterol	cpd00160	0.0048513082
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cit	Citrate	cit	cpd00137	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cl	Chloride	cl	cpd00099	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cobalt2	Co2+	cobalt2	cpd00149	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	csn	Cytosine	csn	cpd00307	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cu2	Cu2+	cu2	cpd00058	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cys__L	L-cysteine	cys_L	cpd00084	0.0520254099
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	cytd	Cytidine	cytd	cpd00367	0.0120505887
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	dad__2	2-deoxyadenosine	dad_2	cpd00438	0.01180031
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	dcyt	Deoxycytidine	dcyt	cpd00654	0.0120505887
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ddca	laurate	ddca	cpd01741	0.0685966757
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	dextran40	Dextran 40, (1,6-alpha-D-Glucan)	dextran40	cpd11658	1.763229E-06
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	dgsn	Deoxyguanosine	dgsn	cpd00277	0.0120505887
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	drib	Deoxyribose	drib	cpd01242	0.00178783
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	etoh	Ethanol	etoh	cpd00363	1.2567363166
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fald	formaldehyde	fald	cpd00055	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fe2	fe2	fe2	cpd10515	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fe3	Fe3+	fe3	cpd10516	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fol	Folate	fol	cpd00393	0.0100009994
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	for	Formate	for	cpd00047	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fru	D-Fructose	fru	cpd00082	0.7749437979
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fuc__L	L-Fucose	fuc_L	cpd00751	0.00148986
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	fum	fumarate	fum	cpd00106	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gal	D-Galactose	gal	cpd00108	0.0142987165
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	galmannan	Galactomannan	galmannan	cpd00656	1.41058E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gam	D-Glucosamine	gam	cpd00276	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glc__D	D-Glucose	glc_D	cpd00027	0.6382068862
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glcmannan	Glucomannan	glcmannan	cpd11955	3.28807E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glcn	D-Gluconate	glcn	cpd00222	0.00148986
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gln__L	L-glutamine	gln_L	cpd00053	0.2580123516
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glu__L	L-Glutamate	glu_L	cpd00023	0.2580123516
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gly	Glycine	gly	cpd00033	0.2146577906
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glyc	Glycerol	glyc	cpd00100	0.3687621312
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glyc3p	glyc3p[e]	glyc3p	cpd00080	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	glygn2	glycogen, structure 2 (glycogenin-1,6-{7[1,4-Glc], 4[1,4-Glc]})	glygn2	cpd00155	0.0007080567
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gsn	Guanosine	gsn	cpd00311	0.0120505887
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gthox	Oxidized glutathione	gthox	cpd00111	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gthrd	Reduced glutathione	gthrd	cpd00042	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	gua	Guanine	gua	cpd00207	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	h	proton	h	cpd00067	0.010005871
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	h2	H2	h2	cpd11640	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	h2o	H2O	h2o	cpd00001	899.5481541463
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	h2s	Hydrogen sulfide	h2s	cpd00239	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	hdca	Hexadecanoate (n-C16:0)	hdca	cpd00214	0.3828181338
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	his__L	L-histidine	his_L	cpd00119	0.068998523
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	homogal	Homogalacturonan	homogal		1.282349E-06
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	hxan	Hypoxanthine	hxan	cpd00226	0.0143784249
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ile__L	L-Isoleucine	ile_L	cpd00322	0.1434704763
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	indole	Indole	indole	cpd00359	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	inulin	Inulin	inulin	cpd11602	0.0068897463
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	k	K+	k	cpd00205	0.4078688384
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	kestopt	Kestopentaose	kestopt		0.0023101135
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	lanost	Lanosterol	lanost	cpd01188	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	lcts	Lactose	lcts	cpd00208	0.1572936961
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	leu__L	L-Leucine	leu_L	cpd00107	0.2298826784
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	levan1000	Levan	levan1000	cpd27401	1.41058E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	lichn	Lichenin	lichn	cpd27402	8.29755E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	lmn30	Laminarin	lmn30	cpd11748	4.701945E-06
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	lys__L	L-Lysine	lys_L	cpd00039	0.1804121894
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	malt	Maltose	malt	cpd00179	0.0308846912
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	malttr	Maltotriose	malttr	cpd01262	0.0348922813
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	man	D-Mannose	man	cpd00138	0.00148986
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	melib	Melibiose	melib	cpd03198	0.00074493
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	meoh	methanol	meoh	cpd00116	0.1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	met__L	L-Methionine	met_L	cpd00060	0.0581796163
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	metsox__S__L	L-Methionine S-oxide	metsox_S_L	cpd01914	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mg2	Mg	mg2	cpd00254	0.0821832787
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mn2	Mn2+	mn2	cpd00030	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mnl	D-Mannitol	mnl	cpd00314	0.0103417227
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mobd	Molybdate	mobd	cpd11574	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mqn7	Menaquinone 7	mqn7	cpd11606	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	mqn8	Menaquinone 8	mqn8	cpd15500	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	na1	Sodium	na1	cpd00971	0.5216802911
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	nac	Nicotinate	nac	cpd00218	0.0103167885
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ncam	Nicotinamide	ncam	cpd00133	0.0103167885
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	nmn	NMN	nmn	cpd00355	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	no2	Nitrite	no2	cpd00075	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ocdca	echange reaction for octadecanoate (n-C18:0)	ocdca	cpd01080	0.1474632767
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ocdcea	octadecenoate (n-C18:1)	ocdcea	cpd00536	0.5444822177
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	orn	Ornithine	orn	cpd00064	0.0131268799
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	oxa	Oxalate	oxa	cpd00180	0.00446957
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pect	pectins	pect	cpd11601	3.33866E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	phe__L	L-phenylalanine	phe_L	cpd00066	0.1133907221
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pheme	heme	pheme	cpd00028	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pi	Phosphate	pi	cpd00009	1
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pime	Pimelate	pime	cpd01727	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pnto__R	(R)-Pantothenate	pnto_R	cpd00644	0.0101132785
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pro__L	L-Proline	pro_L	cpd00129	0.240149791
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ptrc	1,4-butanediammonium	ptrc	cpd00118	0.0103800912
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pullulan1200	Pullulan	pullulan1200	cpd27994	1.17549E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pydam	Pyridoxamine	pydam	cpd00419	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pydx	Pyridoxal	pydx	cpd00215	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	pydxn	Pyridoxine	pydxn	cpd00263	0.0100479715
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	q8	Ubiquinone-8	q8	cpd15560	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	raffin	Raffinose	raffin	cpd00382	4.7019445E-05
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	rhamnogalurI	Rhamnogalacturonan I	rhamnogalurI		0.0001195937
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	rhamnogalurII	Rhamnogalacturonan II	rhamnogalurII		2.669874E-06
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	rib__D	ribose	rib_D	cpd00105	0.1576051499
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ribflv	Riboflavin	ribflv	cpd00220	0.0100208569
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	rmn	L-Rhamnose	rmn	cpd00396	0.00148986
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	sbt__L	L-Sorbitol	sbt_L	cpd01187	0.0373186202
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	sel	Selenate	sel	cpd03396	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ser__L	L-serine	ser_L	cpd00054	0.1882616036
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	sheme	Siroheme	sheme	cpd00557	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	so4	Sulfate	so4	cpd00048	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	spmd	spermidine(3+)	spmd	cpd00264	0.0102681044
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	starch1200	Starch	starch1200	cpd28193	1.17549E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	strch1	starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})	strch1	cpd11657	0.2805155533
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	sucr	Sucrose	sucr	cpd00076	0.8993268454
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	thm	Thiamin	thm	cpd00305	0.010022852
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	thr__L	L-Threonine	thr_L	cpd00161	0.1345280187
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	thymd	Thymidine	thymd	cpd00184	0.01180031
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	tre	Trehalose	tre	cpd00794	0.00074493
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	trp__L	L-Tryptophan	trp_L	cpd00065	0.0225147474
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ttdca	tetradecanoate (n-C14:0)	ttdca	cpd03847	0.1059347856
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	tyr__L	L-Tyrosine	tyr_L	cpd00069	0.0862940157
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	ura	Uracil	ura	cpd00092	0.01
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	uri	Uridine	uri	cpd00249	0.01180031
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	val__L	L-Valine	val_L	cpd00156	0.184862653
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	xan	xan[e]	xan	cpd00309	0.0105163423
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	xyl__D	D-Xylose	xyl_D	cpd00154	0.0020298944
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	xylan	Xylan	xylan	cpd11732	3.20587E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	xyluglc	Xyluglucan	xyluglc	cpd11752	1.31462E-07
+GER_ag[north]	Average Kiel area diet with 1% of original agora western diet	zn2	Zinc	zn2	cpd00034	1
+HumanMilk	Average Human Mother Milk Composition	lcts	LACT	lcts	cpd00208	4.9874470359
+HumanMilk	Average Human Mother Milk Composition	glc__D	D-Glucose	glc_D	cpd00027	3.75
+HumanMilk	Average Human Mother Milk Composition	fuc__L	L-Fucose	fuc_L	cpd00751	1.3343108504
+HumanMilk	Average Human Mother Milk Composition	gal	Galactose	gal	cpd00108	0.7791659632
+HumanMilk	Average Human Mother Milk Composition		2-fucosyllactose	2fl	cpd90001	4.9239863498
+HumanMilk	Average Human Mother Milk Composition		Lacto-N-tetraose		cpd03807	4.5299770233
+HumanMilk	Average Human Mother Milk Composition	octa	octanoate	octa	cpd03846	2.6086956522
+HumanMilk	Average Human Mother Milk Composition	dca	Decanoate	dca	cpd01107	4.4676877101
+HumanMilk	Average Human Mother Milk Composition	ddca	Dodecanoic acid	ddca	cpd01741	4.7552608173
+HumanMilk	Average Human Mother Milk Composition	ttdca	Myristic acid	ttdca	cpd03847	4.7624496045
+HumanMilk	Average Human Mother Milk Composition	fa3	fa3coa	fa3	cpd11437	2.6834964965
+HumanMilk	Average Human Mother Milk Composition	hdca	Palmitate	hdca	cpd00214	4.9282778689
+HumanMilk	Average Human Mother Milk Composition	fa11	fa11coa	fa11	cpd11432	2.2772530409
+HumanMilk	Average Human Mother Milk Composition	ocdca	ocdca	ocdca	cpd01080	4.7243133029
+HumanMilk	Average Human Mother Milk Composition	arach	Arachidic acid	arach	cpd03848	1.670235546
+HumanMilk	Average Human Mother Milk Composition	ttdcea	tetradecenoate	ttdcea	cpd15298	2.4552567677
+HumanMilk	Average Human Mother Milk Composition	hdcea	Palmitoleic acid	hdcea	cpd05274	4.5359743573
+HumanMilk	Average Human Mother Milk Composition	ocdcea	Oleate	ocdcea	cpd00536	4.9503262484
+HumanMilk	Average Human Mother Milk Composition	doco13ac	Erucic acid	doco13ac	cpd05231	0.9397590361
+HumanMilk	Average Human Mother Milk Composition	lnlc	Linoleate	lnlc	cpd01122	4.834519573
+HumanMilk	Average Human Mother Milk Composition	arachd	Arachidonate	arachd	cpd00188	2.4049331963
+HumanMilk	Average Human Mother Milk Composition	lnlnca	Linolenate	lnlnca	cpd03850	3.8727006349
+HumanMilk	Average Human Mother Milk Composition	ala__L	L-Alanine	ala_L	cpd00035	4.433059175
+HumanMilk	Average Human Mother Milk Composition	arg__L	L-Arginine	arg_L	cpd00051	4.0233474503
+HumanMilk	Average Human Mother Milk Composition	asp__L	L-Aspartate	asp_L	cpd00041	4.5660705526
+HumanMilk	Average Human Mother Milk Composition	asn__L	L-Asparagine	asn_L	cpd00132	3.8734112661
+HumanMilk	Average Human Mother Milk Composition	cys__L	L-Cysteine	cys_L	cpd00084	3.989631341
+HumanMilk	Average Human Mother Milk Composition	glu__L	L-Glutamate	glu_L	cpd00023	4.767840514
+HumanMilk	Average Human Mother Milk Composition	gln__L	L-Glutamine	gln_L	cpd00053	4.446926954
+HumanMilk	Average Human Mother Milk Composition	gly	Glycine	gly	cpd00033	4.2282459492
+HumanMilk	Average Human Mother Milk Composition	his__L	L-Histidine	his_L	cpd00119	3.7755565463
+HumanMilk	Average Human Mother Milk Composition	ile__L	L-Isoleucine	ile_L	cpd00322	4.4521307768
+HumanMilk	Average Human Mother Milk Composition	leu__L	L-Leucine	leu_L	cpd00107	4.6888376809
+HumanMilk	Average Human Mother Milk Composition	lys__L	L-Lysine	lys_L	cpd00039	4.5315869307
+HumanMilk	Average Human Mother Milk Composition	met__L	L-Methionine	met_L	cpd00060	3.4344578264
+HumanMilk	Average Human Mother Milk Composition	phe__L	L-Phenylalanine	phe_L	cpd00066	4.0644172616
+HumanMilk	Average Human Mother Milk Composition	pro__L	L-Proline	pro_L	cpd00129	4.7461857988
+HumanMilk	Average Human Mother Milk Composition	ser__L	L-Serine	ser_L	cpd00054	4.5051798813
+HumanMilk	Average Human Mother Milk Composition	thr__L	L-Threonine	thr_L	cpd00161	4.4464482177
+HumanMilk	Average Human Mother Milk Composition	trp__L	L-Tryptophan	trp_L	cpd00065	3.3632892212
+HumanMilk	Average Human Mother Milk Composition	tyr__L	L-Tyrosine	tyr_L	cpd00069	4.1889785654
+HumanMilk	Average Human Mother Milk Composition	val__L	L-Valine	val_L	cpd00156	4.5691094936
+HumanMilk	Average Human Mother Milk Composition	urea	Urea	urea	cpd00073	4.4638074492
+HumanMilk	Average Human Mother Milk Composition	creat	Creatine	creat	cpd00250	1.8048780488
+HumanMilk	Average Human Mother Milk Composition	crtn	Creatinine	crtn	cpd00585	1.912568306
+HumanMilk	Average Human Mother Milk Composition	urate	Urate	urate	cpd00300	0.2808988764
+HumanMilk	Average Human Mother Milk Composition	gam	GLUM	gam	cpd00276	1.7205403229
+HumanMilk	Average Human Mother Milk Composition	nh4	Ammonia	nh4	cpd00013	0.9074410163
+HumanMilk	Average Human Mother Milk Composition	thm	Thiamin	thm	cpd00305	0.007901569
+HumanMilk	Average Human Mother Milk Composition	ribflv	Riboflavin	ribflv	cpd00220	0.0092820962
+HumanMilk	Average Human Mother Milk Composition	nac	Niacin	nac	cpd00218	0.1189443451
+HumanMilk	Average Human Mother Milk Composition	pydam	Pyridoxamine	pydam	cpd00419	2.6256352343
+HumanMilk	Average Human Mother Milk Composition	pydx	Pyridoxal	pydx	cpd00215	2.6333673123
+HumanMilk	Average Human Mother Milk Composition	pydx5p	Pyridoxal phosphate	pydx5p	cpd00016	2.1471018742
+HumanMilk	Average Human Mother Milk Composition	pydxn	Pyridoxol	pydxn	cpd00263	2.6183906752
+HumanMilk	Average Human Mother Milk Composition	pnto__R	Pantothenic acid	pnto_R	cpd00644	0.0807754443
+HumanMilk	Average Human Mother Milk Composition	fol	Folate	fol	cpd00393	0.0019249496
+HumanMilk	Average Human Mother Milk Composition	adocbl	Calomide	adocbl	cpd00166	7.15670711022688E-06
+HumanMilk	Average Human Mother Milk Composition	cbl1	Cob(I)alamin	cbl1	cpd00635	7.15670711022688E-06
+HumanMilk	Average Human Mother Milk Composition	btn	Biotin	btn	cpd00104	0.0001637211
+HumanMilk	Average Human Mother Milk Composition	ca2	Ca2+	ca2	cpd00063	4.6660600789
+HumanMilk	Average Human Mother Milk Composition	pi	Phosphate	pi	cpd00009	3.7236221268
+HumanMilk	Average Human Mother Milk Composition	mg2	Mg	mg2	cpd00254	3.7113620699
+HumanMilk	Average Human Mother Milk Composition	na1	Sodium	na1	cpd00971	4.6998616152
+HumanMilk	Average Human Mother Milk Composition	k	K+	k	cpd00205	4.8205028381
+HumanMilk	Average Human Mother Milk Composition	cl	Cl-	cl	cpd00099	4.7975326975
+HumanMilk	Average Human Mother Milk Composition	fe2	Fe2+	fe2	cpd00021	0.01
+HumanMilk	Average Human Mother Milk Composition	fe3	fe3	fe3	cpd10516	1
+HumanMilk	Average Human Mother Milk Composition	zn2	Zn2+	zn2	cpd00034	1
+HumanMilk	Average Human Mother Milk Composition	cu2	Cu2+	cu2	cpd00058	1
+HumanMilk	Average Human Mother Milk Composition	sel	Selenate	sel	cpd03396	1
+HumanMilk	Average Human Mother Milk Composition	mn2	Mn2+	mn2	cpd00030	1
+HumanMilk	Average Human Mother Milk Composition	cro4	chromate	cro4	cpd11595	1
+HumanMilk	Average Human Mother Milk Composition	mobd	Molybdate	mobd	cpd11574	1
+HumanMilk	Average Human Mother Milk Composition	so4	Sulfate	so4	cpd00048	1
+HumanMilk	Average Human Mother Milk Composition	no2	Nitrite	no2	cpd00075	1
+HumanMilk	Average Human Mother Milk Composition	no3	Nitrate	no3	cpd00209	1
+HumanMilk	Average Human Mother Milk Composition	chsterol	Cholesterol	chsterol	cpd00160	2.1845190417
+HumanMilk	Average Human Mother Milk Composition	glyc	Glycerol	glyc	cpd00100	4.3346963545
+HumanMilk	Average Human Mother Milk Composition	4abut	GABA	4abut	cpd00281	0.1709484257
+HumanMilk	Average Human Mother Milk Composition	crn	Carnitine	crn	cpd00266	0.24895477
+HumanMilk	Average Human Mother Milk Composition	cit	Citrate	cit	cpd00137	4.21875
+HumanMilk	Average Human Mother Milk Composition	fum	Fumarate	fum	cpd00106	0.0238853503
+HumanMilk	Average Human Mother Milk Composition	lac__L	L-Lactate	lac_L	cpd00159	0.6109550562
+HumanMilk	Average Human Mother Milk Composition	pyr	Pyruvate	pyr	cpd00020	0.0563575242
+HumanMilk	Average Human Mother Milk Composition	succ	Succinate	succ	cpd00036	0.0826121164
+HumanMilk	Average Human Mother Milk Composition	ac	Acetate	ac	cpd00029	0.2606635071
+HumanMilk	Average Human Mother Milk Composition	but	Butyrate	but	cpd00211	1.387283237
+HumanMilk	Average Human Mother Milk Composition	chol	Choline	chol	cpd00098	1.1832061069
+HumanMilk	Average Human Mother Milk Composition	etha	Aminoethanol	etha	cpd00162	0.4229220066
+HumanMilk	Average Human Mother Milk Composition	inost	L-Inositol	inost	cpd00121	3.1684981685
+HumanMilk	Average Human Mother Milk Composition	cytd	Cytidine	cytd	cpd00367	0.0337703615
+HumanMilk	Average Human Mother Milk Composition	hxan	HYXN	hxan	cpd00226	0.0228946845
+HumanMilk	Average Human Mother Milk Composition	uri	Uridine	uri	cpd00249	0.070005916
+HumanMilk	Average Human Mother Milk Composition	taur	Taurine	taur	cpd00210	1.3768115942
+HumanMilk	Average Human Mother Milk Composition	for	Formate	for	cpd00047	0.1190941039
+HumanMilk	Average Human Mother Milk Composition	meoh	Methanol	meoh	cpd00116	0.2253628724
+HumanMilk	Average Human Mother Milk Composition	cmp	CMP	cmp	cpd00046	3.7022165114
+HumanMilk	Average Human Mother Milk Composition	ump	UMP	ump	cpd00091	2.623935895
+HumanMilk	Average Human Mother Milk Composition	amp	AMP	amp	cpd00018	2.5099681593
+HumanMilk	Average Human Mother Milk Composition	imp	IMP	imp	cpd00114	2.8393524284
+HumanMilk	Average Human Mother Milk Composition	gmp	GMP	gmp	cpd00126	2.1630094044
+HumanMilk	Average Human Mother Milk Composition	udp	UDP	udp	cpd00014	2.32
+HumanMilk	Average Human Mother Milk Composition	cdp	CDP	cdp	cpd00096	3.5137138621
+HumanMilk	Average Human Mother Milk Composition	adp	ADP	adp	cpd00008	1.2255772647
+HumanMilk	Average Human Mother Milk Composition	gdp	GDP	gdp	cpd00031	1.5165876777
+HumanMilk	Average Human Mother Milk Composition	dad_2	Deoxyadenosine	dad_2	cpd00438	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	ade	Adenine	ade	cpd00128	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	thymd	Thymidine	thymd	cpd00184	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	gua	Guanine	gua	cpd00207	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	dgsn	Deoxyguanosine	dgsn	cpd00277	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	csn	Cytosine	csn	cpd00307	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	akg	2-Oxoglutarate	akg	cpd00024	0.3789279113
+HumanMilk	Average Human Mother Milk Composition	dcyt	Deoxycytidine	dcyt	cpd00654	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	ins	Inosine	ins	cpd00246	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	mal__L	L-Malate	mal_L	cpd00130	0.0238853503
+HumanMilk	Average Human Mother Milk Composition	ura	Uracil	ura	cpd00092	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	xan	Xanthine	xan	cpd00309	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	nmn	Nicotinamide ribonucleotide	nmn	cpd00355	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	adn	Adenosine	adn	cpd00182	0.0248756219
+HumanMilk	Average Human Mother Milk Composition	gthrd	GSH	gthrd	cpd00042	1.6777408638
+HumanMilk	Average Human Mother Milk Composition	ncam	Nicotinamide	ncam	cpd00133	0.1966490993
+HumanMilk	Average Human Mother Milk Composition	gthox	Oxidized glutathione	gthox	cpd00111	1.6777408638
+HumanMilk	Average Human Mother Milk Composition	orn	Ornithine	orn	cpd00064	0.3703703704
+HumanMilk	Average Human Mother Milk Composition	etoh	Ethanol	etoh	cpd00363	0.1923076923
+HumanMilk	Average Human Mother Milk Composition	26dap__M	meso-2,6-Diaminopimelate	26dap_M	cpd00516	0.1076320939
+HumanMilk	Average Human Mother Milk Composition	h	H+	h	cpd00067	0.0099800399
+HumanMilk	Average Human Mother Milk Composition	h2o	H2O	h2o	cpd00001	1000
+HumanMilk	Average Human Mother Milk Composition	acald	Acetaldehyde	acald	cpd00071	0.1923076923
+HumanMilk	Average Human Mother Milk Composition	cobalt2	Co2+	cobalt2	cpd00149	1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	h2o	H2O	h2o	cpd00001	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	pi	Phosphate	pi	cpd00009	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	co2	CO2	co2	cpd00011	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	nh4	NH3	nh4	cpd00013	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	amp	AMP	amp	cpd00018	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	glu__L	L-Glutamate	glu_L	cpd00023	0.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	glc__D	D-Glucose	glc_D	cpd00027	2
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	pheme	Heme	pheme	cpd00028	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ac	acetate	ac	cpd00029	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	mn2	Mn2+	mn2	cpd00030	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	gly	Glycine	gly	cpd00033	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	zn2	Zn2+	zn2	cpd00034	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ala__L	L-Alanine	ala_L	cpd00035	0.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	lys__L	L-Lysine	lys_L	cpd00039	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	asp__L	L-Aspartate	asp_L	cpd00041	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cmp	CMP	cmp	cpd00046	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	so4	Sulfate	so4	cpd00048	1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	arg__L	L-Arginine	arg_L	cpd00051	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ser__L	L-Serine	ser_L	cpd00054	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cu2	Cu2+	cu2	cpd00058	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	met__L	L-Methionine	met_L	cpd00060	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ca2	Ca2+	ca2	cpd00063	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	trp__L	L-Tryptophan	trp_L	cpd00065	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	phe__L	L-Phenylalanine	phe_L	cpd00066	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	h	H+	h	cpd00067	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	tyr__L	L-Tyrosine	tyr_L	cpd00069	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cys__L	L-Cysteine	cys_L	cpd00084	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ump	UMP	ump	cpd00091	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ura	Uracil	ura	cpd00092	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cl	Cl-	cl	cpd00099	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	leu__L	L-Leucine	leu_L	cpd00107	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	his__L	L-Histidine	his_L	cpd00119	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	gmp	GMP	gmp	cpd00126	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	pro__L	L-Proline	pro_L	cpd00129	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ppa	Propionate	ppa	cpd00141	0.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cobalt2	Co2+	cobalt2	cpd00149	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	val__L	L-Valine	val_L	cpd00156	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	lac__L	L-Lactate	lac_L	cpd00159	1.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	thr__L	L-Threonine	thr_L	cpd00161	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	adn	Adenosine	adn	cpd00182	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	thymd	Thymidine	thymd	cpd00184	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	k	K+	k	cpd00205	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	lcts	LACT	lcts	cpd00208	1.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	but	Butyrate	but	cpd00211	0.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	pydx	Pyridoxal	pydx	cpd00215	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	nac	Niacin	nac	cpd00218	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ribflv	Riboflavin	ribflv	cpd00220	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	lac__D	D-lactate	lac_D	cpd00221	1.5
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	hxan	HYXN	hxan	cpd00226	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	h2s	H2S	h2s	cpd00239	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ins	Inosine	ins	cpd00246	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	uri	Uridine	uri	cpd00249	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	mg2	Mg	mg2	cpd00254	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	thm	Thiamine	thm	cpd00305	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	gsn	Guanosine	gsn	cpd00311	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	ile__L	L-Isoleucine	ile_L	cpd00322	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	etoh	ethanol	etoh	cpd00363	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	fol	Folate	fol	cpd00393	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	dad_2	Deoxyadenosine	dad_2	cpd00438	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	hg2	Hg2+	hg2	cpd00531	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	lipoate	Lipoate	lipoate	cpd00541	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	pant__R	PAN	pant_R	cpd00644	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	dcyt	Deoxycytidine	dcyt	cpd00654	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	na1	Na+	na1	cpd00971	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cd2	Cd2+	cd2	cpd01012	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	aso4	Arsenate	aso4	cpd01048	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cbl1	Vitamin B12	cbl1	cpd03424	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	fe2	Fe2+	fe2	cpd10515	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	fe3	fe3	fe3	cpd10516	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	cro4	chromate	cro4	cpd11595	100
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	fuc__L	L-Fucose	fuc_L	cpd00751	1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion	succ	Succinate	succ	cpd00036	0.1
+HM.abst	anaerobic rough estimation of human milk components after absorbtion		2-fucosyllactose	2fl	cpd90001	2
+HM.abst	anaerobic rough estimation of human milk components after absorbtion		Lacto-N-tetraose		cpd03807	1
+LB_marinos	LB broth composition as modelled by G. Marinos	na1	Na+	na1	cpd00971	187
+LB_marinos	LB broth composition as modelled by G. Marinos	cl	Cl-	cl	cpd00099	172
+LB_marinos	LB broth composition as modelled by G. Marinos	ca2	Ca2+	ca2	cpd00063	0.0801
+LB_marinos	LB broth composition as modelled by G. Marinos	fe2	Fe2+	fe2	cpd10515	0.2
+LB_marinos	LB broth composition as modelled by G. Marinos	fe3	fe3	fe3	cpd10516	0.00453
+LB_marinos	LB broth composition as modelled by G. Marinos	so4	Sulfate	so4	cpd00048	0.39
+LB_marinos	LB broth composition as modelled by G. Marinos	pi	Phosphate	pi	cpd00009	10
+LB_marinos	LB broth composition as modelled by G. Marinos	mg2	Mg	mg2	cpd00254	0.235
+LB_marinos	LB broth composition as modelled by G. Marinos	k	K+	k	cpd00205	2.58
+LB_marinos	LB broth composition as modelled by G. Marinos	ala__L	L-Alanine	ala_L	cpd00035	6.73
+LB_marinos	LB broth composition as modelled by G. Marinos	asp__L	L-Aspartate	asp_L	cpd00041	5.9
+LB_marinos	LB broth composition as modelled by G. Marinos	asn__L	L-Asparagine	asn_L	cpd00132	0.833
+LB_marinos	LB broth composition as modelled by G. Marinos	glu__L	L-Glutamate	glu_L	cpd00023	13.5
+LB_marinos	LB broth composition as modelled by G. Marinos	gln__L	L-Glutamine	gln_L	cpd00053	0.137
+LB_marinos	LB broth composition as modelled by G. Marinos	gly	Glycine	gly	cpd00033	4.26
+LB_marinos	LB broth composition as modelled by G. Marinos	his__L	L-Histidine	his_L	cpd00119	1.64
+LB_marinos	LB broth composition as modelled by G. Marinos	ile__L	L-Isoleucine	ile_L	cpd00322	5.34
+LB_marinos	LB broth composition as modelled by G. Marinos	leu__L	L-Leucine	leu_L	cpd00107	7.28
+LB_marinos	LB broth composition as modelled by G. Marinos	lys__L	L-Lysine	lys_L	cpd00039	5.81
+LB_marinos	LB broth composition as modelled by G. Marinos	met__L	L-Methionine	met_L	cpd00060	1.68
+LB_marinos	LB broth composition as modelled by G. Marinos	phe__L	L-Phenylalanine	phe_L	cpd00066	3.93
+LB_marinos	LB broth composition as modelled by G. Marinos	pro__L	L-Proline	pro_L	cpd00129	6.6
+LB_marinos	LB broth composition as modelled by G. Marinos	ser__L	L-Serine	ser_L	cpd00054	2.85
+LB_marinos	LB broth composition as modelled by G. Marinos	thr__L	L-Threonine	thr_L	cpd00161	2.18
+LB_marinos	LB broth composition as modelled by G. Marinos	trp__L	L-Tryptophan	trp_L	cpd00065	0.514
+LB_marinos	LB broth composition as modelled by G. Marinos	tyr__L	L-Tyrosine	tyr_L	cpd00069	1.05
+LB_marinos	LB broth composition as modelled by G. Marinos	val__L	L-Valine	val_L	cpd00156	6.53
+LB_marinos	LB broth composition as modelled by G. Marinos	arg__L	L-Arginine	arg_L	cpd00051	3.62
+LB_marinos	LB broth composition as modelled by G. Marinos	nh4	NH3	nh4	cpd00013	2.38
+LB_marinos	LB broth composition as modelled by G. Marinos	pheme	Heme	pheme	cpd00028	0.0157
+LB_marinos	LB broth composition as modelled by G. Marinos	cys__L	L-Cysteine	cys_L	cpd00084	0.579
+LB_marinos	LB broth composition as modelled by G. Marinos	btn	Biotin	btn	cpd00104	0.00503
+LB_marinos	LB broth composition as modelled by G. Marinos	adocbl	Calomide	adocbl	cpd00166	7.38E-06
+LB_marinos	LB broth composition as modelled by G. Marinos	fol	Folate	fol	cpd00393	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	pydam	Pyridoxamine	pydam	cpd00419	0.000892
+LB_marinos	LB broth composition as modelled by G. Marinos	thm	Thiamine	thm	cpd00305	0.000188
+LB_marinos	LB broth composition as modelled by G. Marinos	ribflv	Riboflavin	ribflv	cpd00220	0.000133
+LB_marinos	LB broth composition as modelled by G. Marinos	glc__D	D-Glucose	glc_D	cpd00027	1.27
+LB_marinos	LB broth composition as modelled by G. Marinos	o2	O2	o2	cpd00007	20
+LB_marinos	LB broth composition as modelled by G. Marinos	co2	CO2	co2	cpd00011	0.622
+LB_marinos	LB broth composition as modelled by G. Marinos	h2o	H2O	h2o	cpd00001	1000
+LB_marinos	LB broth composition as modelled by G. Marinos	h	H+	h	cpd00067	6.31E-05
+LB_marinos	LB broth composition as modelled by G. Marinos	cro4	chromate	cro4	cpd11595	100
+LB_marinos	LB broth composition as modelled by G. Marinos	mn2	Mn2+	mn2	cpd00030	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	zn2	Zn2+	zn2	cpd00034	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	cu2	Cu2+	cu2	cpd00058	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	cobalt2	Co2+	cobalt2	cpd00149	0.1
+LB_marinos	LB broth composition as modelled by G. Marinos	hg2	Hg2+	hg2	cpd00531	100
+LB_marinos	LB broth composition as modelled by G. Marinos	cd2	Cd2+	cd2	cpd01012	6.67E-05
+LB_marinos	LB broth composition as modelled by G. Marinos	arab__L	L-arabinose	arab_L	cpd00224	0.763
+LB_marinos	LB broth composition as modelled by G. Marinos	man	D-mannose	man	cpd00138	1.27
+LB_marinos	LB broth composition as modelled by G. Marinos	cellb	CELB	cellb	cpd00158	0.707
+LB_marinos	LB broth composition as modelled by G. Marinos	ade	Adenine	ade	cpd00128	0.262
+LB_marinos	LB broth composition as modelled by G. Marinos	gua	Guanine	gua	cpd00207	0.206
+LB_marinos	LB broth composition as modelled by G. Marinos	csn	Cytosine	csn	cpd00307	0.155
+LB_marinos	LB broth composition as modelled by G. Marinos	ura	Uracil	ura	cpd00092	0.204
+LB_marinos	LB broth composition as modelled by G. Marinos	amp	AMP	amp	cpd00018	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	gmp	GMP	gmp	cpd00126	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	cmp	CMP	cmp	cpd00046	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	ump	UMP	ump	cpd00091	0.01
+LB_marinos	LB broth composition as modelled by G. Marinos	sheme	Siroheme	sheme	cpd00557	0.0157
+LB_marinos	LB broth composition as modelled by G. Marinos	pnto__R	Pantothenate	pnto_R	cpd00644	0.0029
+M9_glc_sw	M9 medium with glucose as sole carbon source	h2o	H2O	h2o	cpd00001	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	o2	O2	o2	cpd00007	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	pi	Phosphate	pi	cpd00009	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	glc__D	D-Glucose	glc_D	cpd00027	10
+M9_glc_sw	M9 medium with glucose as sole carbon source	mn2	Mn2+	mn2	cpd00030	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	zn2	Zn2+	zn2	cpd00034	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	so4	Sulfate	so4	cpd00048	1
+M9_glc_sw	M9 medium with glucose as sole carbon source	cu2	Cu2+	cu2	cpd00058	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	ca2	Ca2+	ca2	cpd00063	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	h	H+	h	cpd00067	1
+M9_glc_sw	M9 medium with glucose as sole carbon source	cl	Cl-	cl	cpd00099	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	k	K+	k	cpd00205	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	mg2	Mg	mg2	cpd00254	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	hg2	Hg2+	hg2	cpd00531	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	na1	Na+	na1	cpd00971	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	cd2	Cd2+	cd2	cpd01012	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	aso4	Arsenate	aso4	cpd01048	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	fe2	Fe2+	fe2	cpd10515	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	fe3	fe3	fe3	cpd10516	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	cro4	chromate	cro4	cpd11595	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	nh4	NH3	nh4	cpd00013	100
+M9_glc_sw	M9 medium with glucose as sole carbon source	co2	CO2	co2	cpd00011	1
+M9_glc_sw	M9 medium with glucose as sole carbon source	mobd	Molybdate	mobd	cpd11574	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	h2o	H2O	h2o	cpd00001	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	o2	O2	o2	cpd00007	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	pi	Phosphate	pi	cpd00009	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	succ	Succinate	succ	cpd00036	15
+M9_succ_sw	M9 medium with succinate as sole carbon source	mn2	Mn2+	mn2	cpd00030	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	zn2	Zn2+	zn2	cpd00034	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	so4	Sulfate	so4	cpd00048	1
+M9_succ_sw	M9 medium with succinate as sole carbon source	cu2	Cu2+	cu2	cpd00058	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	ca2	Ca2+	ca2	cpd00063	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	h	H+	h	cpd00067	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	cl	Cl-	cl	cpd00099	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	k	K+	k	cpd00205	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	mg2	Mg	mg2	cpd00254	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	hg2	Hg2+	hg2	cpd00531	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	na1	Na+	na1	cpd00971	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	cd2	Cd2+	cd2	cpd01012	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	aso4	Arsenate	aso4	cpd01048	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	fe2	Fe2+	fe2	cpd10515	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	fe3	fe3	fe3	cpd10516	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	cro4	chromate	cro4	cpd11595	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	nh4	NH3	nh4	cpd00013	100
+M9_succ_sw	M9 medium with succinate as sole carbon source	co2	CO2	co2	cpd00011	1
+M9_succ_sw	M9 medium with succinate as sole carbon source	mobd	Molybdate	mobd	cpd11574	100
+Complete	complete	12dgr180	1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)	12dgr180	cpd15311	1
+Complete	complete	15dap	1,5-Diaminopentane	15dap	cpd01155	1
+Complete	complete	26dap__M	meso-2,6-Diaminoheptanedioate	26dap_M	cpd00516	1
+Complete	complete	2dmmq8	2-Demethylmenaquinone 8	2dmmq8	cpd15352	1
+Complete	complete	2obut	2-Oxobutanoate	2obut	cpd00094	1
+Complete	complete	3mop	3-methyl-2-oxopentanoate	3mop	cpd00508	1
+Complete	complete	4abz	4 Aminobenzoate	4abz	cpd00443	1
+Complete	complete	4hbz	4-Hydroxybenzoate	4hbz	cpd00136	1
+Complete	complete	ac	Acetate	ac	cpd00029	1
+Complete	complete	acgam	N-Acetyl-D-glucosamine	acgam	cpd00122	1
+Complete	complete	acmana	N-acetyl-D-mannosamine	acmana	cpd00492	1
+Complete	complete	acnam	N-Acetylneuraminate	acnam	cpd00232	1
+Complete	complete	ade	Adenine	ade	cpd00128	1
+Complete	complete	adn	Adenosine	adn	cpd00182	1
+Complete	complete	adpcbl	Adenosylcobalamin	adpcbl	cpd00166	1
+Complete	complete	ala__D	D-Alanine	ala_D	cpd00117	1
+Complete	complete	ala__L	L-alanine	ala_L	cpd00035	1
+Complete	complete	amet	S-Adenosyl-L-methionine	amet	cpd00017	1
+Complete	complete	amp	AMP	amp	cpd00018	1
+Complete	complete	amylopect900	Amylopectin (900 glucose units)	amylopect900	cpd00265	1
+Complete	complete	amylose300	Amylose	amylose300	cpd11735	1
+Complete	complete	arab__D	D-Arabinose	arab_D	cpd00185	1
+Complete	complete	arab__L	L-Arabinose	arab_L	cpd19109	1
+Complete	complete	arabinan101	Arabinan	arabinan101	cpd15928	1
+Complete	complete	arabinogal	Larch arabinogalactan	arabinogal	cpd11699	1
+Complete	complete	arabinoxyl	Arabinoxylan	arabinoxyl	cpd22387	1
+Complete	complete	arg__L	L-Arginine	arg_L	cpd00051	1
+Complete	complete	asn__L	L-asparagine	asn_L	cpd00132	1
+Complete	complete	asp__L	L-Aspartate	asp_L	cpd00041	1
+Complete	complete	bglc	beta glucans	bglc	cpd22448	1
+Complete	complete	btn	Biotin	btn	cpd00104	1
+Complete	complete	but	Butyrate (n-C4:0)	but	cpd00211	1
+Complete	complete	ca2	Calcium	ca2	cpd00063	100
+Complete	complete	cbl1	Cob(I)alamin	cbl1	cpd00635	1
+Complete	complete	cbl2	Cob(II)alamin	cbl2	cpd00423	1
+Complete	complete	cellb	Cellobiose	cellb	cpd03845	1
+Complete	complete	cellul	Cellulose	cellul	cpd00158	1
+Complete	complete	cgly	Cys-Gly	cgly	cpd01017	1
+Complete	complete	chol	Choline	chol	cpd00098	1
+Complete	complete	chor	Chorismate	chor	cpd00216	1
+Complete	complete	chsterol	cholesterol	chsterol	cpd00160	1
+Complete	complete	cit	Citrate	cit	cpd00137	1
+Complete	complete	cl	Chloride	cl	cpd00099	100
+Complete	complete	cobalt2	Co2+	cobalt2	cpd00149	100
+Complete	complete	csn	Cytosine	csn	cpd00307	1
+Complete	complete	cu2	Cu2+	cu2	cpd00058	100
+Complete	complete	cys__L	L-cysteine	cys_L	cpd00084	1
+Complete	complete	cytd	Cytidine	cytd	cpd00367	1
+Complete	complete	dad__2	2-deoxyadenosine	dad_2	cpd00438	1
+Complete	complete	dcyt	Deoxycytidine	dcyt	cpd00654	1
+Complete	complete	ddca	laurate	ddca	cpd01741	1
+Complete	complete	dextran40	Dextran 40, (1,6-alpha-D-Glucan)	dextran40	cpd11658	1
+Complete	complete	dgsn	Deoxyguanosine	dgsn	cpd00277	1
+Complete	complete	drib	Deoxyribose	drib	cpd01242	1
+Complete	complete	etoh	Ethanol	etoh	cpd00363	1
+Complete	complete	fald	formaldehyde	fald	cpd00055	1
+Complete	complete	fe2	fe2	fe2	cpd10515	1
+Complete	complete	fe3	Fe3+	fe3	cpd10516	100
+Complete	complete	fol	Folate	fol	cpd00393	1
+Complete	complete	for	Formate	for	cpd00047	1
+Complete	complete	fru	D-Fructose	fru	cpd00082	1
+Complete	complete	fuc__L	L-Fucose	fuc_L	cpd00751	1
+Complete	complete	fum	fumarate	fum	cpd00106	1
+Complete	complete	gal	D-Galactose	gal	cpd00108	1
+Complete	complete	galmannan	Galactomannan	galmannan	cpd00656	1
+Complete	complete	gam	D-Glucosamine	gam	cpd00276	1
+Complete	complete	glc__D	D-Glucose	glc_D	cpd00027	1
+Complete	complete	glcmannan	Glucomannan	glcmannan	cpd11955	1
+Complete	complete	glcn	D-Gluconate	glcn	cpd00222	1
+Complete	complete	gln__L	L-glutamine	gln_L	cpd00053	1
+Complete	complete	glu__L	L-Glutamate	glu_L	cpd00023	1
+Complete	complete	gly	Glycine	gly	cpd00033	1
+Complete	complete	glyc	Glycerol	glyc	cpd00100	1
+Complete	complete	glyc3p	glyc3p[e]	glyc3p	cpd00080	1
+Complete	complete	glygn2	glycogen, structure 2 (glycogenin-1,6-{7[1,4-Glc], 4[1,4-Glc]})	glygn2	cpd00155	1
+Complete	complete	gsn	Guanosine	gsn	cpd00311	1
+Complete	complete	gthox	Oxidized glutathione	gthox	cpd00111	1
+Complete	complete	gthrd	Reduced glutathione	gthrd	cpd00042	1
+Complete	complete	gua	Guanine	gua	cpd00207	1
+Complete	complete	h	proton	h	cpd00067	100
+Complete	complete	h2	H2	h2	cpd11640	1
+Complete	complete	h2o	H2O	h2o	cpd00001	1000
+Complete	complete	h2s	Hydrogen sulfide	h2s	cpd00239	1
+Complete	complete	hdca	Hexadecanoate (n-C16:0)	hdca	cpd00214	1
+Complete	complete	his__L	L-histidine	his_L	cpd00119	1
+Complete	complete	homogal	Homogalacturonan	homogal		1
+Complete	complete	hxan	Hypoxanthine	hxan	cpd00226	1
+Complete	complete	ile__L	L-Isoleucine	ile_L	cpd00322	1
+Complete	complete	indole	Indole	indole	cpd00359	1
+Complete	complete	inulin	Inulin	inulin	cpd11602	1
+Complete	complete	k	K+	k	cpd00205	100
+Complete	complete	kestopt	Kestopentaose	kestopt		1
+Complete	complete	lanost	Lanosterol	lanost	cpd01188	1
+Complete	complete	lcts	Lactose	lcts	cpd00208	1
+Complete	complete	leu__L	L-Leucine	leu_L	cpd00107	1
+Complete	complete	levan1000	Levan	levan1000	cpd27401	1
+Complete	complete	lichn	Lichenin	lichn	cpd27402	1
+Complete	complete	lmn30	Laminarin	lmn30	cpd11748	1
+Complete	complete	lys__L	L-Lysine	lys_L	cpd00039	1
+Complete	complete	malt	Maltose	malt	cpd00179	1
+Complete	complete	malttr	Maltotriose	malttr	cpd01262	1
+Complete	complete	man	D-Mannose	man	cpd00138	1
+Complete	complete	melib	Melibiose	melib	cpd03198	1
+Complete	complete	meoh	methanol	meoh	cpd00116	1
+Complete	complete	met__L	L-Methionine	met_L	cpd00060	1
+Complete	complete	metsox__S__L	L-Methionine S-oxide	metsox_S_L	cpd01914	1
+Complete	complete	mg2	Mg	mg2	cpd00254	100
+Complete	complete	mn2	Mn2+	mn2	cpd00030	100
+Complete	complete	mnl	D-Mannitol	mnl	cpd00314	1
+Complete	complete	mobd	Molybdate	mobd	cpd11574	100
+Complete	complete	mqn7	Menaquinone 7	mqn7	cpd11606	1
+Complete	complete	mqn8	Menaquinone 8	mqn8	cpd15500	1
+Complete	complete	na1	Sodium	na1	cpd00971	100
+Complete	complete	nac	Nicotinate	nac	cpd00218	1
+Complete	complete	ncam	Nicotinamide	ncam	cpd00133	1
+Complete	complete	nmn	NMN	nmn	cpd00355	1
+Complete	complete	no2	Nitrite	no2	cpd00075	1
+Complete	complete	ocdca	echange reaction for octadecanoate (n-C18:0)	ocdca	cpd01080	1
+Complete	complete	ocdcea	octadecenoate (n-C18:1)	ocdcea	cpd00536	1
+Complete	complete	orn	Ornithine	orn	cpd00064	1
+Complete	complete	oxa	Oxalate	oxa	cpd00180	1
+Complete	complete	pect	pectins	pect	cpd11601	1
+Complete	complete	phe__L	L-phenylalanine	phe_L	cpd00066	1
+Complete	complete	pheme	heme	pheme	cpd00028	1
+Complete	complete	pi	Phosphate	pi	cpd00009	100
+Complete	complete	pime	Pimelate	pime	cpd01727	1
+Complete	complete	pnto__R	(R)-Pantothenate	pnto_R	cpd00644	1
+Complete	complete	pro__L	L-Proline	pro_L	cpd00129	1
+Complete	complete	ptrc	1,4-butanediammonium	ptrc	cpd00118	1
+Complete	complete	pullulan1200	Pullulan	pullulan1200	cpd27994	1
+Complete	complete	pydam	Pyridoxamine	pydam	cpd00419	1
+Complete	complete	pydx	Pyridoxal	pydx	cpd00215	1
+Complete	complete	pydxn	Pyridoxine	pydxn	cpd00263	1
+Complete	complete	q8	Ubiquinone-8	q8	cpd15560	1
+Complete	complete	raffin	Raffinose	raffin	cpd00382	1
+Complete	complete	rhamnogalurI	Rhamnogalacturonan I	rhamnogalurI		1
+Complete	complete	rhamnogalurII	Rhamnogalacturonan II	rhamnogalurII		1
+Complete	complete	rib__D	ribose	rib_D	cpd00105	1
+Complete	complete	ribflv	Riboflavin	ribflv	cpd00220	1
+Complete	complete	rmn	L-Rhamnose	rmn	cpd00396	1
+Complete	complete	sbt__L	L-Sorbitol	sbt_L	cpd01187	1
+Complete	complete	sel	Selenate	sel	cpd03396	1
+Complete	complete	ser__L	L-serine	ser_L	cpd00054	1
+Complete	complete	sheme	Siroheme	sheme	cpd00557	1
+Complete	complete	so4	Sulfate	so4	cpd00048	100
+Complete	complete	spmd	spermidine(3+)	spmd	cpd00264	1
+Complete	complete	starch1200	Starch	starch1200	cpd28193	1
+Complete	complete	strch1	starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})	strch1	cpd11657	1
+Complete	complete	sucr	Sucrose	sucr	cpd00076	1
+Complete	complete	thm	Thiamin	thm	cpd00305	1
+Complete	complete	thr__L	L-Threonine	thr_L	cpd00161	1
+Complete	complete	thymd	Thymidine	thymd	cpd00184	1
+Complete	complete	tre	Trehalose	tre	cpd00794	1
+Complete	complete	trp__L	L-Tryptophan	trp_L	cpd00065	1
+Complete	complete	ttdca	tetradecanoate (n-C14:0)	ttdca	cpd03847	1
+Complete	complete	tyr__L	L-Tyrosine	tyr_L	cpd00069	1
+Complete	complete	ura	Uracil	ura	cpd00092	1
+Complete	complete	uri	Uridine	uri	cpd00249	1
+Complete	complete	val__L	L-Valine	val_L	cpd00156	1
+Complete	complete	xan	xan[e]	xan	cpd00309	1
+Complete	complete	xyl__D	D-Xylose	xyl_D	cpd00154	1
+Complete	complete	xylan	Xylan	xylan	cpd11732	1
+Complete	complete	xyluglc	Xyluglucan	xyluglc	cpd11752	1
+Complete	complete	zn2	Zn2+	zn2	cpd00034	100
+Complete2	complete2	acac	Acetoacetate	acac	cpd00142	1
+Complete2	complete2	acald	Acetaldehyde	acald	cpd00071	1
+Complete2	complete2	acgam	N-Acetyl-D-glucosamine	acgam	cpd00122	1
+Complete2	complete2	acmana	N-acetyl-D-mannosamine	acmana	cpd00492	1
+Complete2	complete2	actn__R	ACTN	actn_R	cpd00361	1
+Complete2	complete2	ala__D	D-Alanine	ala_D	cpd00117	1
+Complete2	complete2	ala__L	L-alanine	ala_L	cpd00035	1
+Complete2	complete2	alaala	Ala-Ala	alaala	cpd00731	1
+Complete2	complete2	amp	AMP	amp	cpd00018	1
+Complete2	complete2	arab__L	L-Arabinose	arab_L	cpd19109	1
+Complete2	complete2	arg__L	L-Arginine	arg_L	cpd00051	1
+Complete2	complete2	asn__L	L-asparagine	asn_L	cpd00132	1
+Complete2	complete2	asp__L	L-Aspartate	asp_L	cpd00041	1
+Complete2	complete2	but	Butyrate (n-C4:0)	but	cpd00211	1
+Complete2	complete2	bz	Benzoate	bz	cpd00153	1
+Complete2	complete2	ca2	Calcium	ca2	cpd00063	100
+Complete2	complete2	cellb	Cellobiose	cellb	cpd03845	1
+Complete2	complete2	cgly	Cys-Gly	cgly	cpd01017	1
+Complete2	complete2	cit	Citrate	cit	cpd00137	1
+Complete2	complete2	cl	Chloride	cl	cpd00099	100
+Complete2	complete2	cmp	CMP	cmp	cpd00046	1
+Complete2	complete2	co2	CO2	co2	cpd00011	1
+Complete2	complete2	coa	CoA	coa	cpd00010	1
+Complete2	complete2	cobalt2	Co2+	cobalt2	cpd00149	100
+Complete2	complete2	cu2	Cu2+	cu2	cpd00058	100
+Complete2	complete2	ddca	laurate	ddca	cpd01741	1
+Complete2	complete2	din	Deoxyinosine	din	cpd03279	1
+Complete2	complete2	drib	Deoxyribose	drib	cpd01242	1
+Complete2	complete2	etha	Aminoethanol	etha	cpd00162	1
+Complete2	complete2	fe2	fe2	fe2	cpd10515	100
+Complete2	complete2	fe3	Fe3+	fe3	cpd10516	100
+Complete2	complete2	fol	Folate	fol	cpd00393	1
+Complete2	complete2	fru	D-Fructose	fru	cpd00082	1
+Complete2	complete2	gal	D-Galactose	gal	cpd00108	1
+Complete2	complete2	galt	Galactitol	galt	cpd01171	1
+Complete2	complete2	gam	D-Glucosamine	gam	cpd00276	1
+Complete2	complete2	glc__D	D-Glucose	glc_D	cpd00027	1
+Complete2	complete2	gln__L	L-glutamine	gln_L	cpd00053	1
+Complete2	complete2	glu__L	L-Glutamate	glu_L	cpd00023	1
+Complete2	complete2	gly	Glycine	gly	cpd00033	1
+Complete2	complete2	glyald	D-Glyceraldehyde	glyald	cpd00448	1
+Complete2	complete2	glyc	Glycerol	glyc	cpd00100	1
+Complete2	complete2	glyc3p	glycerol-3-phosphate	glyc3p	cpd00080	1
+Complete2	complete2	gsn	Guanosine	gsn	cpd00311	1
+Complete2	complete2	gua	Guanine	gua	cpd00207	1
+Complete2	complete2	h	proton	h	cpd00067	100
+Complete2	complete2	h2o	H2O	h2o	cpd00001	1000
+Complete2	complete2	h2s	Hydrogen sulfide	h2s	cpd00239	1
+Complete2	complete2	his__L	L-histidine	his_L	cpd00119	1
+Complete2	complete2	hxan	Hypoxanthine	hxan	cpd00226	1
+Complete2	complete2	ile__L	L-Isoleucine	ile_L	cpd00322	1
+Complete2	complete2	inost	L-Inositol	inost	cpd00121	1
+Complete2	complete2	k	K+	k	cpd00205	100
+Complete2	complete2	LalaDgluMdapDala	L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine	LalaDgluMdapDala	cpd15387	0.1
+Complete2	complete2	leu__L	L-Leucine	leu_L	cpd00107	1
+Complete2	complete2	lys__L	L-Lysine	lys_L	cpd00039	1
+Complete2	complete2	mal__L	L-Malate	mal_L	cpd00130	1
+Complete2	complete2	malt	Maltose	malt	cpd00179	1
+Complete2	complete2	man	D-Mannose	man	cpd00138	1
+Complete2	complete2	met__L	L-Methionine	met_L	cpd00060	1
+Complete2	complete2	metox__R	L methionine R oxide	metox_R	cpd11576	1
+Complete2	complete2	mg2	Mg	mg2	cpd00254	100
+Complete2	complete2	mn2	Mn2+	mn2	cpd00030	100
+Complete2	complete2	mnl	D-Mannitol	mnl	cpd00314	1
+Complete2	complete2	nh4	NH3	nh4	cpd00013	100
+Complete2	complete2	nmn	NMN	nmn	cpd00355	1
+Complete2	complete2	o2	O2	o2	cpd00007	100
+Complete2	complete2	orn	Ornithine	orn	cpd00064	1
+Complete2	complete2	phe__L	L-phenylalanine	phe_L	cpd00066	1
+Complete2	complete2	pi	Phosphate	pi	cpd00009	100
+Complete2	complete2	pro__L	L-Proline	pro_L	cpd00129	1
+Complete2	complete2	progly	L-Prolinylglycine	progly	cpd15551	1
+Complete2	complete2	ptrc	1,4-butanediammonium	ptrc	cpd00118	1
+Complete2	complete2	rib__D	ribose	rib_D	cpd00105	1
+Complete2	complete2	ribflv	Riboflavin	ribflv	cpd00220	1
+Complete2	complete2	s	Sulfur	s	cpd00074	1
+Complete2	complete2	ser__L	L-serine	ser_L	cpd00054	1
+Complete2	complete2	skm	Shikimate	skm	cpd00383	1
+Complete2	complete2	so4	Sulfate	so4	cpd00048	100
+Complete2	complete2	spmd	spermidine(3+)	spmd	cpd00264	1
+Complete2	complete2	succ	Succinate	succ	cpd00036	1
+Complete2	complete2	sucr	Sucrose	sucr	cpd00076	1
+Complete2	complete2	tet	Tetrathionate	tet	cpd01414	1
+Complete2	complete2	thm	Thiamin	thm	cpd00305	1
+Complete2	complete2	thr__L	L-Threonine	thr_L	cpd00161	1
+Complete2	complete2	thymd	Thymidine	thymd	cpd00184	1
+Complete2	complete2	tre	Trehalose	tre	cpd00794	1
+Complete2	complete2	trp__L	L-Tryptophan	trp_L	cpd00065	1
+Complete2	complete2	tyr__L	L-Tyrosine	tyr_L	cpd00069	1
+Complete2	complete2	uaagmda	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala	uaagmda	cpd03495	0.1
+Complete2	complete2	udcpp	Undecaprenyl phosphate	udcpp	cpd00286	1
+Complete2	complete2	urea	Urea	urea	cpd00073	1
+Complete2	complete2	val__L	L-Valine	val_L	cpd00156	1
+Complete2	complete2	zn2	Zn2+	zn2	cpd00034	100
+Complete2	complete2	mobd	Molybdate	mobd	cpd11574	1
+Complete2	complete2	hg2	Hg2+	hg2	cpd00531	100
+Complete2	complete2	na1	Na+	na1	cpd00971	100
+Complete2	complete2	aso4	Arsenate	aso4	cpd01048	100
+Complete2	complete2	cro4	chromate	cro4	cpd11595	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	h2o	H2O	h2o	cpd00001	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	o2	O2	o2	cpd00007	10
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	pi	Phosphate	pi	cpd00009	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	glc__D	D-Glucose	glc_D	cpd00027	5
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mn2	Mn2+	mn2	cpd00030	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	zn2	Zn2+	zn2	cpd00034	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	so4	Sulfate	so4	cpd00048	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cu2	Cu2+	cu2	cpd00058	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	ca2	Ca2+	ca2	cpd00063	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	h	H+	h	cpd00067	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cl	Cl-	cl	cpd00099	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	k	K+	k	cpd00205	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mg2	Mg	mg2	cpd00254	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	hg2	Hg2+	hg2	cpd00531	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	na1	Na+	na1	cpd00971	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cd2	Cd2+	cd2	cpd01012	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	aso4	Arsenate	aso4	cpd01048	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	fe2	Fe2+	fe2	cpd10515	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	fe3	fe3	fe3	cpd10516	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	cro4	chromate	cro4	cpd11595	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	nh4	NH3	nh4	cpd00013	100
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	co2	CO2	co2	cpd00011	10
+GS_MM_glc	GapSeq minimal media with glucose as carbon source	mobd	Molybdate	mobd	cpd11574	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	h2o	H2O	h2o	cpd00001	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	o2	O2	o2	cpd00007	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	pi	Phosphate	pi	cpd00009	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	succ	Succinate	succ	cpd00036	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mn2	Mn2+	mn2	cpd00030	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	zn2	Zn2+	zn2	cpd00034	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	so4	Sulfate	so4	cpd00048	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cu2	Cu2+	cu2	cpd00058	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	ca2	Ca2+	ca2	cpd00063	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	h	H+	h	cpd00067	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cl	Cl-	cl	cpd00099	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cobalt2	Co2+	cobalt2	cpd00149	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	k	K+	k	cpd00205	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mg2	Mg	mg2	cpd00254	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	hg2	Hg2+	hg2	cpd00531	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	na1	Na+	na1	cpd00971	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cd2	Cd2+	cd2	cpd01012	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	aso4	Arsenate	aso4	cpd01048	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	fe2	Fe2+	fe2	cpd10515	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	fe3	fe3	fe3	cpd10516	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	cro4	chromate	cro4	cpd11595	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	nh4	NH3	nh4	cpd00013	100
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	co2	CO2	co2	cpd00011	10
+GS_MM_succ	GapSeq minimal media with succinate as carbon source	mobd	Molybdate	mobd	cpd11574	100
+SW_anorganics	Only anorganic ions and gases for negative test	mn2	Mn2+	mn2	cpd00030	100
+SW_anorganics	Only anorganic ions and gases for negative test	zn2	Zn2+	zn2	cpd00034	100
+SW_anorganics	Only anorganic ions and gases for negative test	so4	Sulfate	so4	cpd00048	100
+SW_anorganics	Only anorganic ions and gases for negative test	cu2	Cu2+	cu2	cpd00058	100
+SW_anorganics	Only anorganic ions and gases for negative test	ca2	Ca2+	ca2	cpd00063	100
+SW_anorganics	Only anorganic ions and gases for negative test	h	H+	h	cpd00067	100
+SW_anorganics	Only anorganic ions and gases for negative test	cl	Cl-	cl	cpd00099	100
+SW_anorganics	Only anorganic ions and gases for negative test	cobalt2	Co2+	cobalt2	cpd00149	100
+SW_anorganics	Only anorganic ions and gases for negative test	k	K+	k	cpd00205	100
+SW_anorganics	Only anorganic ions and gases for negative test	mg2	Mg	mg2	cpd00254	100
+SW_anorganics	Only anorganic ions and gases for negative test	hg2	Hg2+	hg2	cpd00531	100
+SW_anorganics	Only anorganic ions and gases for negative test	na1	Na+	na1	cpd00971	100
+SW_anorganics	Only anorganic ions and gases for negative test	cd2	Cd2+	cd2	cpd01012	100
+SW_anorganics	Only anorganic ions and gases for negative test	aso4	Arsenate	aso4	cpd01048	100
+SW_anorganics	Only anorganic ions and gases for negative test	fe2	Fe2+	fe2	cpd10515	100
+SW_anorganics	Only anorganic ions and gases for negative test	fe3	fe3	fe3	cpd10516	100
+SW_anorganics	Only anorganic ions and gases for negative test	cro4	chromate	cro4	cpd11595	100
+SW_anorganics	Only anorganic ions and gases for negative test	nh4	NH3	nh4	cpd00013	100
+SW_anorganics	Only anorganic ions and gases for negative test	co2	CO2	co2	cpd00011	100
+SW_anorganics	Only anorganic ions and gases for negative test	mobd	Molybdate	mobd	cpd11574	100
+SW_anorganics	Only anorganic ions and gases for negative test	o2	O2	o2	cpd00007	100
+SW_anorganics	Only anorganic ions and gases for negative test	h2o	H2O	h2o	cpd00001	100
+SW_anorganics	Only anorganic ions and gases for negative test	pi	Phosphate	pi	cpd00009	100
+SW_anorganics	Only anorganic ions and gases for negative test	so4	Sulfate	so4	cpd00048	100
+SW_anorganics	Only anorganic ions and gases for negative test	nh4	NH3	nh4	cpd00013	100
+SW_anorganics	Only anorganic ions and gases for negative test	cro4	chromate	cro4	cpd11595	100
+FOOD_kombucha	Black Tea and sucrose	h2o	H2O	h2o	cpd00001	100
+FOOD_kombucha	Black Tea and sucrose	o2	O2	o2	cpd00007	12.5
+FOOD_kombucha	Black Tea and sucrose	pi	Phosphate	pi	cpd00009	100
+FOOD_kombucha	Black Tea and sucrose	glc__D	D-Glucose	glc_D	cpd00027	5
+FOOD_kombucha	Black Tea and sucrose	fru	D-Fructose	fru	cpd00082	5
+FOOD_kombucha	Black Tea and sucrose	sucr	Sucrose	sucr	cpd00076	5
+FOOD_kombucha	Black Tea and sucrose	etoh	Ethanol	etoh	cpd00363	10
+FOOD_kombucha	Black Tea and sucrose	mn2	Mn2+	mn2	cpd00030	100
+FOOD_kombucha	Black Tea and sucrose	zn2	Zn2+	zn2	cpd00034	100
+FOOD_kombucha	Black Tea and sucrose	so4	Sulfate	so4	cpd00048	100
+FOOD_kombucha	Black Tea and sucrose	cu2	Cu2+	cu2	cpd00058	100
+FOOD_kombucha	Black Tea and sucrose	ca2	Ca2+	ca2	cpd00063	100
+FOOD_kombucha	Black Tea and sucrose	h	H+	h	cpd00067	100
+FOOD_kombucha	Black Tea and sucrose	cl	Cl-	cl	cpd00099	100
+FOOD_kombucha	Black Tea and sucrose	cobalt2	Co2+	cobalt2	cpd00149	100
+FOOD_kombucha	Black Tea and sucrose	k	K+	k	cpd00205	100
+FOOD_kombucha	Black Tea and sucrose	mg2	Mg	mg2	cpd00254	100
+FOOD_kombucha	Black Tea and sucrose	hg2	Hg2+	hg2	cpd00531	100
+FOOD_kombucha	Black Tea and sucrose	na1	Na+	na1	cpd00971	100
+FOOD_kombucha	Black Tea and sucrose	cd2	Cd2+	cd2	cpd01012	100
+FOOD_kombucha	Black Tea and sucrose	aso4	Arsenate	aso4	cpd01048	100
+FOOD_kombucha	Black Tea and sucrose	fe2	Fe2+	fe2	cpd10515	100
+FOOD_kombucha	Black Tea and sucrose	fe3	fe3	fe3	cpd10516	100
+FOOD_kombucha	Black Tea and sucrose	cro4	chromate	cro4	cpd11595	100
+FOOD_kombucha	Black Tea and sucrose	mma	Methanamine	mma	cpd00187	3
+FOOD_kombucha	Black Tea and sucrose	xan	Xanthine	xan	cpd00309	3
+FOOD_kombucha	Black Tea and sucrose	co2	CO2	co2	cpd00011	10
+FOOD_kombucha	Black Tea and sucrose	mobd	Molybdate	mobd	cpd11574	100
+FOOD_cowmilk	Cow Milk	lcts	Lactose	lcts	cpd00208	125
+FOOD_cowmilk	Cow Milk	pcreat	Phosphocreatine	pcreat	cpd01550	87
+FOOD_cowmilk	Cow Milk	urea	Urea	urea	cpd00073	3.9
+FOOD_cowmilk	Cow Milk	ala__L	L-alanine	ala_L	cpd00035	7.8876404494382
+FOOD_cowmilk	Cow Milk	arg__L	L-Arginine	arg_L	cpd00051	5.52238805970149
+FOOD_cowmilk	Cow Milk	asp__L	L-Aspartate	asp_L	cpd00041	12.5018782870023
+FOOD_cowmilk	Cow Milk	cys__L	L-Cysteine	cys_L	cpd00084	0.643776824034335
+FOOD_cowmilk	Cow Milk	glu__L	L-Glutamate	glu_L	cpd00023	35.6963229796778
+FOOD_cowmilk	Cow Milk	gly	Glycine	gly	cpd00033	8.31224190755295
+FOOD_cowmilk	Cow Milk	his__L	L-Histidine	his_L	cpd00119	4.69223332259104
+FOOD_cowmilk	Cow Milk	ile__L	L-Isoleucine	ile_L	cpd00322	10.9018830525273
+FOOD_cowmilk	Cow Milk	leu__L	L-Leucine	leu_L	cpd00107	16.4519326065411
+FOOD_cowmilk	Cow Milk	lys__L	L-Lysine	lys_L	cpd00039	13.1609549216773
+FOOD_cowmilk	Cow Milk	met__L	L-Methionine	met_L	cpd00060	4.35627638898197
+FOOD_cowmilk	Cow Milk	phe__L	L-Phenylalanine	phe_L	cpd00066	7.08275319329257
+FOOD_cowmilk	Cow Milk	pro__L	L-Proline	pro_L	cpd00129	23.0348301919569
+FOOD_cowmilk	Cow Milk	ser__L	L-Serine	ser_L	cpd00054	14.1021981159007
+FOOD_cowmilk	Cow Milk	thr__L	L-Threonine	thr_L	cpd00161	9.60376091336467
+FOOD_cowmilk	Cow Milk	trp__L	L-Tryptophan	trp_L	cpd00065	1.40038192234246
+FOOD_cowmilk	Cow Milk	tyr__L	L-Tyrosine	tyr_L	cpd00069	8.17925934102324
+FOOD_cowmilk	Cow Milk	val__L	L-Valine	val_L	cpd00156	14.4259496372172
+FOOD_cowmilk	Cow Milk	mn2	Mn2+	mn2	cpd00030	100
+FOOD_cowmilk	Cow Milk	zn2	Zn2+	zn2	cpd00034	100
+FOOD_cowmilk	Cow Milk	so4	Sulfate	so4	cpd00048	100
+FOOD_cowmilk	Cow Milk	cu2	Cu2+	cu2	cpd00058	100
+FOOD_cowmilk	Cow Milk	ca2	Ca2+	ca2	cpd00063	100
+FOOD_cowmilk	Cow Milk	h	H+	h	cpd00067	100
+FOOD_cowmilk	Cow Milk	cl	Cl-	cl	cpd00099	100
+FOOD_cowmilk	Cow Milk	cobalt2	Co2+	cobalt2	cpd00149	100
+FOOD_cowmilk	Cow Milk	k	K+	k	cpd00205	100
+FOOD_cowmilk	Cow Milk	mg2	Mg	mg2	cpd00254	100
+FOOD_cowmilk	Cow Milk	hg2	Hg2+	hg2	cpd00531	100
+FOOD_cowmilk	Cow Milk	na1	Na+	na1	cpd00971	100
+FOOD_cowmilk	Cow Milk	cd2	Cd2+	cd2	cpd01012	100
+FOOD_cowmilk	Cow Milk	aso4	Arsenate	aso4	cpd01048	100
+FOOD_cowmilk	Cow Milk	fe2	Fe2+	fe2	cpd10515	100
+FOOD_cowmilk	Cow Milk	fe3	fe3	fe3	cpd10516	100
+FOOD_cowmilk	Cow Milk	cro4	chromate	cro4	cpd11595	100
+FOOD_cowmilk	Cow Milk	nh4	NH3	nh4	cpd00013	100
+FOOD_cowmilk	Cow Milk	co2	CO2	co2	cpd00011	0.5
+FOOD_cowmilk	Cow Milk	mobd	Molybdate	mobd	cpd11574	100
+FOOD_cowmilk	Cow Milk	o2	O2	o2	cpd00007	0
+FOOD_cowmilk	Cow Milk	h2o	H2O	h2o	cpd00001	100
+FOOD_cowmilk	Cow Milk	pi	Phosphate	pi	cpd00009	12.53
+FOOD_cowmilk	Cow Milk	so4	Sulfate	so4	cpd00048	100
+FOOD_cowmilk	Cow Milk	nh4	NH3	nh4	cpd00013	100
+FOOD_cowmilk	Cow Milk	cro4	chromate	cro4	cpd11595	100
+FOOD_HumanaPre	Humana Pre (from birth)	lcts	Lactose	lcts	cpd00208	216
+FOOD_HumanaPre	Humana Pre (from birth)	gal	D-Galactose	gal	cpd00108	27.7
+FOOD_HumanaPre	Humana Pre (from birth)	chol	Choline	chol	cpd00098	1.923
+FOOD_HumanaPre	Humana Pre (from birth)	inost	L-Inositol	inost	cpd00121	0.5
+FOOD_HumanaPre	Humana Pre (from birth)	pcreat	Phosphocreatine	pcreat	cpd01550	50
+FOOD_HumanaPre	Humana Pre (from birth)	fol	Folate	fol	cpd00393	0.00023
+FOOD_HumanaPre	Humana Pre (from birth)	thm	Thiamine	thm	cpd00305	0.003
+FOOD_HumanaPre	Humana Pre (from birth)	ribflv	Riboflavin	ribflv	cpd00220	0.0034
+FOOD_HumanaPre	Humana Pre (from birth)	pant__R	PAN	pant_R	cpd00644	0.017
+FOOD_HumanaPre	Humana Pre (from birth)	nac	Niacin	nac	cpd00218	0.047
+FOOD_HumanaPre	Humana Pre (from birth)	btn	Biotin	btn	cpd00104	0.0008
+FOOD_HumanaPre	Humana Pre (from birth)	ala__L	L-alanine	ala_L	cpd00035	4.24719101123596
+FOOD_HumanaPre	Humana Pre (from birth)	arg__L	L-Arginine	arg_L	cpd00051	2.9735935706085
+FOOD_HumanaPre	Humana Pre (from birth)	asp__L	L-Aspartate	asp_L	cpd00041	6.73178061607814
+FOOD_HumanaPre	Humana Pre (from birth)	cys__L	L-Cysteine	cys_L	cpd00084	0.346649059095411
+FOOD_HumanaPre	Humana Pre (from birth)	glu__L	L-Glutamate	glu_L	cpd00023	19.2210969890573
+FOOD_HumanaPre	Humana Pre (from birth)	gly	Glycine	gly	cpd00033	4.47582256560543
+FOOD_HumanaPre	Humana Pre (from birth)	his__L	L-Histidine	his_L	cpd00119	2.52658717370287
+FOOD_HumanaPre	Humana Pre (from birth)	ile__L	L-Isoleucine	ile_L	cpd00322	5.8702447205916
+FOOD_HumanaPre	Humana Pre (from birth)	leu__L	L-Leucine	leu_L	cpd00107	8.85873294198369
+FOOD_HumanaPre	Humana Pre (from birth)	lys__L	L-Lysine	lys_L	cpd00039	7.0866680347493
+FOOD_HumanaPre	Humana Pre (from birth)	met__L	L-Methionine	met_L	cpd00060	2.34568728637491
+FOOD_HumanaPre	Humana Pre (from birth)	phe__L	L-Phenylalanine	phe_L	cpd00066	3.81379018100369
+FOOD_HumanaPre	Humana Pre (from birth)	pro__L	L-Proline	pro_L	cpd00129	12.4033701033614
+FOOD_HumanaPre	Humana Pre (from birth)	ser__L	L-Serine	ser_L	cpd00054	7.59349129317728
+FOOD_HumanaPre	Humana Pre (from birth)	thr__L	L-Threonine	thr_L	cpd00161	5.17125587642713
+FOOD_HumanaPre	Humana Pre (from birth)	trp__L	L-Tryptophan	trp_L	cpd00065	0.754051804338246
+FOOD_HumanaPre	Humana Pre (from birth)	tyr__L	L-Tyrosine	tyr_L	cpd00069	4.40421656824328
+FOOD_HumanaPre	Humana Pre (from birth)	val__L	L-Valine	val_L	cpd00156	7.76781903542467
+FOOD_HumanaPre	Humana Pre (from birth)	mn2	Mn2+	mn2	cpd00030	100
+FOOD_HumanaPre	Humana Pre (from birth)	zn2	Zn2+	zn2	cpd00034	100
+FOOD_HumanaPre	Humana Pre (from birth)	so4	Sulfate	so4	cpd00048	100
+FOOD_HumanaPre	Humana Pre (from birth)	cu2	Cu2+	cu2	cpd00058	100
+FOOD_HumanaPre	Humana Pre (from birth)	ca2	Ca2+	ca2	cpd00063	100
+FOOD_HumanaPre	Humana Pre (from birth)	h	H+	h	cpd00067	100
+FOOD_HumanaPre	Humana Pre (from birth)	cl	Cl-	cl	cpd00099	100
+FOOD_HumanaPre	Humana Pre (from birth)	cobalt2	Co2+	cobalt2	cpd00149	100
+FOOD_HumanaPre	Humana Pre (from birth)	k	K+	k	cpd00205	100
+FOOD_HumanaPre	Humana Pre (from birth)	mg2	Mg	mg2	cpd00254	100
+FOOD_HumanaPre	Humana Pre (from birth)	hg2	Hg2+	hg2	cpd00531	100
+FOOD_HumanaPre	Humana Pre (from birth)	na1	Na+	na1	cpd00971	100
+FOOD_HumanaPre	Humana Pre (from birth)	cd2	Cd2+	cd2	cpd01012	100
+FOOD_HumanaPre	Humana Pre (from birth)	aso4	Arsenate	aso4	cpd01048	100
+FOOD_HumanaPre	Humana Pre (from birth)	fe2	Fe2+	fe2	cpd10515	100
+FOOD_HumanaPre	Humana Pre (from birth)	fe3	fe3	fe3	cpd10516	100
+FOOD_HumanaPre	Humana Pre (from birth)	cro4	chromate	cro4	cpd11595	100
+FOOD_HumanaPre	Humana Pre (from birth)	nh4	NH3	nh4	cpd00013	100
+FOOD_HumanaPre	Humana Pre (from birth)	co2	CO2	co2	cpd00011	0.5
+FOOD_HumanaPre	Humana Pre (from birth)	mobd	Molybdate	mobd	cpd11574	100
+FOOD_HumanaPre	Humana Pre (from birth)	o2	O2	o2	cpd00007	0
+FOOD_HumanaPre	Humana Pre (from birth)	h2o	H2O	h2o	cpd00001	100
+FOOD_HumanaPre	Humana Pre (from birth)	pi	Phosphate	pi	cpd00009	12.53
+FOOD_HumanaPre	Humana Pre (from birth)	so4	Sulfate	so4	cpd00048	100
+FOOD_HumanaPre	Humana Pre (from birth)	nh4	NH3	nh4	cpd00013	100
+FOOD_HumanaPre	Humana Pre (from birth)	cro4	chromate	cro4	cpd11595	100
+FOOD_rumen	Feed of cows	cellb	Cellobiose	cellb	cpd00158	50
+FOOD_rumen	Feed of cows	nh4	NH3	nh4	cpd00013	5
+FOOD_rumen	Feed of cows	urea	Urea	urea	cpd00073	5
+FOOD_rumen	Feed of cows	mn2	Mn2+	mn2	cpd00030	100
+FOOD_rumen	Feed of cows	zn2	Zn2+	zn2	cpd00034	100
+FOOD_rumen	Feed of cows	so4	Sulfate	so4	cpd00048	100
+FOOD_rumen	Feed of cows	cu2	Cu2+	cu2	cpd00058	100
+FOOD_rumen	Feed of cows	ca2	Ca2+	ca2	cpd00063	100
+FOOD_rumen	Feed of cows	h	H+	h	cpd00067	100
+FOOD_rumen	Feed of cows	cl	Cl-	cl	cpd00099	100
+FOOD_rumen	Feed of cows	cobalt2	Co2+	cobalt2	cpd00149	100
+FOOD_rumen	Feed of cows	k	K+	k	cpd00205	100
+FOOD_rumen	Feed of cows	mg2	Mg	mg2	cpd00254	100
+FOOD_rumen	Feed of cows	hg2	Hg2+	hg2	cpd00531	100
+FOOD_rumen	Feed of cows	na1	Na+	na1	cpd00971	100
+FOOD_rumen	Feed of cows	cd2	Cd2+	cd2	cpd01012	100
+FOOD_rumen	Feed of cows	aso4	Arsenate	aso4	cpd01048	100
+FOOD_rumen	Feed of cows	fe2	Fe2+	fe2	cpd10515	100
+FOOD_rumen	Feed of cows	fe3	fe3	fe3	cpd10516	100
+FOOD_rumen	Feed of cows	cro4	chromate	cro4	cpd11595	100
+FOOD_rumen	Feed of cows	nh4	NH3	nh4	cpd00013	100
+FOOD_rumen	Feed of cows	co2	CO2	co2	cpd00011	0.5
+FOOD_rumen	Feed of cows	mobd	Molybdate	mobd	cpd11574	100
+FOOD_rumen	Feed of cows	h2o	H2O	h2o	cpd00001	100
+FOOD_rumen	Feed of cows	pi	Phosphate	pi	cpd00009	12.53
+FOOD_rumen	Feed of cows	h2s	H2S	h2s	cpd00239	10
+FOOD_rumen	Feed of cows	cro4	chromate	cro4	cpd11595	100
+FOOD_wine	Resources for O. oeni in wine fermentation	mal__L	L-Malate	mal_L	cpd00130	15
+FOOD_wine	Resources for O. oeni in wine fermentation	cit	Citrate	cit	cpd00137	10
+FOOD_wine	Resources for O. oeni in wine fermentation	etoh	ethanol	etoh	cpd00363	5
+FOOD_wine	Resources for O. oeni in wine fermentation	glc__D	D-Glucose	glc_D	cpd00027	2
+FOOD_wine	Resources for O. oeni in wine fermentation	fru	D-Fructose	fru	cpd00082	2
+FOOD_wine	Resources for O. oeni in wine fermentation	sucr	Sucrose	sucr	cpd00076	2
+FOOD_wine	Resources for O. oeni in wine fermentation	mn2	Mn2+	mn2	cpd00030	100
+FOOD_wine	Resources for O. oeni in wine fermentation	zn2	Zn2+	zn2	cpd00034	100
+FOOD_wine	Resources for O. oeni in wine fermentation	so4	Sulfate	so4	cpd00048	100
+FOOD_wine	Resources for O. oeni in wine fermentation	cu2	Cu2+	cu2	cpd00058	100
+FOOD_wine	Resources for O. oeni in wine fermentation	ca2	Ca2+	ca2	cpd00063	100
+FOOD_wine	Resources for O. oeni in wine fermentation	h	H+	h	cpd00067	100
+FOOD_wine	Resources for O. oeni in wine fermentation	cl	Cl-	cl	cpd00099	100
+FOOD_wine	Resources for O. oeni in wine fermentation	cobalt2	Co2+	cobalt2	cpd00149	100
+FOOD_wine	Resources for O. oeni in wine fermentation	k	K+	k	cpd00205	100
+FOOD_wine	Resources for O. oeni in wine fermentation	mg2	Mg	mg2	cpd00254	100
+FOOD_wine	Resources for O. oeni in wine fermentation	hg2	Hg2+	hg2	cpd00531	100
+FOOD_wine	Resources for O. oeni in wine fermentation	na1	Na+	na1	cpd00971	100
+FOOD_wine	Resources for O. oeni in wine fermentation	cd2	Cd2+	cd2	cpd01012	100
+FOOD_wine	Resources for O. oeni in wine fermentation	aso4	Arsenate	aso4	cpd01048	100
+FOOD_wine	Resources for O. oeni in wine fermentation	fe2	Fe2+	fe2	cpd10515	100
+FOOD_wine	Resources for O. oeni in wine fermentation	fe3	fe3	fe3	cpd10516	100
+FOOD_wine	Resources for O. oeni in wine fermentation	cro4	chromate	cro4	cpd11595	100
+FOOD_wine	Resources for O. oeni in wine fermentation	nh4	NH3	nh4	cpd00013	100
+FOOD_wine	Resources for O. oeni in wine fermentation	co2	CO2	co2	cpd00011	0.5
+FOOD_wine	Resources for O. oeni in wine fermentation	mobd	Molybdate	mobd	cpd11574	100
+FOOD_wine	Resources for O. oeni in wine fermentation	h2o	H2O	h2o	cpd00001	100
+FOOD_wine	Resources for O. oeni in wine fermentation	pi	Phosphate	pi	cpd00009	12.53
+FOOD_wine	Resources for O. oeni in wine fermentation	h2s	H2S	h2s	cpd00239	10
+FOOD_wine	Resources for O. oeni in wine fermentation	cro4	chromate	cro4	cpd11595	100
+FOOD_wine	Resources for O. oeni in wine fermentation	nh4	NH3	nh4	cpd00013	5
+FOOD_wine	Resources for O. oeni in wine fermentation	ala__L	L-Alanine	ala_L	cpd00035	0.59870931538
+FOOD_wine	Resources for O. oeni in wine fermentation	arg__L	L-Arginine	arg_L	cpd00051	0.3861021814
+FOOD_wine	Resources for O. oeni in wine fermentation	asp__L	L-Aspartate	asp_L	cpd00041	0.91987978963
+FOOD_wine	Resources for O. oeni in wine fermentation	cys__L	L-Cysteine	cys_L	cpd00084	0.05829207921
+FOOD_wine	Resources for O. oeni in wine fermentation	glu__L	L-Glutamate	glu_L	cpd00023	2.52972127804
+FOOD_wine	Resources for O. oeni in wine fermentation	gly	Glycine	gly	cpd00033	0.43728362184
+FOOD_wine	Resources for O. oeni in wine fermentation	his__L	L-Histidine	his_L	cpd00119	0.30599871134
+FOOD_wine	Resources for O. oeni in wine fermentation	ile__L	L-Isoleucine	ile_L	cpd00322	0.71884908537
+FOOD_wine	Resources for O. oeni in wine fermentation	leu__L	L-Leucine	leu_L	cpd00107	1.13816310976
+FOOD_wine	Resources for O. oeni in wine fermentation	lys__L	L-Lysine	lys_L	cpd00039	0.89273597811
+FOOD_wine	Resources for O. oeni in wine fermentation	met__L	L-Methionine	met_L	cpd00060	0.28445710456
+FOOD_wine	Resources for O. oeni in wine fermentation	phe__L	L-Phenylalanine	phe_L	cpd00066	0.50161016949
+FOOD_wine	Resources for O. oeni in wine fermentation	pro__L	L-Proline	pro_L	cpd00129	1.46513466551
+FOOD_wine	Resources for O. oeni in wine fermentation	ser__L	L-Serine	ser_L	cpd00054	0.87603235014
+FOOD_wine	Resources for O. oeni in wine fermentation	thr__L	L-Threonine	thr_L	cpd00161	0.60115869018
+FOOD_wine	Resources for O. oeni in wine fermentation	trp__L	L-Tryptophan	trp_L	cpd00065	0.10025954946
+FOOD_wine	Resources for O. oeni in wine fermentation	tyr__L	L-Tyrosine	tyr_L	cpd00069	0.46642935982
+FOOD_wine	Resources for O. oeni in wine fermentation	val__L	L-Valine	val_L	cpd00156	0.92303159693
+FOOD_wine	Resources for O. oeni in wine fermentation	o2	O2	o2	cpd00007	2
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	h2o	H2O	h2o	cpd00001	1000
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	co2	CO2	co2	cpd00011	50
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	h2	H2	h2	cpd11640	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	pi	Phosphate	pi	cpd00009	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	mn2	Mn2+	mn2	cpd00030	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	zn2	Zn2+	zn2	cpd00034	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	so4	Sulfate	so4	cpd00048	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	cu2	Cu2+	cu2	cpd00058	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	ca2	Ca2+	ca2	cpd00063	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	h	H+	h	cpd00067	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	cl	Cl-	cl	cpd00099	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	cobalt2	Co2+	cobalt2	cpd00149	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	k	K+	k	cpd00205	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	mg2	Mg	mg2	cpd00254	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	hg2	Hg2+	hg2	cpd00531	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	na1	Na+	na1	cpd00971	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	cd2	Cd2+	cd2	cpd01012	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	aso4	Arsenate	aso4	cpd01048	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	fe2	Fe2+	fe2	cpd10515	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	fe3	fe3	fe3	cpd10516	0.01
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	cro4	chromate	cro4	cpd11595	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	nh4	NH3	nh4	cpd00013	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	mobd	Molybdate	mobd	cpd11574	100
+MM_anaerobic_CO2_H2	Mininmal medium for methanogenesis from H2 and CO2	ni2	Ni2+	ni2	cpd00244	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	h2o	H2O	h2o	cpd00001	1000
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	ac	Acetate	ac	cpd00029	50
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	h2	H2	h2	cpd11640	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	pi	Phosphate	pi	cpd00009	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	mn2	Mn2+	mn2	cpd00030	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	zn2	Zn2+	zn2	cpd00034	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	so4	Sulfate	so4	cpd00048	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	cu2	Cu2+	cu2	cpd00058	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	ca2	Ca2+	ca2	cpd00063	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	h	H+	h	cpd00067	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	cl	Cl-	cl	cpd00099	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	cobalt2	Co2+	cobalt2	cpd00149	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	k	K+	k	cpd00205	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	mg2	Mg	mg2	cpd00254	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	hg2	Hg2+	hg2	cpd00531	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	na1	Na+	na1	cpd00971	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	cd2	Cd2+	cd2	cpd01012	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	aso4	Arsenate	aso4	cpd01048	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	fe2	Fe2+	fe2	cpd10515	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	fe3	fe3	fe3	cpd10516	0.01
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	cro4	chromate	cro4	cpd11595	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	nh4	NH3	nh4	cpd00013	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	mobd	Molybdate	mobd	cpd11574	100
+MM_anaerobic_Acetate_H2	Mininmal medium for methanogenesis from H2 and Acetate	ni2	Ni2+	ni2	cpd00244	100
