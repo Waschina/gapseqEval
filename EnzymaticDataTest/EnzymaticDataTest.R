@@ -81,7 +81,7 @@ val.dt <- val.dt[!ec %in% mis.ec_match]
 #
 
 # figure
-val.dt.melt <- melt(val.dt, id.vars = c("org","ec", "activity", "enzyme", "id", "genome"), variable.name = "method")
+val.dt.melt <- data.table::melt(val.dt, id.vars = c("org","ec", "activity", "enzyme", "id", "genome"), variable.name = "method")
 val.dt.melt[activity=="+" & value==TRUE, validation:="True positive"]
 val.dt.melt[activity=="-" & value==FALSE, validation:="True negative"]
 val.dt.melt[activity=="+" & value==FALSE, validation:="False negative"]                     
@@ -100,7 +100,10 @@ ggplot(data = val.dt.table) + geom_bar(stat="identity",aes(x=validation, y=N,fil
   scale_fill_manual(values=c("#377eb8", "#e41a1c", "#FFB200"))
 #ggsave("enzyme-test.pdf", width=6, height=5)  
 
-
+val.dt.table[,perc:=round(N/sum(N),2), by=method]
+val.dt.table[method=="gapseq"]
+val.dt.table[method=="modelseed"]
+val.dt.table[method=="carveme"]
 
 #
 # 3) Independent and identical sampling (check for bias)
