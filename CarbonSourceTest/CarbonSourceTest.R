@@ -4,7 +4,6 @@ library(ggplot2)
 library(reshape2)
 library(stringr)
 
-#source("~/uni/div/r/growth.R")
 cs.sub <- fread("dat/sub2pwy.csv") # gapseq file containing carbon sources + exchange ids
 
 # file from: http://protraits.irb.hr/data.html
@@ -15,9 +14,9 @@ protraits.cs <- protraits.db[protraits.db[, Reduce(`|`, lapply(.SD, `!=`, "?")),
 #
 # load models (download from ftp://ftp.rz.uni-kiel.de/pub/medsystbio/models/CarbonSourceTestModels.zip)
 #
-modelseed <- readRDS("dat/protraits_modelseed2.RDS")
-carveme   <- readRDS("dat/protraits_carveme2.RDS")
-gapseq <- readRDS("dat/protraits.old_20200910.RDS")
+modelseed <- readRDS("models/protraits_modelseed2.RDS")
+carveme   <- readRDS("models/protraits_carveme2.RDS")
+gapseq <- readRDS("models/protraits.old_20200910.RDS")
 gapseq.id <- gsub("_genomic","",names(gapseq))
 modelseed.id <- gsub("_genomic","",gsub(".fna.sbml$","",names(modelseed)))
 carveme.id <- gsub("_genomic","",gsub("_protein.faa","", names(carveme)))
@@ -34,8 +33,7 @@ idx[is.na(idx)] <- match( str_remove(dt.cs$name[is.na(idx)],"^.-"), tolower(cs.s
 dt.cs[,seed.name:=cs.sub$name[idx]]
 dt.cs[,seed.ex:=cs.sub$exid_seed[idx]]
 dt.cs[,vmh.ex:=cs.sub$exid[idx]]
-dt.cs[is.na(seed.ex)]
-dt.cs <- dt.cs[!is.na(seed.ex) & seed.ex!=""]
+dt.cs <- dt.cs[!is.na(seed.ex) & !seed.ex=="" & !is.na(vmh.ex) & !vmh.ex==""]
 # manual modifications
 dt.cs[name=="dextrin", seed.ex:="EX_cpd11976_e0"] # dextrin not really distingushable from maltodextrin and dextrin=maltodextrin for seed db
 
@@ -66,30 +64,30 @@ set_diet <- function(model, medium, uptake=-100,verbose=TRUE){
   return(model.constrainted)
 }
 
-csource2 <- function(mod, cs, medium=NULL, verbose=FALSE, esource=F, GrowthExNa=0, db="seed", useNames=F){
+csource2 <- function(mod, cs, medium=NULL, verbose=FALSE, esource=F, GrowthExNa=0, db="seed"){
   if( sybil::SYBIL_SETTINGS("SOLVER") == "cplexAPI" ) solver_ok=1 else if( sybil::SYBIL_SETTINGS("SOLVER") == "glpkAPI" ) solver_ok=5
   
   if( length(medium) == 0 ){
     if ( verbose ) print("No medium specified, using glucose minimal medium!")
-    minmedia <- fread("~/uni/gapseq/dat/media/MM_glu.csv")
+    minmedia <- fread("dat/MM_glu.csv")
     medium <- paste0("EX_",minmedia[,compounds],"_e0")
   }
   
   if( esource ){
     if( db=="seed"){
-      mql <- "cpd15499[c0]"; mqn <- "cpd15500[c0]"
-      uql <- "cpd15561[c0]"; uqn <- "cpd15560[c0]"
-      nadh<- "cpd00004[c0]"; nad<- "cpd00003[c0]"
+      mql <- "cpd15499[c0]"; mqn  <- "cpd15500[c0]"
+      uql <- "cpd15561[c0]"; uqn  <- "cpd15560[c0]"
+      nadh<- "cpd00004[c0]"; nad  <- "cpd00003[c0]"
       h   <- "cpd00067[c0]"
     }else{
-      mql <- "mql8[c]"; mqn <- "mqn8[c]"
-      uql <- "u8h2[c]"; uqn <- "u8[c]"
-      nadh<- "nadh[c]"; nad<- "nad[c]"
+      mql <- "mql8[c]"; mqn   <- "mqn8[c]"
+      uql <- "u8h2[c]"; uqn   <- "u8[c]"
+      nadh<- "nadh[c]"; nad   <- "nad[c]"
       h   <- "h[c]"
     }
     mod <- addReact(mod, "ESP1", met=c(mql,h,mqn), Scoef=c(-1,2,1), lb=0, ub=1000) # check if ubiquinone pool can be recycled 
     mod <- addReact(mod, "ESP2", met=c(uql,h,uqn), Scoef=c(-1,2,1), lb=0, ub=1000) # check if menaquinone pool can be recycled 
-    mod <- addReact(mod, "ESP3", met=c(nadh,h,nad), Scoef=c(-1,1,1), lb=0, ub=1000) # check if nadh can be recycled
+    mod <- addReact(mod, "ESP3", met=c(nadh,h,nad), Scoef=c(-1,1,1),lb=0, ub=1000) # check if nadh can be recycled
     mod <- changeObjFunc(mod, react=c("ESP1", "ESP2", "ESP3"), obj_coef=c(1,1,1))
   }
   med_withoutCS <- setdiff(medium, "EX_cpd00027_e0") # remove glucose
@@ -106,13 +104,11 @@ csource2 <- function(mod, cs, medium=NULL, verbose=FALSE, esource=F, GrowthExNa=
     }
     med <- c(med_withoutCS, carbon)
     model <- set_diet(mod, med, verbose=verbose)
-    #sol = check_growth(model, med, printExchanges=F, useNames=F, printCosts=F, returnSol = T, verbose=verbose)  
     sol <- sybil::optimizeProb(model, retOptSol=F)
     usage = sol$stat==solver_ok & round(sol$obj,3)>0
     growth= ifelse(sol$stat==solver_ok, sol$obj, 0)
     dfcs <- rbind(dfcs, data.frame(csource=carbon, usage, growth))
     
-    #check_growth(model, med, printExchanges=T, useNames=T, printCosts=F)  
     if( verbose & db == "seed" ){
       idx.active <- which(sol$fluxes != 0)
       mod@react_name[idx.active]  
@@ -121,10 +117,6 @@ csource2 <- function(mod, cs, medium=NULL, verbose=FALSE, esource=F, GrowthExNa=
       mod@react_id[idx.active.met]      
     }
   }
-  if( useNames ){
-    seed.db.met <- fread("~/uni/gapseq/dat/seed_metabolites_edited.tsv")
-    dfcs$name <- seed.db.met$abbreviation[match(str_extract(dfcs$csource, "cpd[0-9]+"), seed.db.met$id)]
-  }
   return(dfcs)
 }
 
@@ -132,7 +124,7 @@ library(foreach)
 library(doParallel)
 library(cplexAPI)
 SYBIL_SETTINGS("SOLVER", "cplexAPI")
-registerDoParallel(detectCores())
+registerDoParallel(3) # 3 cores; detectCores()
 dt.cs.predict <- foreach(i=1:nrow(protraits.cs), .combine=rbind) %dopar%{
   cat("\r",i,"/",nrow(protraits.cs))
   tax.id <- protraits.cs$Tax_ID[i]
@@ -167,6 +159,8 @@ dt.cs.predict <- foreach(i=1:nrow(protraits.cs), .combine=rbind) %dopar%{
   } else data.table()
 }
 
+#dt.cs.predict <- readRDS("dat/protraits.old_20200910.RDS")
+
 dt.cs.predict <- dt.cs.predict[name != "d-lyxose"] # 500 TN for all methods (only negative usage in database, would introduce big bias in figure)
 
 dt.cs.predict.melt <- data.table::melt(dt.cs.predict[,.(org,protraits,gapseq,modelseed,carveme,name,seed.ex)], id.vars = c("org","protraits", "name", "seed.ex"), variable.name = "method")
@@ -175,9 +169,9 @@ dt.cs.predict.melt[value==F & protraits==F, validation:="TN"]
 dt.cs.predict.melt[value==T & protraits==F, validation:="FP"]
 dt.cs.predict.melt[value==F & protraits==T, validation:="FN"]
 
-round(table(dt.cs.predict.melt[method=="carveme",validation]) / dt.cs.predict.melt[method=="carveme",.N], 2) # 0.37 0.11 0.29 0.23
-round(table(dt.cs.predict.melt[method=="modelseed",validation]) / dt.cs.predict.melt[method=="modelseed",.N], 2) # 0.28 0.05 0.35 0.32
-round(table(dt.cs.predict.melt[method=="gapseq",validation]) / dt.cs.predict.melt[method=="gapseq",.N], 2) # 0.14 0.10 0.30 0.45
+table(dt.cs.predict.melt[method=="carveme",validation]); round(.Last.value / dt.cs.predict.melt[method=="carveme",.N], 2) # 0.36 0.11 0.29 0.24
+table(dt.cs.predict.melt[method=="modelseed",validation]); round(.Last.value / dt.cs.predict.melt[method=="modelseed",.N], 2) # 0.29 0.05 0.35 0.31
+table(dt.cs.predict.melt[method=="gapseq",validation]); round(.Last.value / dt.cs.predict.melt[method=="gapseq",.N], 2) # 0.13 0.11 0.29 0.47
 
 dt.cs.predict.plot <- dt.cs.predict.melt[,.N, by=.(method, validation)]
 dt.cs.predict.plot$method <- factor(dt.cs.predict.plot$method, levels = c("carveme", "gapseq", "modelseed"), labels= c("CarveMe", "gapseq", "ModelSEED"), ordered = T)
@@ -196,3 +190,12 @@ ggplot(data = dt.cs.predict.plot) + geom_bar(stat="identity",aes(x=validation, y
         legend.title = element_blank())
 #ggsave("~/uni/gapseq_doc/img/protraits.pdf", width=6, height=5)
 
+
+# good/bad predicted carbon sources
+dt.quali.all <- dt.cs.predict.melt[,list(FN=sum(validation=="FN"), FP=sum(validation=="FP"),
+                                         TN=sum(validation=="TN"), TP=sum(validation=="TP")), by=name]
+dt.quali.all[,accuracy:=(TN+TP)/(FN+FP+TN+TP)]
+dt.quali.all[,sensitivity:=(TP)/(TP+FN)]
+dt.quali.all[,specificity:=(TN)/(TN+FP)]
+dt.quali.all[,N:=TN+TP+FP+FN]
+dt.quali.all[order(accuracy)][FN+FP+TN+TP>100]
