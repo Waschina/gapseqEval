@@ -1,15 +1,13 @@
 # Carbon source utilisation tests (Protraits)
 
-# Enzymatic data tests
-
 - ``CarbonSourceTest.R`` contains code to redo analysis and create figures that were used in the manuscript
 - carveme, modelseed and gapseq models are available at ftp://ftp.rz.uni-kiel.de/pub/medsystbio/models/CarbonSourceTestModels.zip
 
 
 ## genome download
-The refseq ids for BacDive reference strains, which were downloaded and used for metabolic model construction, are listed in ``dat/protraits_genomes.csv``. An example download script is also provided:
+The refseq ids for BacDive reference strains, which were downloaded and used for metabolic model construction, are listed in ``dat/protraits_genomes_quality.csv``. An example download script is also provided:
 ```
-parallel --colsep ',' dat/protraits_genomes.sh {2} :::: dat/protraits_genomes.csv
+dat/protraints_genomes_download.sh
 ```
 
 ## gapseq
